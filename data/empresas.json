@@ -1,61 +1,305 @@
 [
-  { "slug": "itau", "nome": "Itau", "tipo": "banco" },
-  { "slug": "bradesco", "nome": "Bradesco", "tipo": "banco" },
-  { "slug": "santander", "nome": "Santander", "tipo": "banco" },
-  { "slug": "banco-do-brasil", "nome": "Banco do Brasil", "tipo": "banco" },
-  { "slug": "caixa", "nome": "Caixa Economica", "tipo": "banco" },
-  { "slug": "nubank", "nome": "Nubank", "tipo": "fintech" },
-  { "slug": "inter", "nome": "Banco Inter", "tipo": "fintech" },
-  { "slug": "c6", "nome": "C6 Bank", "tipo": "fintech" },
-  { "slug": "pan", "nome": "Banco Pan", "tipo": "banco" },
-  { "slug": "bmg", "nome": "Banco BMG", "tipo": "banco" },
-  { "slug": "safra", "nome": "Banco Safra", "tipo": "banco" },
-  { "slug": "banrisul", "nome": "Banrisul", "tipo": "banco" },
-  { "slug": "sicoob", "nome": "Sicoob", "tipo": "cooperativa" },
-  { "slug": "sicredi", "nome": "Sicredi", "tipo": "cooperativa" },
-  { "slug": "original", "nome": "Banco Original", "tipo": "fintech" },
-  { "slug": "neon", "nome": "Neon", "tipo": "fintech" },
-  { "slug": "next", "nome": "Next", "tipo": "fintech" },
-  { "slug": "picpay", "nome": "PicPay", "tipo": "fintech" },
-  { "slug": "mercado-pago", "nome": "Mercado Pago", "tipo": "fintech" },
-  { "slug": "pagseguro", "nome": "PagSeguro", "tipo": "fintech" },
-  { "slug": "will-bank", "nome": "Will Bank", "tipo": "fintech" },
-  { "slug": "digio", "nome": "Digio", "tipo": "fintech" },
-  { "slug": "agibank", "nome": "Agibank", "tipo": "fintech" },
-  { "slug": "bv", "nome": "BV Financeira", "tipo": "financeira" },
-  { "slug": "losango", "nome": "Losango", "tipo": "financeira" },
-  { "slug": "omni", "nome": "Omni", "tipo": "financeira" },
-  { "slug": "daycoval", "nome": "Banco Daycoval", "tipo": "banco" },
-  { "slug": "fibra", "nome": "Banco Fibra", "tipo": "banco" },
-  { "slug": "abc", "nome": "Banco ABC Brasil", "tipo": "banco" },
-  { "slug": "votorantim", "nome": "Banco Votorantim", "tipo": "banco" },
-  { "slug": "ole", "nome": "Ole Consignado", "tipo": "financeira" },
-  { "slug": "facta", "nome": "Facta Financeira", "tipo": "financeira" },
-  { "slug": "cetelem", "nome": "Cetelem", "tipo": "financeira" },
-  { "slug": "creditas", "nome": "Creditas", "tipo": "fintech" },
-  { "slug": "geru", "nome": "Geru", "tipo": "fintech" },
-  { "slug": "bompratodos", "nome": "Bom Pra Todos", "tipo": "financeira" },
-  { "slug": "casas-bahia", "nome": "Casas Bahia", "tipo": "varejo" },
-  { "slug": "magazine-luiza", "nome": "Magazine Luiza", "tipo": "varejo" },
-  { "slug": "americanas", "nome": "Americanas", "tipo": "varejo" },
-  { "slug": "renner", "nome": "Renner", "tipo": "varejo" },
-  { "slug": "riachuelo", "nome": "Riachuelo", "tipo": "varejo" },
-  { "slug": "marisa", "nome": "Marisa", "tipo": "varejo" },
-  { "slug": "pernambucanas", "nome": "Pernambucanas", "tipo": "varejo" },
-  { "slug": "centauro", "nome": "Centauro", "tipo": "varejo" },
-  { "slug": "netshoes", "nome": "Netshoes", "tipo": "varejo" },
-  { "slug": "claro", "nome": "Claro", "tipo": "telecom" },
-  { "slug": "vivo", "nome": "Vivo", "tipo": "telecom" },
-  { "slug": "tim", "nome": "TIM", "tipo": "telecom" },
-  { "slug": "oi", "nome": "Oi", "tipo": "telecom" },
-  { "slug": "sky", "nome": "SKY", "tipo": "telecom" },
-  { "slug": "net", "nome": "NET", "tipo": "telecom" },
-  { "slug": "serasa", "nome": "Serasa", "tipo": "cobranca" },
-  { "slug": "spc", "nome": "SPC Brasil", "tipo": "cobranca" },
-  { "slug": "boa-vista", "nome": "Boa Vista", "tipo": "cobranca" },
-  { "slug": "recovery", "nome": "Recovery", "tipo": "cobranca" },
-  { "slug": "flex", "nome": "Flex Cobranca", "tipo": "cobranca" },
-  { "slug": "hoepers", "nome": "Hoepers", "tipo": "cobranca" },
-  { "slug": "ativos", "nome": "Ativos SA", "tipo": "cobranca" },
-  { "slug": "meireles", "nome": "Meireles e Freitas", "tipo": "cobranca" }
+  {
+    "slug": "itau",
+    "nome": "Itau",
+    "tipo": "banco"
+  },
+  {
+    "slug": "bradesco",
+    "nome": "Bradesco",
+    "tipo": "banco"
+  },
+  {
+    "slug": "santander",
+    "nome": "Santander",
+    "tipo": "banco"
+  },
+  {
+    "slug": "banco-do-brasil",
+    "nome": "Banco do Brasil",
+    "tipo": "banco"
+  },
+  {
+    "slug": "caixa",
+    "nome": "Caixa Economica",
+    "tipo": "banco"
+  },
+  {
+    "slug": "nubank",
+    "nome": "Nubank",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "inter",
+    "nome": "Banco Inter",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "c6",
+    "nome": "C6 Bank",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "pan",
+    "nome": "Banco Pan",
+    "tipo": "banco"
+  },
+  {
+    "slug": "bmg",
+    "nome": "Banco BMG",
+    "tipo": "banco"
+  },
+  {
+    "slug": "safra",
+    "nome": "Banco Safra",
+    "tipo": "banco"
+  },
+  {
+    "slug": "banrisul",
+    "nome": "Banrisul",
+    "tipo": "banco"
+  },
+  {
+    "slug": "sicoob",
+    "nome": "Sicoob",
+    "tipo": "cooperativa"
+  },
+  {
+    "slug": "sicredi",
+    "nome": "Sicredi",
+    "tipo": "cooperativa"
+  },
+  {
+    "slug": "original",
+    "nome": "Banco Original",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "neon",
+    "nome": "Neon",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "next",
+    "nome": "Next",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "picpay",
+    "nome": "PicPay",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "mercado-pago",
+    "nome": "Mercado Pago",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "pagseguro",
+    "nome": "PagSeguro",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "will-bank",
+    "nome": "Will Bank",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "digio",
+    "nome": "Digio",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "agibank",
+    "nome": "Agibank",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "bv",
+    "nome": "BV Financeira",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "losango",
+    "nome": "Losango",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "omni",
+    "nome": "Omni",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "daycoval",
+    "nome": "Banco Daycoval",
+    "tipo": "banco"
+  },
+  {
+    "slug": "fibra",
+    "nome": "Banco Fibra",
+    "tipo": "banco"
+  },
+  {
+    "slug": "abc",
+    "nome": "Banco ABC Brasil",
+    "tipo": "banco"
+  },
+  {
+    "slug": "votorantim",
+    "nome": "Banco Votorantim",
+    "tipo": "banco"
+  },
+  {
+    "slug": "ole",
+    "nome": "Ole Consignado",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "facta",
+    "nome": "Facta Financeira",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "cetelem",
+    "nome": "Cetelem",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "creditas",
+    "nome": "Creditas",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "geru",
+    "nome": "Geru",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "bompratodos",
+    "nome": "Bom Pra Todos",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "casas-bahia",
+    "nome": "Casas Bahia",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "magazine-luiza",
+    "nome": "Magazine Luiza",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "americanas",
+    "nome": "Americanas",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "renner",
+    "nome": "Renner",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "riachuelo",
+    "nome": "Riachuelo",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "marisa",
+    "nome": "Marisa",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "pernambucanas",
+    "nome": "Pernambucanas",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "centauro",
+    "nome": "Centauro",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "netshoes",
+    "nome": "Netshoes",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "claro",
+    "nome": "Claro",
+    "tipo": "telecom"
+  },
+  {
+    "slug": "vivo",
+    "nome": "Vivo",
+    "tipo": "telecom"
+  },
+  {
+    "slug": "tim",
+    "nome": "TIM",
+    "tipo": "telecom",
+    "dicas": [
+      "1. Não ignore o telefone ou e-mail da TIM. A atitude mais rápida é sempre falar com a empresa para entender os juros.",
+      "2. Antes de negociar, confira seus direitos do consumidor. Você tem direito a um plano sem cobrança abusiva de taxa.",
+      "3. Use plataformas online especializadas em dívidas. Sites como o nosso ajudam você a ver opções melhores e mais baratas para pagar.",
+      "4. Tenha tudo à mão na hora da negociação: CPF, número da conta TIM e fotos do boleto original."
+    ],
+    "content": "Ficar com uma conta atrasada da TIM pode gerar muita preocupação. Você não está sozinho nessa situação e existe um caminho simples para resolver o problema. Lembre-se que a dívida é negociável. O segredo é buscar ajuda na hora certa, pois há várias formas de parcelar sua conta tim atrasada.\n\nEntender como funciona um parcelamento justo poupa dinheiro e estresse. Procure saber se a operadora oferece descontos nos juros e multas. Você pode conseguir pagar em muitas vezes sem comprometer seu orçamento mensal. Por exemplo, dividir o valor em 6x pode ser mais fácil do que um pagamento único alto.\n\nNão pague só pelo primeiro boleto que aparecer. Pesquise opções de negociação com calma. É melhor usar os canais corretos para saber qual plano se encaixa na sua vida? Nós te ajudamos a ver o valor real e fazer um acordo bom, voltando você à tranquilidade financeira.",
+    "updatedAt": "2026-05-04"
+  },
+  {
+    "slug": "oi",
+    "nome": "Oi",
+    "tipo": "telecom"
+  },
+  {
+    "slug": "sky",
+    "nome": "SKY",
+    "tipo": "telecom"
+  },
+  {
+    "slug": "net",
+    "nome": "NET",
+    "tipo": "telecom"
+  },
+  {
+    "slug": "serasa",
+    "nome": "Serasa",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "spc",
+    "nome": "SPC Brasil",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "boa-vista",
+    "nome": "Boa Vista",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "recovery",
+    "nome": "Recovery",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "flex",
+    "nome": "Flex Cobranca",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "hoepers",
+    "nome": "Hoepers",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "ativos",
+    "nome": "Ativos SA",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "meireles",
+    "nome": "Meireles e Freitas",
+    "tipo": "cobranca"
+  }
 ]
