@@ -164,20 +164,7 @@ export default async function NegociarPage({ params }: PageProps) {
   const cidadeNome = cidade?.nome || null
 
   const dadosTipo = DADOS_MERCADO.descontoMedio[tipoSlug as keyof typeof DADOS_MERCADO.descontoMedio] || DADOS_MERCADO.descontoMedio["cartao-credito"]
-  // Prefer enriched fields from empresas.json (populated by RankPilot refresh),
-  // falling back to the hardcoded DADOS_EMPRESA constant.
-  type EmpresaEnriched = { slug: string; nome: string; tipo?: string; desconto?: number; tempo?: string; dicas?: string[]; content?: string }
-  const empresaEnriched = empresa as EmpresaEnriched | null
-  const dadosEmpresaBase = empresaSlug ? DADOS_EMPRESA[empresaSlug] : null
-  const dadosEmpresa = dadosEmpresaBase
-    ? {
-        desconto: empresaEnriched?.desconto ?? dadosEmpresaBase.desconto,
-        tempo:    empresaEnriched?.tempo    ?? dadosEmpresaBase.tempo,
-        dicas:    empresaEnriched?.dicas    ?? dadosEmpresaBase.dicas,
-      }
-    : (empresaEnriched?.desconto != null || empresaEnriched?.dicas?.length)
-      ? { desconto: empresaEnriched!.desconto ?? dadosTipo.media, tempo: empresaEnriched!.tempo ?? "15 dias", dicas: empresaEnriched!.dicas ?? [] }
-      : null
+  const dadosEmpresa = empresaSlug ? DADOS_EMPRESA[empresaSlug] : null
   const localTexto = cidadeNome ? `${cidadeNome} - ${estadoNome}` : estadoNome || "todo o Brasil"
   const descontoFinal = dadosEmpresa?.desconto || dadosTipo.media
   const tempoFinal = dadosEmpresa?.tempo || "15 dias"
@@ -368,17 +355,6 @@ export default async function NegociarPage({ params }: PageProps) {
                 </div>
               ))}
             </div>
-          </div>
-        </section>
-      )}
-
-      {/* AI-generated content section */}
-      {empresaEnriched?.content && (
-        <section className="py-12 bg-background">
-          <div className="mx-auto max-w-3xl px-4 lg:px-8 space-y-4">
-            {empresaEnriched.content.split('\n').filter(Boolean).map((p, i) => (
-              <p key={i} className="text-muted-foreground leading-relaxed">{p}</p>
-            ))}
           </div>
         </section>
       )}

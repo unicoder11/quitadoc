@@ -121,7 +121,7 @@ export default function DuvidasPage() {
               Agendar Consulta
             </Link>
             <a
-              href="https://wa.me/5511925332215"
+              href="https://wa.me/11925332215"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-lg border border-border bg-card px-6 py-3 font-semibold text-foreground hover:bg-secondary transition-colors"

@@ -272,7 +272,7 @@ export function SEOFooterLinks() {
                 </Link>
               </li>
               <li>
-                <Link href="https://wa.me/5511925332215" className="text-sm text-muted-foreground hover:text-primary">
+                <Link href="https://wa.me/11925332215" className="text-sm text-muted-foreground hover:text-primary">
                   WhatsApp
                 </Link>
               </li>

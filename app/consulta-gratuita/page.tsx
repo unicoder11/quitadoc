@@ -92,7 +92,7 @@ export default function ConsultaGratuitaPage() {
               {/* Contact Options */}
               <div className="mt-10 space-y-4">
                 <a 
-                  href="https://wa.me/5511925332215?text=Ola!%20Preciso%20de%20ajuda%20com%20meu%20veiculo%20financiado."
+                  href="https://wa.me/11925332215?text=Ola!%20Preciso%20de%20ajuda%20com%20meu%20veiculo%20financiado."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 rounded-lg bg-[#25D366] px-6 py-4 text-white transition-transform hover:scale-105 max-w-sm mx-auto lg:mx-0"
@@ -100,17 +100,17 @@ export default function ConsultaGratuitaPage() {
                   <MessageCircle className="h-6 w-6" />
                   <div>
                     <p className="font-semibold">WhatsApp</p>
-                    <p className="text-sm text-white/80">(11) 92533-2215</p>
+                    <p className="text-sm text-white/80">(21) 99607-6746</p>
                   </div>
                 </a>
                 <a 
-                  href="tel:+5511925332215"
+                  href="tel:+5521996076746"
                   className="flex items-center gap-3 rounded-lg bg-primary-foreground/10 px-6 py-4 text-primary-foreground transition-colors hover:bg-primary-foreground/20 max-w-sm mx-auto lg:mx-0"
                 >
                   <Phone className="h-6 w-6" />
                   <div>
                     <p className="font-semibold">Telefone</p>
-                    <p className="text-sm text-primary-foreground/80">(11) 92533-2215</p>
+                    <p className="text-sm text-primary-foreground/80">(21) 99607-6746</p>
                   </div>
                 </a>
               </div>

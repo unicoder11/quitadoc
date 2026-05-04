@@ -199,7 +199,7 @@ export function LeadMagnetCTA({ onSubmit }: LeadMagnetCTAProps) {
           <Button
             className="bg-white text-accent hover:bg-white/90 font-bold px-8 h-12"
             onClick={() => {
-              const whatsappUrl = `https://wa.me/5511925332215?text=${encodeURIComponent(
+              const whatsappUrl = `https://wa.me/11925332215?text=${encodeURIComponent(
                 "Oi! Gostaria de agendar uma consulta."
               )}`
               window.open(whatsappUrl, "_blank")

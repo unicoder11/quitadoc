@@ -90,7 +90,7 @@ export function generateOrganizationSchema() {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'Customer Service',
-      telephone: '+55-11-92533-2215',
+      telephone: '+55-11-99999-9999',
       email: 'contato@quitadoc.com.br',
     },
   }

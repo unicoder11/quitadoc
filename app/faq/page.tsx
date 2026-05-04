@@ -167,7 +167,7 @@ export default function FAQIndexPage() {
                 <Link href="/consulta-gratuita">Falar com Advogado</Link>
               </Button>
               <Button asChild size="lg" variant="outline">
-                <Link href="https://wa.me/5511925332215" target="_blank">
+                <Link href="https://wa.me/11925332215" target="_blank">
                   WhatsApp
                 </Link>
               </Button>

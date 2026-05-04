@@ -66,7 +66,7 @@ export function EnhancedLeadForm({ onSubmit }: EnhancedLeadFormProps) {
       .filter(l => l !== null)
       .join("\n")
 
-    const whatsappUrl = `https://wa.me/5511925332215?text=${encodeURIComponent(linhas)}`
+    const whatsappUrl = `https://wa.me/11925332215?text=${encodeURIComponent(linhas)}`
 
     setTimeout(() => {
       setIsSubmitting(false)
