@@ -359,6 +359,22 @@ export default async function NegociarPage({ params }: PageProps) {
         </section>
       )}
 
+      {/* Links Relacionados — gerados pelo RankPilot */}
+      {empresa && Array.isArray((empresa as unknown as {relatedLinks?: Array<{text: string; href: string}>}).relatedLinks) && (empresa as unknown as {relatedLinks: Array<{text: string; href: string}>}).relatedLinks.length > 0 && (
+        <section className="py-12 bg-secondary/20">
+          <div className="mx-auto max-w-7xl px-4 lg:px-8">
+            <h2 className="text-2xl font-bold text-foreground mb-6">Veja Tambem</h2>
+            <div className="flex flex-wrap gap-3">
+              {(empresa as unknown as {relatedLinks: Array<{text: string; href: string}>}).relatedLinks.map((link, i) => (
+                <Link key={i} href={link.href} className="inline-flex items-center px-4 py-2 rounded-full bg-card border border-border text-sm text-foreground hover:border-primary transition-colors">
+                  {link.text}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Beneficios */}
       <section className="py-16 lg:py-24 bg-secondary/30">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
