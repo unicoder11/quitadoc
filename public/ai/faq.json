@@ -1,0 +1,82 @@
+{
+  "organization": "Quitadoc",
+  "url": "https://www.quitadoc.com.br/faq",
+  "last_updated": "2026-04-20",
+  "faqs": [
+    {
+      "question": "O que e busca e apreensao de veiculo?",
+      "answer": "Busca e apreensao e uma acao judicial movida pelo banco ou financeira quando o devedor deixa de pagar as parcelas do financiamento do veiculo. O credor pede ao juiz autorizacao para retomar o bem dado como garantia (o proprio veiculo).",
+      "category": "Conceitos Basicos"
+    },
+    {
+      "question": "E possivel cancelar uma busca e apreensao?",
+      "answer": "Sim, e possivel cancelar a busca e apreensao atraves de defesa juridica especializada. As principais estrategias incluem purgacao da mora (pagamento das parcelas atrasadas), questionamento de clausulas abusivas, revisao de juros e contestacao de irregularidades processuais. A Quitadoc tem 87% de taxa de sucesso nesses casos.",
+      "category": "Defesa"
+    },
+    {
+      "question": "Quanto tempo tenho para me defender de uma busca e apreensao?",
+      "answer": "Apos ser citado da acao de busca e apreensao, o devedor tem 5 dias para purgar a mora (pagar o que deve) ou 15 dias para apresentar contestacao. E fundamental agir rapidamente, pois os prazos sao curtos e a demora pode resultar na perda do veiculo.",
+      "category": "Prazos"
+    },
+    {
+      "question": "Meu carro ja foi apreendido. Ainda posso recuperar?",
+      "answer": "Sim, mesmo apos a apreensao ainda e possivel recuperar o veiculo. Enquanto nao houver leilao, o devedor pode purgar a mora ou obter decisao judicial favoravel. A defesa deve ser feita com urgencia para evitar o leilao do bem.",
+      "category": "Recuperacao"
+    },
+    {
+      "question": "O que sao juros abusivos em financiamento de veiculo?",
+      "answer": "Juros abusivos sao taxas de juros que excedem significativamente a media de mercado praticada pelo Banco Central. Quando identificados, podem ser revisados judicialmente, reduzindo o valor total da divida e das parcelas.",
+      "category": "Juros"
+    },
+    {
+      "question": "Como funciona o modelo de success fee da Quitadoc?",
+      "answer": "No modelo de success fee, o cliente so paga honorarios se ganhar a causa. A Quitadoc cobra 10% sobre o beneficio obtido (reducao de divida, cancelamento de apreensao, etc). Se nao houver exito, nao ha cobranca de honorarios.",
+      "category": "Custos"
+    },
+    {
+      "question": "O que e alienacao fiduciaria?",
+      "answer": "Alienacao fiduciaria e a garantia usada em financiamentos de veiculos. O comprador usa o bem, mas a propriedade fica com o banco ate a quitacao total. Se houver inadimplencia, o banco pode retomar o veiculo por busca e apreensao.",
+      "category": "Conceitos Basicos"
+    },
+    {
+      "question": "Quanto tempo demora para resolver um caso de busca e apreensao?",
+      "answer": "O tempo varia conforme a complexidade do caso e a estrategia adotada. Medidas liminares podem ser obtidas em dias. A resolucao completa pode levar de 3 a 12 meses, dependendo se houver acordo ou necessidade de julgamento.",
+      "category": "Prazos"
+    },
+    {
+      "question": "A Quitadoc atende em todo o Brasil?",
+      "answer": "Sim, a Quitadoc tem atuacao nacional e atende clientes em todos os estados brasileiros. O atendimento inicial e feito remotamente, e a representacao judicial e feita na comarca competente.",
+      "category": "Atendimento"
+    },
+    {
+      "question": "Posso contestar o leilao do meu veiculo?",
+      "answer": "Sim, o leilao pode ser contestado se houver irregularidades como falta de notificacao, avaliacao inadequada do bem, ou se o leilao foi realizado antes do prazo legal. A contestacao deve ser feita rapidamente para ter efetividade.",
+      "category": "Leilao"
+    },
+    {
+      "question": "O que acontece se eu nao pagar o financiamento?",
+      "answer": "O nao pagamento pode resultar em: negativacao do nome, cobranca extrajudicial, acao de busca e apreensao, e eventual leilao do veiculo. Mesmo em inadimplencia, o consumidor tem direitos que podem ser exercidos com defesa especializada.",
+      "category": "Inadimplencia"
+    },
+    {
+      "question": "Como solicitar uma consulta gratuita?",
+      "answer": "A consulta gratuita pode ser solicitada pelo WhatsApp (11) 92533-2215, pelo formulario no site ou por email para contato@quitadoc.com.br. A equipe responde em ate 2 horas com uma analise preliminar do caso.",
+      "category": "Atendimento"
+    },
+    {
+      "question": "Qual a diferenca entre penhora e busca e apreensao?",
+      "answer": "Busca e apreensao e especifica para contratos com alienacao fiduciaria (financiamentos). Penhora e um procedimento de execucao civil que pode recair sobre qualquer bem do devedor. Os prazos e defesas sao diferentes em cada caso.",
+      "category": "Conceitos Basicos"
+    },
+    {
+      "question": "O banco pode apreender meu carro sem processo judicial?",
+      "answer": "Nao. A apreensao do veiculo so pode ocorrer com ordem judicial. O banco precisa entrar com acao de busca e apreensao e obter autorizacao do juiz. Qualquer apreensao sem mandado judicial e ilegal.",
+      "category": "Direitos"
+    },
+    {
+      "question": "E possivel renegociar a divida do financiamento?",
+      "answer": "Sim, a renegociacao e sempre uma opcao. Pode ser feita diretamente com o banco ou como parte de uma estrategia de defesa judicial. A Quitadoc pode intermediar negociacoes buscando condicoes mais favoraveis ao cliente.",
+      "category": "Negociacao"
+    }
+  ]
+}

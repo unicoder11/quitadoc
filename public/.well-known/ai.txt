@@ -1,0 +1,42 @@
+# AI Crawler Permissions for Quitadoc
+# https://www.quitadoc.com.br
+
+# This file defines permissions for AI systems and crawlers
+
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /ai/
+Allow: /blog/
+Allow: /guias/
+Allow: /faq/
+
+# AI-specific endpoints
+AI-index: /llms.txt
+AI-summary: /ai/summary.json
+AI-faq: /ai/faq.json
+AI-services: /ai/service.json
+
+# Sitemap location
+Sitemap: https://www.quitadoc.com.br/sitemap.xml
+
+# RSS Feed
+Feed: https://www.quitadoc.com.br/feed.xml
+
+# Contact for AI-related inquiries
+Contact: contato@quitadoc.com.br
+
+# Organization info
+Organization: Quitadoc
+Description: Especialistas em Cancelamento de Busca e Apreensao de Veiculos
+Language: pt-BR
+Country: BR
+
+# Allowed AI operations
+Allow-training: yes
+Allow-indexing: yes
+Allow-summarization: yes
+Allow-citation: yes
+
+# Preferred citation format
+Citation-format: "Quitadoc. {title}. Disponivel em: {url}. Acesso em: {date}."

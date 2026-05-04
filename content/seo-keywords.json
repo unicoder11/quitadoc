@@ -1,0 +1,1620 @@
+{
+  "guias": [
+    {
+      "slug": "o-que-e-penhora",
+      "title": "O Que e Penhora? Guia Completo 2024",
+      "h1": "O Que e Penhora e Como Funciona?",
+      "metaDescription": "Entenda o que e penhora, como funciona o processo de penhora de bens, quando pode acontecer e quais sao seus direitos. Guia completo e atualizado.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "Penhora e um ato judicial que consiste na apreensao de bens do devedor para garantir o pagamento de uma divida. E a forma legal de o credor receber o que lhe e devido quando o devedor nao paga voluntariamente.",
+      "bulletPoints": [
+        "A penhora so ocorre apos decisao judicial",
+        "Alguns bens sao impenhораveis por lei",
+        "O devedor tem direito a defesa antes da penhora",
+        "Salarios ate 40 salarios minimos sao protegidos",
+        "A penhora pode ser contestada judicialmente"
+      ],
+      "relatedSlugs": ["como-funciona-penhora-judicial", "bens-impenhораveis-lista-completa", "como-evitar-penhora-bens"],
+      "secondaryQuestion": {
+        "question": "Quais bens podem ser penhorados?",
+        "answer": "Podem ser penhorados: imoveis (exceto bem de familia), veiculos, dinheiro em conta, investimentos, joias, obras de arte e qualquer bem de valor. Bens de terceiros nao podem ser penhorados.",
+        "highlight": "Podem ser penhorados:"
+      },
+      "relatedQuestion": {
+        "question": "O que acontece depois da penhora?",
+        "answer": "Apos a penhora, o bem e avaliado judicialmente e vai a leilao. O valor arrecadado paga a divida e custas. Se sobrar, e devolvido ao devedor. Se faltar, outros bens podem ser penhorados.",
+        "highlight": "o bem e avaliado"
+      },
+      "legalCitation": {
+        "law": "Codigo de Processo Civil - Lei 13.105/2015",
+        "article": "Art. 831 - Da Penhora",
+        "description": "A penhora devera recair sobre tantos bens quantos bastem para o pagamento do principal atualizado, dos juros, das custas e dos honorarios advocaticios.",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+      },
+      "realCase": {
+        "title": "Cliente evitou penhora de veiculo de trabalho",
+        "situation": "Motorista de aplicativo teve carro citado em processo de execucao de divida bancaria de R$ 25.000.",
+        "solution": "Comprovamos que o veiculo era ferramenta essencial de trabalho e unica fonte de renda da familia.",
+        "result": "Veiculo declarado impenhoravel - cliente mantem seu instrumento de trabalho",
+        "timeline": "45 dias"
+      },
+      "faq": [
+        {"question": "Quanto tempo demora uma penhora?", "answer": "O processo de penhora pode levar de 30 a 180 dias, dependendo da complexidade do caso e da localizacao dos bens."},
+        {"question": "Penhora e o mesmo que bloqueio?", "answer": "Nao. O bloqueio e uma medida cautelar temporaria, enquanto a penhora e a efetiva apreensao do bem para pagamento da divida."},
+        {"question": "Posso vender um bem penhorado?", "answer": "Nao. A venda de bem penhorado configura fraude a execucao e pode gerar penalidades criminais."}
+      ]
+    },
+    {
+      "slug": "como-funciona-penhora-judicial",
+      "title": "Como Funciona a Penhora Judicial? Passo a Passo",
+      "h1": "Como Funciona a Penhora Judicial?",
+      "metaDescription": "Saiba como funciona a penhora judicial passo a passo, desde a citacao ate a venda do bem. Entenda seus direitos e como se defender.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "A penhora judicial funciona em etapas: primeiro o credor entra com acao de execucao, o devedor e citado para pagar em 3 dias, se nao pagar ocorre a penhora de bens, e por fim o bem e leiloado para quitar a divida.",
+      "bulletPoints": [
+        "1. Credor ingressa com acao de execucao",
+        "2. Devedor e citado para pagar em 3 dias",
+        "3. Nao havendo pagamento, inicia-se busca de bens",
+        "4. Bens sao penhorados e avaliados",
+        "5. Realizacao de leilao judicial"
+      ],
+      "relatedSlugs": ["o-que-e-penhora", "penhora-online-sisbajud", "como-recorrer-penhora"],
+      "faq": [
+        {"question": "O juiz pode penhorar qualquer bem?", "answer": "Nao. A lei protege bens essenciais como salario, moradia unica, ferramentas de trabalho e bens de familia."},
+        {"question": "Posso negociar depois da penhora?", "answer": "Sim. E possivel negociar acordo de pagamento mesmo apos a penhora, desde que o credor aceite."},
+        {"question": "A penhora aparece no nome?", "answer": "Sim. A penhora pode ser averbada em registros publicos, como cartorio de imoveis e Detran."}
+      ]
+    },
+    {
+      "slug": "bens-impenhораveis-lista-completa",
+      "title": "Bens Impenhораveis: Lista Completa 2024",
+      "h1": "Quais Bens Sao Impenhораveis por Lei?",
+      "metaDescription": "Conheca a lista completa de bens impenhораveis no Brasil. Saiba quais bens nao podem ser penhorados e como proteger seu patrimonio legalmente.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "Bens impenhораveis sao aqueles que a lei protege de penhora para garantir a dignidade do devedor. Incluem salario, moradia unica, ferramentas de trabalho, vestuario, e bens de familia.",
+      "bulletPoints": [
+        "Salario e proventos de aposentadoria",
+        "Imovel residencial unico (bem de familia)",
+        "Moveis e utensilios domesticos essenciais",
+        "Ferramentas e equipamentos de trabalho",
+        "Seguro de vida e pecuilio",
+        "Caderneta de poupanca ate 40 salarios minimos"
+      ],
+      "relatedSlugs": ["o-que-e-penhora", "penhora-salario-limite-legal", "bem-de-familia-protecao"],
+      "faq": [
+        {"question": "Carro pode ser penhorado?", "answer": "Sim, exceto se for ferramenta essencial de trabalho, como no caso de motoristas de aplicativo ou taxistas."},
+        {"question": "Conta poupanca pode ser penhorada?", "answer": "Ate 40 salarios minimos na poupanca sao impenhораveis. Valores acima desse limite podem ser penhorados."},
+        {"question": "Heranca pode ser penhorada?", "answer": "Sim. Bens recebidos por heranca podem ser penhorados apos a partilha, exceto se forem impenhораveis."}
+      ]
+    },
+    {
+      "slug": "penhora-conta-bancaria-bloqueio",
+      "title": "Penhora de Conta Bancaria: Como Funciona o Bloqueio?",
+      "h1": "Como Funciona a Penhora de Conta Bancaria?",
+      "metaDescription": "Entenda como funciona a penhora de conta bancaria, bloqueio judicial e como desbloquear valores penhorados indevidamente.",
+      "cluster": "banking",
+      "intent": "informational",
+      "directAnswer": "A penhora de conta bancaria ocorre atraves do sistema SISBAJUD, que permite ao juiz bloquear valores diretamente nas contas do devedor. O bloqueio e imediato e atinge todas as contas em todos os bancos.",
+      "bulletPoints": [
+        "Bloqueio feito pelo sistema SISBAJUD",
+        "Atinge todas as contas bancarias do devedor",
+        "Salarios sao protegidos por lei",
+        "E possivel pedir desbloqueio de valores essenciais",
+        "Prazo de 5 dias para impugnar"
+      ],
+      "relatedSlugs": ["penhora-online-sisbajud", "como-desbloquear-conta-penhorada", "penhora-salario-limite-legal"],
+      "secondaryQuestion": {
+        "question": "Meu salario pode ser bloqueado na conta?",
+        "answer": "Nao. O salario e impenhoravel por lei, mesmo apos cair na conta. Voce pode pedir desbloqueio comprovando com holerite que os valores sao de natureza salarial.",
+        "highlight": "O salario e impenhoravel"
+      },
+      "relatedQuestion": {
+        "question": "Como saber se tenho bloqueio judicial?",
+        "answer": "Consulte o extrato da sua conta ou ligue para o banco. Tambem pode pesquisar processos no site do tribunal do seu estado usando seu CPF.",
+        "highlight": "Consulte o extrato"
+      },
+      "legalCitation": {
+        "law": "Codigo de Processo Civil - Lei 13.105/2015",
+        "article": "Art. 833, IV - Impenhorabilidade",
+        "description": "Sao impenhораveis os vencimentos, os subsidios, os soldos, os salarios, as remuneracoes, os proventos de aposentadoria, as pensoes, os pecuilios e os montepios.",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+      },
+      "realCase": {
+        "title": "Desbloqueio de R$ 32.000 em 48 horas",
+        "situation": "Empresario teve toda a conta bloqueada, incluindo capital de giro essencial para pagamento de funcionarios.",
+        "solution": "Peticao de urgencia demonstrando que bloqueio inviabilizaria a empresa e afetaria 12 empregos.",
+        "result": "R$ 32.000 liberados em 48 horas - empresa manteve operacoes",
+        "timeline": "2 dias"
+      },
+      "deepContent": {
+        "title": "Entendendo o Sistema SISBAJUD",
+        "content": "O SISBAJUD substituiu o antigo BACENJUD em 2020 e permite bloqueios instantaneos em qualquer instituicao financeira do Brasil. O sistema opera 24 horas e o bloqueio acontece em segundos apos a ordem judicial.",
+        "example": "Joao descobriu R$ 8.000 bloqueados na segunda-feira. Na quarta, ja havia protocolado peticao. Na sexta, o juiz liberou R$ 6.500 que eram de salario.",
+        "tip": "Sempre mantenha comprovantes de pagamento de salario separados. Isso agiliza muito o processo de desbloqueio.",
+        "warning": "O bloqueio pode atingir valores que entrarem depois da ordem. Novos depositos tambem ficam retidos ate decisao."
+      },
+      "faq": [
+        {"question": "Banco avisa antes do bloqueio?", "answer": "Nao. O bloqueio e feito de surpresa para evitar que o devedor transfira os valores."},
+        {"question": "Quanto tempo dura o bloqueio?", "answer": "O bloqueio dura ate decisao judicial. Se voce comprovar que sao valores impenhораveis, pode pedir liberacao imediata."},
+        {"question": "Posso usar a conta depois do bloqueio?", "answer": "Sim, mas apenas para depositos. Os valores bloqueados ficam indisponiveis ate decisao judicial."}
+      ]
+    },
+    {
+      "slug": "penhora-online-sisbajud",
+      "title": "Penhora Online SISBAJUD: O Que e e Como Funciona?",
+      "h1": "O Que e Penhora Online pelo SISBAJUD?",
+      "metaDescription": "Entenda como funciona a penhora online pelo SISBAJUD, o sistema que permite bloqueio judicial de contas bancarias em todo o Brasil.",
+      "cluster": "banking",
+      "intent": "informational",
+      "directAnswer": "SISBAJUD e o Sistema de Busca de Ativos do Poder Judiciario que permite aos juizes bloquear valores em contas bancarias de todo o Brasil de forma instantanea, substituindo o antigo BACENJUD.",
+      "bulletPoints": [
+        "Sistema nacional de bloqueio judicial",
+        "Bloqueio instantaneo em todas as contas",
+        "Funciona 24 horas por dia",
+        "Atinge contas em qualquer banco",
+        "Inclui investimentos e aplicacoes"
+      ],
+      "relatedSlugs": ["penhora-conta-bancaria-bloqueio", "como-desbloquear-conta-penhorada", "bens-impenhораveis-lista-completa"],
+      "faq": [
+        {"question": "SISBAJUD penhora Pix?", "answer": "Sim. O SISBAJUD pode bloquear qualquer valor em conta, incluindo os recebidos via Pix."},
+        {"question": "SISBAJUD bloqueia poupanca?", "answer": "Sim, mas valores ate 40 salarios minimos em poupanca sao impenhораveis e podem ser liberados."},
+        {"question": "Como saber se tenho bloqueio SISBAJUD?", "answer": "Voce pode consultar nos canais do seu banco ou verificar se ha processo de execucao em seu nome nos tribunais."}
+      ]
+    },
+    {
+      "slug": "como-desbloquear-conta-penhorada",
+      "title": "Como Desbloquear Conta Penhorada? Passo a Passo",
+      "h1": "Como Desbloquear Valores Penhorados na Conta?",
+      "metaDescription": "Aprenda como desbloquear conta bancaria penhorada passo a passo. Saiba quais valores podem ser liberados e como fazer a solicitacao.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "Para desbloquear valores penhorados, voce deve protocolar peticao nos autos do processo comprovando que os valores sao impenhораveis (salario, aposentadoria ou poupanca ate 40 SM) com extratos bancarios.",
+      "bulletPoints": [
+        "1. Identifique o processo de execucao",
+        "2. Reuna extratos comprovando origem dos valores",
+        "3. Protocole peticao de desbloqueio",
+        "4. Aguarde decisao judicial (5-15 dias)",
+        "5. Banco libera valores apos ordem judicial"
+      ],
+      "relatedSlugs": ["penhora-conta-bancaria-bloqueio", "penhora-salario-limite-legal", "advogado-penhora-defesa"],
+      "secondaryQuestion": {
+        "question": "Quais documentos preciso para desbloquear?",
+        "answer": "Voce precisa de: extratos bancarios dos ultimos 3 meses, holerite ou comprovante de aposentadoria, RG e CPF, e numero do processo que originou o bloqueio.",
+        "highlight": "Voce precisa de:"
+      },
+      "relatedQuestion": {
+        "question": "E possivel desbloquear sem advogado?",
+        "answer": "Sim, e possivel protocolar peticao sem advogado (jus postulandi), mas casos complexos exigem assistencia juridica para maximizar chances de sucesso.",
+        "highlight": "Sim, e possivel"
+      },
+      "legalCitation": {
+        "law": "Codigo de Processo Civil - Lei 13.105/2015",
+        "article": "Art. 854, 1o - Impugnacao de Penhora",
+        "description": "No prazo de 5 dias apos a citacao, podera o executado impugnar a penhora, alegando excesso de execucao ou impenhorabilidade dos bens.",
+        "source": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+      },
+      "realCase": {
+        "title": "Aposentada recuperou R$ 18.500 bloqueados",
+        "situation": "Idosa de 72 anos teve bloqueados R$ 18.500, sendo R$ 8.500 de aposentadoria e R$ 10.000 de poupanca (sua reserva de emergencia).",
+        "solution": "Peticao demonstrando que 100% dos valores eram impenhораveis: aposentadoria (art. 833, IV, CPC) e poupanca ate 40 SM (art. 833, X, CPC).",
+        "result": "Liberacao integral em 5 dias uteis",
+        "timeline": "5 dias"
+      },
+      "scenarios": [
+        {"title": "Salario inteiro bloqueado", "description": "Seu salario caiu na conta e foi todo bloqueado pelo SISBAJUD.", "action": "Peticao urgente com holerite - prazo 48h", "urgency": "high"},
+        {"title": "Poupanca ate 40 SM bloqueada", "description": "Sua reserva de emergencia na poupanca foi penhorada.", "action": "Peticao comprovando limite legal - prazo 5 dias", "urgency": "medium"},
+        {"title": "Bloqueio em conta conjunta", "description": "Conta compartilhada com conjuge foi bloqueada por divida sua.", "action": "Comprovar meacao do conjuge - prazo 15 dias", "urgency": "medium"},
+        {"title": "Valores de terceiros bloqueados", "description": "Dinheiro de outra pessoa estava na sua conta e foi bloqueado.", "action": "Terceiro deve se manifestar no processo", "urgency": "low"}
+      ],
+      "faq": [
+        {"question": "Preciso de advogado para desbloquear?", "answer": "Recomenda-se advogado, mas em casos simples voce pode protocolar peticao sem representacao."},
+        {"question": "Quanto tempo demora o desbloqueio?", "answer": "Apos protocolar a peticao, o juiz costuma decidir em 5 a 15 dias uteis."},
+        {"question": "Posso pedir desbloqueio parcial?", "answer": "Sim. Voce pode pedir liberacao apenas dos valores impenhораveis e manter o restante bloqueado."}
+      ]
+    },
+    {
+      "slug": "penhora-salario-limite-legal",
+      "title": "Penhora de Salario: Qual o Limite Legal?",
+      "h1": "Ate Quanto Pode Ser Penhorado do Salario?",
+      "metaDescription": "Saiba qual o limite legal de penhora de salario, quando o salario pode ser penhorado e como se proteger de descontos indevidos.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "O salario e impenhoravel por lei, exceto para pensao alimenticia onde pode ser descontado ate 50%. Em outros casos, a jurisprudencia permite penhora de ate 30% quando o salario excede o necessario para subsistencia.",
+      "bulletPoints": [
+        "Salario e protegido pelo CPC art. 833",
+        "Excecao: pensao alimenticia (ate 50%)",
+        "Jurisprudencia aceita 30% do que exceder",
+        "Salario minimo e sempre protegido",
+        "Desconto direto na folha de pagamento"
+      ],
+      "relatedSlugs": ["bens-impenhораveis-lista-completa", "penhora-conta-bancaria-bloqueio", "como-contestar-penhora-salario"],
+      "faq": [
+        {"question": "Podem descontar salario inteiro?", "answer": "Nao. O salario minimo e sempre protegido, e descontos so podem ocorrer sobre valores excedentes."},
+        {"question": "Penhora de salario e automatica?", "answer": "Nao. O juiz deve autorizar e a empresa so pode descontar com ordem judicial expressa."},
+        {"question": "13o salario pode ser penhorado?", "answer": "Sim, mas segue as mesmas regras do salario normal, sendo protegido ate certo limite."}
+      ]
+    },
+    {
+      "slug": "bem-de-familia-protecao",
+      "title": "Bem de Familia: Como Proteger Seu Imovel?",
+      "h1": "O Que e Bem de Familia e Como Funciona a Protecao?",
+      "metaDescription": "Entenda o que e bem de familia, como funciona a protecao legal do seu imovel residencial e quando ele pode ser penhorado.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "Bem de familia e o imovel residencial onde a familia mora, protegido de penhora pela Lei 8.009/90. A protecao e automatica e independe de registro, bastando ser a unica moradia da familia.",
+      "bulletPoints": [
+        "Protecao automatica sem necessidade de registro",
+        "Vale para imovel proprio ou alugado",
+        "Inclui moveis e utensilios domesticos",
+        "Protege contra dividas civis e comerciais",
+        "Excecoes: divida do proprio imovel e pensao"
+      ],
+      "relatedSlugs": ["bens-impenhораveis-lista-completa", "excecoes-bem-de-familia", "como-provar-bem-de-familia"],
+      "faq": [
+        {"question": "Imovel financiado e bem de familia?", "answer": "Sim, mas pode ser penhorado pelo banco credor do financiamento se houver inadimplencia."},
+        {"question": "Imovel de alto valor e protegido?", "answer": "Sim. A lei nao estabelece limite de valor para protecao do bem de familia."},
+        {"question": "Posso ter dois imoveis protegidos?", "answer": "Nao. So o imovel de menor valor onde a familia reside e protegido como bem de familia."}
+      ]
+    },
+    {
+      "slug": "excecoes-bem-de-familia",
+      "title": "Excecoes ao Bem de Familia: Quando Pode Ser Penhorado?",
+      "h1": "Quando o Bem de Familia Pode Ser Penhorado?",
+      "metaDescription": "Conheca as excecoes legais que permitem penhora do bem de familia. Saiba em quais situacoes seu imovel pode ser penhorado mesmo sendo residencial.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "O bem de familia pode ser penhorado em casos especificos: dividas do proprio imovel, pensao alimenticia, impostos do imovel (IPTU), fianca em contrato de aluguel, e dividas trabalhistas de empregados domesticos.",
+      "bulletPoints": [
+        "Financiamento ou hipoteca do proprio imovel",
+        "Pensao alimenticia",
+        "IPTU e taxas condominiais",
+        "Fianca em contrato de locacao",
+        "Dividas trabalhistas de empregados domesticos"
+      ],
+      "relatedSlugs": ["bem-de-familia-protecao", "penhora-imovel-financiado", "divida-condominio-penhora"],
+      "faq": [
+        {"question": "Divida de cartao penhora imovel?", "answer": "Nao. Dividas de cartao de credito nao sao excecao ao bem de familia."},
+        {"question": "Fianca de aluguel pode penhorar casa?", "answer": "Sim. Desde 2005, a fianca em contrato de locacao e excecao a impenhorabilidade."},
+        {"question": "Divida trabalhista penhora casa?", "answer": "Apenas se for divida com empregado domestico da propria residencia."}
+      ]
+    },
+    {
+      "slug": "como-evitar-penhora-bens",
+      "title": "Como Evitar Penhora de Bens? 7 Estrategias Legais",
+      "h1": "Como Evitar a Penhora de Bens Legalmente?",
+      "metaDescription": "Aprenda 7 estrategias legais para evitar penhora de bens. Saiba como proteger seu patrimonio dentro da lei e negociar dividas.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "Para evitar penhora de bens legalmente, voce pode: negociar acordo de pagamento, demonstrar impenhorabilidade, parcelar a divida judicialmente, oferecer outros bens em garantia ou requerer revisao de clausulas abusivas.",
+      "bulletPoints": [
+        "1. Negociar acordo de pagamento com credor",
+        "2. Comprovar que bens sao impenhораveis",
+        "3. Parcelar divida em ate 6x no processo",
+        "4. Oferecer bem de menor valor em substituicao",
+        "5. Questionar valores abusivos da divida",
+        "6. Alegar excesso de penhora",
+        "7. Buscar assessoria juridica especializada"
+      ],
+      "relatedSlugs": ["o-que-e-penhora", "bens-impenhораveis-lista-completa", "advogado-penhora-defesa"],
+      "faq": [
+        {"question": "Esconder bens evita penhora?", "answer": "Nao. Ocultar bens configura fraude a execucao, crime punivel com prisao."},
+        {"question": "Transferir bens para terceiros funciona?", "answer": "Nao. Transferencias apos a divida podem ser anuladas judicialmente."},
+        {"question": "Acordo suspende a penhora?", "answer": "Sim. Acordo homologado judicialmente suspende a execucao e libera bens penhorados."}
+      ]
+    },
+    {
+      "slug": "penhora-veiculo-carro",
+      "title": "Penhora de Veiculo: Podem Levar Meu Carro?",
+      "h1": "Como Funciona a Penhora de Veiculo?",
+      "metaDescription": "Saiba como funciona a penhora de veiculo, quando seu carro pode ser apreendido e quais sao os casos de protecao legal.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "Sim, veiculos podem ser penhorados para pagar dividas. A penhora ocorre com bloqueio do veiculo no RENAVAM, impedindo transferencia, seguido de apreensao fisica e posterior leilao judicial.",
+      "bulletPoints": [
+        "Bloqueio no RENAVAM impede transferencia",
+        "Apreensao fisica por oficial de justica",
+        "Veiculo vai a leilao judicial",
+        "Excecao: carro de trabalho (taxi, uber)",
+        "Devedor pode substituir por outro bem"
+      ],
+      "relatedSlugs": ["o-que-e-penhora", "como-evitar-penhora-bens", "leilao-judicial-como-funciona"],
+      "faq": [
+        {"question": "Carro financiado pode ser penhorado?", "answer": "Sim, mas o valor da divida do financiamento e descontado do produto do leilao."},
+        {"question": "Moto pode ser penhorada?", "answer": "Sim. Motocicletas seguem as mesmas regras de penhora de veiculos."},
+        {"question": "Como saber se meu carro foi penhorado?", "answer": "Consulte o RENAVAM no site do DETRAN ou em despachantes para verificar restricoes judiciais."}
+      ]
+    },
+    {
+      "slug": "penhora-imovel-como-funciona",
+      "title": "Penhora de Imovel: Como Funciona o Processo?",
+      "h1": "Como Funciona a Penhora de Imovel?",
+      "metaDescription": "Entenda como funciona a penhora de imovel, desde a averbacao ate o leilao. Saiba seus direitos e como se defender.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "A penhora de imovel ocorre com averbacao da penhora na matricula do imovel no cartorio, tornando-o indisponivel para venda. Apos avaliacao, o imovel vai a leilao judicial para quitar a divida.",
+      "bulletPoints": [
+        "Averbacao da penhora na matricula",
+        "Imovel fica indisponivel para venda",
+        "Avaliacao por perito judicial",
+        "Dois leiloes: 1o pelo valor, 2o com desconto",
+        "Saldo remanescente volta ao devedor"
+      ],
+      "relatedSlugs": ["bem-de-familia-protecao", "leilao-judicial-como-funciona", "como-evitar-penhora-bens"],
+      "faq": [
+        {"question": "Posso morar no imovel penhorado?", "answer": "Sim. A penhora nao obriga desocupacao imediata, apenas apos arremate em leilao."},
+        {"question": "Imovel alugado pode ser penhorado?", "answer": "Sim. O locatario nao e afetado pela penhora, mas deve ser notificado."},
+        {"question": "Quanto tempo ate o leilao?", "answer": "O processo pode levar de 6 meses a 2 anos, dependendo de recursos e complexidade."}
+      ]
+    },
+    {
+      "slug": "leilao-judicial-como-funciona",
+      "title": "Leilao Judicial: Como Funciona a Venda de Bens Penhorados?",
+      "h1": "Como Funciona o Leilao Judicial?",
+      "metaDescription": "Entenda como funciona o leilao judicial de bens penhorados, prazos, valores minimos e como se defender antes da arrematacao.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "O leilao judicial e a venda publica de bens penhorados para pagar dividas. Ocorre em duas pragas: a primeira pelo valor da avaliacao e a segunda por qualquer valor (nao vil).",
+      "bulletPoints": [
+        "Primeira praga: valor da avaliacao",
+        "Segunda praga: qualquer valor nao vil",
+        "Preco vil: abaixo de 50% da avaliacao",
+        "Devedor pode purgar a divida ate o leilao",
+        "Arrematante paga a vista ou parcelado"
+      ],
+      "relatedSlugs": ["penhora-imovel-como-funciona", "penhora-veiculo-carro", "como-cancelar-leilao-judicial"],
+      "faq": [
+        {"question": "Posso recuperar bem leiloado?", "answer": "Dificil. Apos a arrematacao, so cabe anulacao por vicio grave no processo."},
+        {"question": "Quem fica com o lucro do leilao?", "answer": "O credor recebe ate o valor da divida. O que sobrar vai para o devedor."},
+        {"question": "Leilao pode ser cancelado?", "answer": "Sim. Acordo de pagamento ou pagamento integral antes do leilao suspende a venda."}
+      ]
+    },
+    {
+      "slug": "como-recorrer-penhora",
+      "title": "Como Recorrer de Uma Penhora? Recursos Disponiveis",
+      "h1": "Como Recorrer de Uma Penhora Judicial?",
+      "metaDescription": "Saiba como recorrer de uma penhora, quais recursos estao disponiveis e os prazos para contestar a penhora de bens.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "Para recorrer de uma penhora, voce pode apresentar impugnacao ao cumprimento de sentenca (15 dias), embargos a execucao (15 dias), ou agravo de instrumento contra decisoes intermediarias.",
+      "bulletPoints": [
+        "Impugnacao: questiona valores ou procedimento",
+        "Embargos: contesta a propria divida",
+        "Agravo: recurso contra decisoes urgentes",
+        "Excecao de pre-executividade: casos simples",
+        "Prazo geral: 15 dias da intimacao"
+      ],
+      "relatedSlugs": ["o-que-e-penhora", "advogado-penhora-defesa", "como-desbloquear-conta-penhorada"],
+      "faq": [
+        {"question": "Recurso suspende a penhora?", "answer": "Normalmente nao. E preciso pedir efeito suspensivo especificamente, com garantia do juizo."},
+        {"question": "Posso recorrer sem advogado?", "answer": "Tecnicamente sim em alguns casos, mas e altamente recomendado ter representacao legal."},
+        {"question": "Perdi o prazo, ainda posso recorrer?", "answer": "Pode ser possivel por excecao de pre-executividade se houver questao de ordem publica."}
+      ]
+    },
+    {
+      "slug": "advogado-penhora-defesa",
+      "title": "Advogado para Penhora: Quando Contratar?",
+      "h1": "Quando Preciso de Advogado para Penhora?",
+      "metaDescription": "Saiba quando e necessario contratar advogado para se defender de penhora, quanto custa e como escolher o profissional certo.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "Voce deve contratar advogado para penhora sempre que receber citacao de execucao, tiver bens bloqueados ou penhorados, ou quando a divida envolver valores significativos que justifiquem a defesa tecnica.",
+      "bulletPoints": [
+        "Apos receber citacao de execucao",
+        "Quando conta bancaria for bloqueada",
+        "Para contestar valores abusivos",
+        "Antes do leilao de bens",
+        "Para negociar acordo judicial"
+      ],
+      "relatedSlugs": ["como-recorrer-penhora", "como-evitar-penhora-bens", "como-desbloquear-conta-penhorada"],
+      "faq": [
+        {"question": "Quanto custa advogado para penhora?", "answer": "Os honorarios variam de R$ 2.000 a R$ 10.000, dependendo da complexidade e valor envolvido."},
+        {"question": "Posso usar defensor publico?", "answer": "Sim, se comprovar hipossuficiencia. A Defensoria Publica atende casos de execucao."},
+        {"question": "Advogado pode reverter penhora?", "answer": "Sim. Com defesa tecnica adequada, e possivel anular ou modificar penhoras indevidas."}
+      ]
+    },
+    {
+      "slug": "fraude-execucao-consequencias",
+      "title": "Fraude a Execucao: O Que e e Quais as Consequencias?",
+      "h1": "O Que e Fraude a Execucao?",
+      "metaDescription": "Entenda o que e fraude a execucao, quais atos configuram fraude e quais sao as consequencias penais e civis.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "Fraude a execucao e a alienacao ou ocultacao de bens quando ja existe acao judicial capaz de reduzir o devedor a insolvencia. O ato e nulo e pode gerar consequencias penais.",
+      "bulletPoints": [
+        "Venda de bens durante processo judicial",
+        "Transferencia para familiares",
+        "Ocultacao de patrimonio",
+        "Ato pode ser anulado pelo juiz",
+        "Configura crime: artigo 179 do CP"
+      ],
+      "relatedSlugs": ["o-que-e-penhora", "como-evitar-penhora-bens", "bens-impenhораveis-lista-completa"],
+      "faq": [
+        {"question": "Vender carro durante processo e fraude?", "answer": "Pode ser, se a venda reduzir seu patrimonio abaixo do necessario para pagar a divida."},
+        {"question": "Fraude a execucao da cadeia?", "answer": "Pode. O crime de fraude a execucao preve pena de 6 meses a 2 anos de detencao."},
+        {"question": "Como provar que nao e fraude?", "answer": "Demonstrando que a alienacao foi anterior ao processo ou que restou patrimonio suficiente."}
+      ]
+    },
+    {
+      "slug": "execucao-fiscal-como-funciona",
+      "title": "Execucao Fiscal: Como Funciona a Cobranca de Impostos?",
+      "h1": "Como Funciona a Execucao Fiscal?",
+      "metaDescription": "Entenda como funciona a execucao fiscal, cobranca de impostos devidos e como se defender de dividas com o governo.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "Execucao fiscal e o processo judicial pelo qual o governo cobra dividas de impostos (IPTU, IPVA, IR, etc). A Fazenda Publica tem privilegios como penhora online e nao precisa pagar custas.",
+      "bulletPoints": [
+        "Cobranca de dividas tributarias",
+        "Fazenda tem privilegios processuais",
+        "Penhora pode ser imediata",
+        "Possivel parcelamento (REFIS)",
+        "Prescricao em 5 anos"
+      ],
+      "relatedSlugs": ["penhora-online-sisbajud", "como-recorrer-penhora", "prescricao-divida-tributaria"],
+      "faq": [
+        {"question": "Posso parcelar divida fiscal?", "answer": "Sim. Programas como REFIS permitem parcelamento de dividas tributarias com descontos."},
+        {"question": "Divida fiscal caduca?", "answer": "Sim. A prescricao e de 5 anos a partir do lancamento definitivo do tributo."},
+        {"question": "Execucao fiscal bloqueia conta?", "answer": "Sim. A Fazenda pode pedir bloqueio pelo SISBAJUD assim que ajuizar a execucao."}
+      ]
+    },
+    {
+      "slug": "prescricao-divida-quando-caduca",
+      "title": "Prescricao de Divida: Quando a Divida Caduca?",
+      "h1": "Quando Uma Divida Prescreve e Nao Pode Mais Ser Cobrada?",
+      "metaDescription": "Saiba quando uma divida prescreve e nao pode mais ser cobrada judicialmente. Entenda os prazos de prescricao para cada tipo de divida.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "A prescricao de dividas varia conforme o tipo: dividas civis prescrevem em 5 anos, cheques em 6 meses, titulos de credito em 3 anos, e dividas tributarias em 5 anos. Apos esse prazo, nao podem ser cobradas judicialmente.",
+      "bulletPoints": [
+        "Dividas civis gerais: 5 anos",
+        "Cheques: 6 meses a 2 anos",
+        "Notas promissorias: 3 anos",
+        "Dividas tributarias: 5 anos",
+        "Pensao alimenticia: 2 anos"
+      ],
+      "relatedSlugs": ["o-que-e-penhora", "execucao-fiscal-como-funciona", "nome-sujo-limpo-quando"],
+      "faq": [
+        {"question": "Divida prescrita sai do SPC?", "answer": "Nao automaticamente. Apos 5 anos deve sair, mas a prescricao da cobranca e diferente."},
+        {"question": "Posso pagar divida prescrita?", "answer": "Pode, mas nao e obrigado. O pagamento e uma liberalidade, nao obrigacao legal."},
+        {"question": "Acordo interrompe prescricao?", "answer": "Sim. Reconhecimento da divida ou acordo de pagamento interrompe o prazo prescricional."}
+      ]
+    },
+    {
+      "slug": "nome-sujo-limpo-quando",
+      "title": "Nome Sujo: Quando Limpa? Prazo e Como Consultar",
+      "h1": "Quando o Nome Sai do SPC e Serasa?",
+      "metaDescription": "Saiba quando seu nome sai do SPC e Serasa, qual o prazo legal e como consultar sua situacao cadastral gratuitamente.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "O nome deve ser retirado dos cadastros de inadimplentes (SPC/Serasa) em ate 5 anos da data da inscricao da divida, independentemente de pagamento. Esse e o prazo maximo legal previsto no CDC.",
+      "bulletPoints": [
+        "Prazo maximo: 5 anos da inscricao",
+        "Exclusao automatica apos o prazo",
+        "Pagamento gera exclusao em 5 dias",
+        "Consulta gratuita nos sites oficiais",
+        "Manutencao apos prazo gera indenizacao"
+      ],
+      "relatedSlugs": ["prescricao-divida-quando-caduca", "como-limpar-nome-sujo", "divida-prescrita-pode-cobrar"],
+      "faq": [
+        {"question": "Nome limpo significa divida quitada?", "answer": "Nao necessariamente. O nome pode sair do cadastro mesmo sem pagar, apos 5 anos."},
+        {"question": "Posso processar se nao tirarem?", "answer": "Sim. A manutencao indevida no cadastro gera direito a indenizacao por danos morais."},
+        {"question": "Como consultar SPC gratis?", "answer": "Acesse consumidor.serasa.com.br ou site do SPC Brasil para consulta gratuita."}
+      ]
+    },
+    {
+      "slug": "acordo-divida-judicial",
+      "title": "Acordo de Divida Judicial: Como Negociar?",
+      "h1": "Como Fazer Acordo de Divida em Processo Judicial?",
+      "metaDescription": "Aprenda como negociar acordo de divida em processo judicial, quais descontos sao possiveis e como formalizar o acordo.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "Para fazer acordo em processo judicial, voce pode propor diretamente ao credor, atraves de audiencia de conciliacao ou por peticao nos autos. Descontos de 20% a 50% sao comuns em negociacoes.",
+      "bulletPoints": [
+        "Proposta direta ao advogado do credor",
+        "Audiencia de conciliacao no CEJUSC",
+        "Peticao conjunta nos autos",
+        "Homologacao judicial do acordo",
+        "Descumprimento retoma a execucao"
+      ],
+      "relatedSlugs": ["como-evitar-penhora-bens", "como-recorrer-penhora", "parcelamento-divida-judicial"],
+      "faq": [
+        {"question": "Acordo judicial tem desconto?", "answer": "Geralmente sim. Credores costumam dar descontos de 20% a 50% para encerrar processos."},
+        {"question": "Posso parcelar acordo judicial?", "answer": "Sim. E comum acordos com entrada e parcelamento do saldo em ate 12x."},
+        {"question": "O que acontece se nao pagar acordo?", "answer": "O processo retoma de onde parou, com execucao do saldo devedor sem novo desconto."}
+      ]
+    },
+    {
+      "slug": "parcelamento-divida-judicial",
+      "title": "Parcelamento de Divida Judicial: Como Funciona?",
+      "h1": "Como Parcelar Divida em Processo de Execucao?",
+      "metaDescription": "Saiba como parcelar divida em processo judicial, qual o numero maximo de parcelas e requisitos para conseguir o parcelamento.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "O CPC permite parcelamento da divida em ate 6 vezes, mediante deposito de 30% do valor e comprovacao de que nao pode pagar a vista. O pedido deve ser feito em 15 dias da intimacao.",
+      "bulletPoints": [
+        "Maximo de 6 parcelas pelo CPC",
+        "Entrada de 30% obrigatoria",
+        "Prazo: 15 dias da intimacao",
+        "Suspende atos de execucao",
+        "Inadimplencia cancela o beneficio"
+      ],
+      "relatedSlugs": ["acordo-divida-judicial", "como-evitar-penhora-bens", "execucao-fiscal-como-funciona"],
+      "faq": [
+        {"question": "Posso parcelar em mais de 6x?", "answer": "Pelo CPC nao. Mas acordo extrajudicial pode permitir mais parcelas se o credor aceitar."},
+        {"question": "30% e sobre qual valor?", "answer": "Sobre o valor total da execucao, incluindo correcao monetaria, juros e honorarios."},
+        {"question": "Parcela atrasada cancela tudo?", "answer": "Sim. O atraso de uma parcela vence as demais e retoma a execucao integralmente."}
+      ]
+    },
+    {
+      "slug": "conta-bloqueada-o-que-fazer",
+      "title": "Conta Bloqueada Judicialmente: O Que Fazer?",
+      "h1": "Minha Conta Foi Bloqueada. O Que Fazer?",
+      "metaDescription": "Descubra o que fazer quando sua conta bancaria e bloqueada judicialmente. Passo a passo para identificar o processo e solicitar desbloqueio.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "Se sua conta foi bloqueada, primeiro identifique o processo consultando o extrato bancario ou site do tribunal. Depois, verifique se os valores sao impenhораveis e protocole peticao de desbloqueio com documentos comprobatorios.",
+      "bulletPoints": [
+        "1. Consulte extrato para identificar o bloqueio",
+        "2. Pesquise o processo no tribunal",
+        "3. Verifique se valores sao impenhораveis",
+        "4. Reuna extratos dos ultimos 3 meses",
+        "5. Protocole peticao de desbloqueio"
+      ],
+      "relatedSlugs": ["como-desbloquear-conta-penhorada", "penhora-online-sisbajud", "penhora-salario-limite-legal"],
+      "faq": [
+        {"question": "Banco pode bloquear sem aviso?", "answer": "Sim. O bloqueio judicial e feito de surpresa para evitar que voce transfira valores."},
+        {"question": "Posso usar PIX com conta bloqueada?", "answer": "Pode receber, mas nao pode movimentar os valores bloqueados ate liberacao judicial."},
+        {"question": "Bloqueio atinge todas as contas?", "answer": "Sim. O SISBAJUD bloqueia valores em todas as suas contas em qualquer banco."}
+      ]
+    },
+    {
+      "slug": "tipos-de-penhora",
+      "title": "Tipos de Penhora: Conheca Todas as Modalidades",
+      "h1": "Quais Sao os Tipos de Penhora?",
+      "metaDescription": "Conheca todos os tipos de penhora: online, de imoveis, veiculos, salario e faturamento. Entenda como cada uma funciona.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "Os principais tipos de penhora sao: penhora online (dinheiro em contas), penhora de imoveis, de veiculos, de salario, de faturamento de empresa, e penhora no rosto dos autos (creditos em outros processos).",
+      "bulletPoints": [
+        "Penhora online (SISBAJUD)",
+        "Penhora de imoveis",
+        "Penhora de veiculos",
+        "Penhora de salario",
+        "Penhora de faturamento",
+        "Penhora no rosto dos autos"
+      ],
+      "relatedSlugs": ["o-que-e-penhora", "penhora-online-sisbajud", "penhora-veiculo-carro"],
+      "faq": [
+        {"question": "Qual penhora e mais rapida?", "answer": "A penhora online e a mais rapida, podendo ocorrer em minutos apos a ordem judicial."},
+        {"question": "Pode ter mais de uma penhora?", "answer": "Sim. Se um bem nao cobrir a divida, outros podem ser penhorados ate completar o valor."},
+        {"question": "Qual penhora e menos invasiva?", "answer": "A penhora no rosto dos autos, que atinge apenas creditos que voce tem a receber em outros processos."}
+      ]
+    },
+    {
+      "slug": "penhora-aposentadoria-inss",
+      "title": "Penhora de Aposentadoria INSS: E Permitido?",
+      "h1": "Aposentadoria do INSS Pode Ser Penhorada?",
+      "metaDescription": "Descubra se a aposentadoria do INSS pode ser penhorada, quais as excecoes e como proteger seu beneficio previdenciario.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "A aposentadoria do INSS e impenhoravel por lei, exceto para pagamento de pensao alimenticia. Porem, valores que excedam o necessario para subsistencia podem ser penhorados em casos excepcionais.",
+      "bulletPoints": [
+        "Aposentadoria e impenhoravel (CPC art. 833)",
+        "Excecao: pensao alimenticia",
+        "Valores na conta perdem protecao apos 30 dias",
+        "Jurisprudencia permite penhora de excesso",
+        "Emprestimo consignado nao e penhora"
+      ],
+      "relatedSlugs": ["bens-impenhораveis-lista-completa", "penhora-salario-limite-legal", "penhora-conta-bancaria-bloqueio"],
+      "faq": [
+        {"question": "INSS pode descontar da aposentadoria?", "answer": "Nao por penhora, mas pode por emprestimo consignado que voce tenha contratado."},
+        {"question": "Aposentadoria na conta pode ser bloqueada?", "answer": "Pode ser bloqueada inicialmente, mas deve ser liberada ao comprovar a origem."},
+        {"question": "Pensao por morte pode ser penhorada?", "answer": "Segue a mesma regra: impenhoravel, exceto para pensao alimenticia."}
+      ]
+    },
+    {
+      "slug": "como-contestar-penhora-salario",
+      "title": "Como Contestar Penhora de Salario?",
+      "h1": "Como Contestar Desconto de Salario por Penhora?",
+      "metaDescription": "Aprenda como contestar penhora de salario indevida, quais documentos apresentar e prazo para recurso.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "Para contestar penhora de salario, protocole peticao nos autos do processo anexando holerites, declaracao do empregador e extratos bancarios que comprovem que o valor e proveniente de salario.",
+      "bulletPoints": [
+        "Protocole peticao no processo",
+        "Anexe holerites dos ultimos 3 meses",
+        "Inclua declaracao do empregador",
+        "Junte extratos bancarios",
+        "Solicite urgencia (tutela de urgencia)"
+      ],
+      "relatedSlugs": ["penhora-salario-limite-legal", "como-desbloquear-conta-penhorada", "advogado-penhora-defesa"],
+      "faq": [
+        {"question": "Empresa pode se recusar a fornecer declaracao?", "answer": "Nao. A empresa deve fornecer declaracao de vinculo e remuneracao quando solicitado."},
+        {"question": "Holerite digital serve como prova?", "answer": "Sim. Holerites digitais tem a mesma validade dos impressos para fins de prova."},
+        {"question": "Quanto tempo demora a liberacao?", "answer": "Com pedido de urgencia, pode ser liberado em 24 a 72 horas. Sem urgencia, 5 a 15 dias."}
+      ]
+    },
+    {
+      "slug": "ordem-de-penhora-prioridade",
+      "title": "Ordem de Penhora: Qual a Prioridade Legal?",
+      "h1": "Qual a Ordem de Preferencia na Penhora de Bens?",
+      "metaDescription": "Conheca a ordem legal de preferencia para penhora de bens estabelecida pelo CPC e entenda como ela afeta sua defesa.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "O CPC estabelece uma ordem de preferencia para penhora: 1) dinheiro, 2) titulos de credito, 3) veiculos, 4) imoveis, 5) moveis, 6) acoes de empresas, 7) faturamento, 8) pedras e metais preciosos.",
+      "bulletPoints": [
+        "1. Dinheiro (em especie ou deposito)",
+        "2. Titulos de divida publica e creditos",
+        "3. Veiculos terrestres",
+        "4. Imoveis",
+        "5. Moveis em geral",
+        "6. Acoes e quotas de empresas",
+        "7. Percentual de faturamento",
+        "8. Pedras e metais preciosos"
+      ],
+      "relatedSlugs": ["tipos-de-penhora", "o-que-e-penhora", "como-recorrer-penhora"],
+      "faq": [
+        {"question": "Credor pode escolher o que penhorar?", "answer": "Nao livremente. Deve seguir a ordem legal, exceto se demonstrar que outro bem e mais liquido."},
+        {"question": "Posso oferecer bem fora da ordem?", "answer": "Sim. Voce pode nomear bem a penhora, mas o credor pode recusar se prejudicar a execucao."},
+        {"question": "Penhora de dinheiro e sempre primeiro?", "answer": "Sim. Dinheiro tem preferencia absoluta por ser o meio mais eficiente de satisfazer a divida."}
+      ]
+    },
+    {
+      "slug": "como-provar-bem-de-familia",
+      "title": "Como Provar Que Imovel e Bem de Familia?",
+      "h1": "Como Comprovar Que Meu Imovel e Bem de Familia?",
+      "metaDescription": "Aprenda como comprovar que seu imovel e bem de familia para evitar penhora. Documentos necessarios e procedimento.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "Para provar que seu imovel e bem de familia, apresente: comprovantes de residencia, contas de consumo, declaracao de IR, certidao de casamento/uniao estavel, e declaracao de que e o unico imovel da familia.",
+      "bulletPoints": [
+        "Comprovantes de residencia no endereco",
+        "Contas de luz, agua, gas em seu nome",
+        "Declaracao de Imposto de Renda",
+        "Certidao de estado civil",
+        "Declaracao de unico imovel residencial"
+      ],
+      "relatedSlugs": ["bem-de-familia-protecao", "excecoes-bem-de-familia", "penhora-imovel-como-funciona"],
+      "faq": [
+        {"question": "Preciso registrar o imovel como bem de familia?", "answer": "Nao. A protecao e automatica pela lei, sem necessidade de registro especifico."},
+        {"question": "Morar sozinho configura bem de familia?", "answer": "Sim. Pessoa solteira que mora sozinha tambem tem direito a protecao do bem de familia."},
+        {"question": "Imovel em nome de empresa e protegido?", "answer": "Nao. Imoveis de pessoa juridica nao tem protecao de bem de familia."}
+      ]
+    },
+    {
+      "slug": "divida-condominio-penhora-imovel",
+      "title": "Divida de Condominio: Pode Penhorar o Imovel?",
+      "h1": "Divida de Condominio Pode Levar a Penhora do Imovel?",
+      "metaDescription": "Saiba se divida de condominio pode penhorar seu imovel, mesmo sendo bem de familia, e como se defender.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "Sim. A divida de condominio e excecao a impenhorabilidade do bem de familia. O imovel pode ser penhorado e leiloado para pagar taxas condominiais em atraso, independentemente de ser residencia unica.",
+      "bulletPoints": [
+        "Condominio e excecao ao bem de familia",
+        "Imovel pode ser leiloado por divida",
+        "Nao ha valor minimo para execucao",
+        "Inclui multas e juros condominiais",
+        "Acordo pode suspender a execucao"
+      ],
+      "relatedSlugs": ["bem-de-familia-protecao", "excecoes-bem-de-familia", "penhora-imovel-como-funciona"],
+      "faq": [
+        {"question": "Condominio pode executar por qualquer valor?", "answer": "Sim. Nao ha valor minimo. Mesmo dividas pequenas podem gerar execucao e penhora."},
+        {"question": "Inquilino que nao paga afeta o proprietario?", "answer": "Sim. O proprietario e responsavel perante o condominio, mesmo que o inquilino deva pagar."},
+        {"question": "Posso parcelar divida de condominio?", "answer": "Sim. Acordos de parcelamento sao comuns e suspendem a execucao enquanto cumpridos."}
+      ]
+    },
+    {
+      "slug": "penhora-fgts-permitido",
+      "title": "Penhora de FGTS: E Permitido por Lei?",
+      "h1": "FGTS Pode Ser Penhorado?",
+      "metaDescription": "Descubra se o FGTS pode ser penhorado para pagar dividas, quais as excecoes e como proteger esse direito.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "O FGTS e impenhoravel por lei, exceto para pagamento de pensao alimenticia. Os valores depositados sao protegidos e nao podem ser bloqueados ou penhorados para pagar dividas civis ou comerciais.",
+      "bulletPoints": [
+        "FGTS e absolutamente impenhoravel",
+        "Unica excecao: pensao alimenticia",
+        "Protecao vale para saldo e saques futuros",
+        "Bloqueio de FGTS e ilegal",
+        "Decisao contraria pode ser revertida"
+      ],
+      "relatedSlugs": ["bens-impenhораveis-lista-completa", "penhora-salario-limite-legal", "penhora-aposentadoria-inss"],
+      "faq": [
+        {"question": "Saque de FGTS pode ser bloqueado?", "answer": "Apos o saque, o valor perde a protecao e pode ser penhorado se estiver em conta bancaria."},
+        {"question": "Multa de 40% do FGTS e penhoravel?", "answer": "Nao. A multa de 40% tem a mesma natureza do FGTS e e impenhoravel."},
+        {"question": "FGTS de conta inativa pode ser penhorado?", "answer": "Nao. Mesmo contas inativas mantem a impenhorabilidade enquanto os valores estiverem no fundo."}
+      ]
+    },
+    {
+      "slug": "penhora-investimentos-acoes",
+      "title": "Penhora de Investimentos: CDB, Acoes e Fundos",
+      "h1": "Investimentos Podem Ser Penhorados?",
+      "metaDescription": "Saiba se seus investimentos em CDB, acoes, fundos e criptomoedas podem ser penhorados e como funciona o processo.",
+      "cluster": "banking",
+      "intent": "informational",
+      "directAnswer": "Sim, investimentos podem ser penhorados. CDBs, acoes, fundos de investimento e criptomoedas sao bens passiveis de penhora. A excecao e a poupanca ate 40 salarios minimos, que e protegida por lei.",
+      "bulletPoints": [
+        "CDB e investimentos podem ser penhorados",
+        "Acoes e cotas de fundos sao penhораveis",
+        "Criptomoedas podem ser rastreadas e penhoradas",
+        "Poupanca ate 40 SM e impenhoravel",
+        "SISBAJUD acessa dados de corretoras"
+      ],
+      "relatedSlugs": ["penhora-online-sisbajud", "bens-impenhораveis-lista-completa", "penhora-conta-bancaria-bloqueio"],
+      "faq": [
+        {"question": "Bitcoin pode ser penhorado?", "answer": "Sim. Tribunais ja determinaram penhora de criptomoedas, que podem ser rastreadas e bloqueadas."},
+        {"question": "Tesouro Direto e penhoravel?", "answer": "Sim. Titulos publicos como Tesouro Direto podem ser penhorados normalmente."},
+        {"question": "Previdencia privada pode ser penhorada?", "answer": "Ha controversia. Alguns tribunais protegem como poupanca, outros permitem penhora."}
+      ]
+    },
+    {
+      "slug": "como-cancelar-leilao-judicial",
+      "title": "Como Cancelar Leilao Judicial? Opcoes Legais",
+      "h1": "Como Cancelar ou Suspender um Leilao Judicial?",
+      "metaDescription": "Aprenda como cancelar ou suspender leilao judicial de seus bens. Conheca as opcoes legais e prazos para agir.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "Para cancelar leilao judicial, voce pode: pagar a divida integralmente, fazer acordo com o credor, depositar o valor e impugnar, ou demonstrar irregularidades no processo que justifiquem a suspensao.",
+      "bulletPoints": [
+        "Pagamento integral da divida",
+        "Acordo homologado com o credor",
+        "Deposito judicial + impugnacao",
+        "Demonstrar nulidade no processo",
+        "Tutela de urgencia para suspensao"
+      ],
+      "relatedSlugs": ["leilao-judicial-como-funciona", "penhora-imovel-como-funciona", "como-recorrer-penhora"],
+      "faq": [
+        {"question": "Ate quando posso pagar para cancelar?", "answer": "Ate a assinatura do auto de arrematacao. Apos isso, so por anulacao judicial."},
+        {"question": "Acordo apos edital suspende leilao?", "answer": "Sim. Acordo homologado pelo juiz suspende imediatamente o leilao."},
+        {"question": "Posso anular leilao ja realizado?", "answer": "Apenas se houver vicio grave, como preco vil ou irregularidades no procedimento."}
+      ]
+    },
+    {
+      "slug": "penhora-empresa-pessoa-juridica",
+      "title": "Penhora de Empresa: Como Funciona para PJ?",
+      "h1": "Como Funciona a Penhora de Bens de Empresa?",
+      "metaDescription": "Entenda como funciona a penhora de bens de pessoa juridica, penhora de faturamento e responsabilidade dos socios.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "A penhora de empresa pode atingir: contas bancarias da PJ, veiculos, imoveis, maquinario, estoque e ate percentual do faturamento. Em casos graves, pode haver desconsideracao da personalidade juridica atingindo bens dos socios.",
+      "bulletPoints": [
+        "Contas bancarias da empresa",
+        "Veiculos e imoveis no CNPJ",
+        "Maquinas e equipamentos",
+        "Estoque de mercadorias",
+        "Percentual do faturamento (ate 30%)"
+      ],
+      "relatedSlugs": ["tipos-de-penhora", "o-que-e-penhora", "penhora-online-sisbajud"],
+      "faq": [
+        {"question": "Socio responde com bens pessoais?", "answer": "Normalmente nao, mas pode haver desconsideracao da personalidade juridica em casos de fraude."},
+        {"question": "Penhora de faturamento fecha a empresa?", "answer": "Nao necessariamente. O percentual e limitado para permitir a continuidade das operacoes."},
+        {"question": "Estoque parado pode ser penhorado?", "answer": "Sim. Mercadorias em estoque sao bens da empresa e podem ser penhoradas e leiloadas."}
+      ]
+    },
+    {
+      "slug": "diferenca-penhora-arresto-sequestro",
+      "title": "Diferenca Entre Penhora, Arresto e Sequestro",
+      "h1": "Qual a Diferenca Entre Penhora, Arresto e Sequestro?",
+      "metaDescription": "Entenda a diferenca entre penhora, arresto e sequestro de bens. Saiba quando cada medida e aplicada no processo judicial.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "Penhora e a apreensao de bens para pagamento de divida ja reconhecida. Arresto e medida cautelar para garantir futura penhora. Sequestro e a apreensao de bem especifico objeto de disputa judicial.",
+      "bulletPoints": [
+        "Penhora: apreensao definitiva para pagamento",
+        "Arresto: cautelar sobre bens indeterminados",
+        "Sequestro: cautelar sobre bem especifico",
+        "Arresto vira penhora apos sentenca",
+        "Sequestro visa garantir entrega do bem"
+      ],
+      "relatedSlugs": ["o-que-e-penhora", "tipos-de-penhora", "como-funciona-penhora-judicial"],
+      "faq": [
+        {"question": "Arresto pode virar penhora?", "answer": "Sim. Apos a sentenca, o arresto se converte automaticamente em penhora."},
+        {"question": "Quando ocorre sequestro?", "answer": "Quando ha disputa sobre propriedade de bem especifico, como em acoes possessorias."},
+        {"question": "Qual e mais grave?", "answer": "A penhora, pois e definitiva e visa a venda do bem para pagamento da divida."}
+      ]
+    },
+    {
+      "slug": "custas-honorarios-execucao",
+      "title": "Custas e Honorarios na Execucao: Quem Paga?",
+      "h1": "Quem Paga as Custas e Honorarios na Execucao?",
+      "metaDescription": "Entenda quem paga custas processuais e honorarios advocaticios na execucao judicial e quanto isso pode aumentar sua divida.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "O devedor paga todas as custas e honorarios na execucao. Os honorarios do advogado do credor sao de 10% a 20% do valor da divida. Quanto mais o processo avanca, mais custos sao agregados.",
+      "bulletPoints": [
+        "Devedor paga todas as custas",
+        "Honorarios: 10% a 20% da divida",
+        "Custas de oficial de justica",
+        "Custas de avaliacao e leilao",
+        "Taxa do leiloeiro (5%)"
+      ],
+      "relatedSlugs": ["como-funciona-penhora-judicial", "acordo-divida-judicial", "leilao-judicial-como-funciona"],
+      "faq": [
+        {"question": "Acordo reduz honorarios?", "answer": "Pode. Acordos no inicio do processo costumam ter reducao de honorarios."},
+        {"question": "Posso questionar honorarios altos?", "answer": "Sim. Honorarios excessivos podem ser impugnados e reduzidos pelo juiz."},
+        {"question": "Assistencia judiciaria cobre custas?", "answer": "Sim. Beneficiarios de justica gratuita nao pagam custas, mas continuam devendo honorarios."}
+      ]
+    },
+    {
+      "slug": "penhora-heranca-espolio",
+      "title": "Penhora de Heranca: Pode Penhorar Espolio?",
+      "h1": "Heranca Pode Ser Penhorada?",
+      "metaDescription": "Saiba se heranca pode ser penhorada, como funciona penhora de espolio e direitos dos herdeiros em processo de inventario.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "Sim, a heranca pode ser penhorada. Antes da partilha, credores podem penhorar direitos hereditarios do devedor sobre o espolio. Apos a partilha, os bens recebidos passam a integrar o patrimonio do herdeiro e podem ser penhorados normalmente.",
+      "bulletPoints": [
+        "Direitos sobre espolio podem ser penhorados",
+        "Penhora no rosto dos autos do inventario",
+        "Apos partilha, bens sao do herdeiro",
+        "Bem de familia continua protegido",
+        "Dividas do falecido limitam heranca"
+      ],
+      "relatedSlugs": ["o-que-e-penhora", "bens-impenhораveis-lista-completa", "bem-de-familia-protecao"],
+      "faq": [
+        {"question": "Credor pode cobrar do herdeiro?", "answer": "So ate o limite do que o herdeiro recebeu. Nao responde com patrimonio proprio."},
+        {"question": "Penhora atrasa o inventario?", "answer": "Pode atrasar, pois o juiz precisa garantir o direito do credor antes da partilha."},
+        {"question": "Posso renunciar heranca para evitar penhora?", "answer": "Renuncia para prejudicar credores pode ser anulada como fraude."}
+      ]
+    },
+    {
+      "slug": "penhora-pensao-alimenticia",
+      "title": "Penhora por Pensao Alimenticia: Regras Especiais",
+      "h1": "Como Funciona a Penhora por Divida de Pensao?",
+      "metaDescription": "Entenda as regras especiais de penhora por divida de pensao alimenticia, incluindo prisao civil e bens que podem ser penhorados.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "A penhora por pensao alimenticia tem regras especiais: pode atingir salario, FGTS, aposentadoria e bem de familia. Alem disso, o devedor pode ser preso civilmente por ate 3 meses se nao pagar.",
+      "bulletPoints": [
+        "Pode penhorar salario ate 50%",
+        "FGTS pode ser penhorado",
+        "Aposentadoria pode ser descontada",
+        "Bem de familia pode ser penhorado",
+        "Prisao civil de ate 3 meses"
+      ],
+      "relatedSlugs": ["bens-impenhораveis-lista-completa", "penhora-salario-limite-legal", "excecoes-bem-de-familia"],
+      "faq": [
+        {"question": "Prisao por pensao quita a divida?", "answer": "Nao. A prisao e coercitiva, mas a divida continua existindo e pode ser executada."},
+        {"question": "Pode penhorar carro por pensao?", "answer": "Sim. Veiculos podem ser penhorados normalmente em execucao de alimentos."},
+        {"question": "Acordo evita prisao?", "answer": "Sim. Acordo de pagamento homologado suspende a ordem de prisao."}
+      ]
+    },
+    {
+      "slug": "restricao-veicular-renavam",
+      "title": "Restricao Judicial no RENAVAM: O Que Significa?",
+      "h1": "O Que Significa Restricao Judicial no RENAVAM?",
+      "metaDescription": "Entenda o que significa restricao judicial no RENAVAM, como consultar e o que fazer para remover o bloqueio do veiculo.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "Restricao judicial no RENAVAM e um bloqueio determinado por juiz que impede a transferencia do veiculo. O bloqueio pode ser por penhora, arresto ou indisponibilidade de bens em processos judiciais.",
+      "bulletPoints": [
+        "Impede transferencia do veiculo",
+        "Pode ser por penhora ou arresto",
+        "Veiculo pode circular normalmente",
+        "Consulta pelo site do DETRAN",
+        "Remocao so com ordem judicial"
+      ],
+      "relatedSlugs": ["penhora-veiculo-carro", "tipos-de-penhora", "como-recorrer-penhora"],
+      "faq": [
+        {"question": "Posso vender carro com restricao?", "answer": "Nao. A restricao impede transferencia. Venda configura fraude a execucao."},
+        {"question": "Restricao afeta licenciamento?", "answer": "Nao. Voce pode licenciar e circular normalmente, mas nao pode vender."},
+        {"question": "Como tirar restricao judicial?", "answer": "Pagando a divida ou obtendo ordem judicial de liberacao no processo."}
+      ]
+    },
+    {
+      "slug": "indisponibilidade-bens-cnib",
+      "title": "Indisponibilidade de Bens: O Que e CNIB?",
+      "h1": "O Que e Indisponibilidade de Bens e CNIB?",
+      "metaDescription": "Entenda o que e indisponibilidade de bens, como funciona o CNIB e quando seus bens podem ficar bloqueados mesmo sem penhora.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "Indisponibilidade de bens e uma ordem judicial que impede qualquer movimentacao patrimonial. O CNIB (Central Nacional de Indisponibilidade de Bens) e o sistema que registra essas ordens, bloqueando imoveis em todo o Brasil.",
+      "bulletPoints": [
+        "Bloqueia todos os bens do devedor",
+        "CNIB registra indisponibilidade de imoveis",
+        "Impede venda, doacao ou oneração",
+        "Vale para imoveis em qualquer estado",
+        "Diferente de penhora (nao ha leilao)"
+      ],
+      "relatedSlugs": ["o-que-e-penhora", "penhora-imovel-como-funciona", "restricao-veicular-renavam"],
+      "faq": [
+        {"question": "CNIB bloqueia veiculo?", "answer": "Nao. O CNIB e so para imoveis. Veiculos sao bloqueados no RENAJUD."},
+        {"question": "Indisponibilidade e permanente?", "answer": "Nao. Dura ate o fim do processo ou ate ordem judicial de levantamento."},
+        {"question": "Posso hipotecar imovel indisponivel?", "answer": "Nao. Qualquer ato de disposicao e bloqueado pela indisponibilidade."}
+      ]
+    },
+    {
+      "slug": "defesa-execucao-embargos",
+      "title": "Defesa na Execucao: Embargos do Devedor",
+      "h1": "Como Funciona a Defesa por Embargos do Devedor?",
+      "metaDescription": "Entenda como funcionam os embargos do devedor, principal meio de defesa na execucao de titulo extrajudicial.",
+      "cluster": "defense",
+      "intent": "informational",
+      "directAnswer": "Embargos do devedor e a defesa principal contra execucao de titulo extrajudicial (cheques, notas promissorias, contratos). O prazo e 15 dias da penhora e permite contestar a validade da divida ou do titulo.",
+      "bulletPoints": [
+        "Prazo: 15 dias da juntada do mandado",
+        "Suspende execucao se houver garantia",
+        "Pode questionar validade do titulo",
+        "Permite alegar pagamento ou prescricao",
+        "Julgamento em sentenca"
+      ],
+      "relatedSlugs": ["como-recorrer-penhora", "impugnacao-cumprimento-sentenca", "advogado-penhora-defesa"],
+      "faq": [
+        {"question": "Embargos suspendem a execucao?", "answer": "Apenas se houver garantia do juizo (penhora) e pedido expresso de efeito suspensivo."},
+        {"question": "Posso embargar sem garantia?", "answer": "Pode, mas a execucao continua normalmente enquanto os embargos tramitam."},
+        {"question": "Embargos tem custas?", "answer": "Sim. E uma acao autonoma com custas proprias. Beneficiario de JG esta isento."}
+      ]
+    },
+    {
+      "slug": "impugnacao-cumprimento-sentenca",
+      "title": "Impugnacao ao Cumprimento de Sentenca: Guia Completo",
+      "h1": "Como Funciona a Impugnacao ao Cumprimento de Sentenca?",
+      "metaDescription": "Aprenda como fazer impugnacao ao cumprimento de sentenca, prazo, fundamentos e quando usar essa defesa.",
+      "cluster": "defense",
+      "intent": "informational",
+      "directAnswer": "Impugnacao ao cumprimento de sentenca e a defesa contra execucao de decisao judicial. O prazo e 15 dias da intimacao da penhora, e so pode alegar materias restritas como pagamento, prescricao ou excesso de execucao.",
+      "bulletPoints": [
+        "Prazo: 15 dias da intimacao",
+        "Materias limitadas pelo CPC",
+        "Pode alegar excesso de execucao",
+        "Nao suspende automaticamente",
+        "Decisao por decisao interlocutoria"
+      ],
+      "relatedSlugs": ["defesa-execucao-embargos", "como-recorrer-penhora", "como-funciona-penhora-judicial"],
+      "faq": [
+        {"question": "Qual a diferenca de embargos?", "answer": "Embargos sao para titulo extrajudicial, impugnacao para cumprimento de sentenca judicial."},
+        {"question": "Posso rediscutir o merito?", "answer": "Nao. A sentenca ja foi proferida. So cabe discutir a execucao em si."},
+        {"question": "Precisa de garantia do juizo?", "answer": "Nao e obrigatorio, mas ajuda a obter efeito suspensivo."}
+      ]
+    },
+    {
+      "slug": "excecao-pre-executividade",
+      "title": "Excecao de Pre-Executividade: Defesa Sem Penhora",
+      "h1": "O Que e Excecao de Pre-Executividade?",
+      "metaDescription": "Entenda o que e excecao de pre-executividade, quando usar essa defesa e quais materias podem ser alegadas sem garantia do juizo.",
+      "cluster": "defense",
+      "intent": "informational",
+      "directAnswer": "Excecao de pre-executividade e uma defesa simplificada que pode ser apresentada sem penhora, para questoes de ordem publica como prescricao, pagamento documentado, ilegitimidade ou nulidade evidente do titulo.",
+      "bulletPoints": [
+        "Nao exige garantia do juizo",
+        "Pode ser apresentada a qualquer tempo",
+        "Limitada a questoes de ordem publica",
+        "Prova deve ser documental",
+        "Decisao mais rapida que embargos"
+      ],
+      "relatedSlugs": ["defesa-execucao-embargos", "impugnacao-cumprimento-sentenca", "prescricao-divida-quando-caduca"],
+      "faq": [
+        {"question": "Quais materias cabem na excecao?", "answer": "Prescricao, pagamento documentado, ilegitimidade, incompetencia, nulidade do titulo."},
+        {"question": "Excecao substitui embargos?", "answer": "Nao. E complementar. Se a materia exigir prova complexa, deve usar embargos."},
+        {"question": "Tem prazo para excecao?", "answer": "Nao ha prazo especifico. Pode ser apresentada enquanto pendente a execucao."}
+      ]
+    },
+    {
+      "slug": "busca-e-apreensao-veiculo-financiado",
+      "title": "Busca e Apreensao de Veiculo Financiado: Como Funciona?",
+      "h1": "Como Funciona a Busca e Apreensao de Veiculo Financiado?",
+      "metaDescription": "Entenda como funciona a busca e apreensao de veiculo financiado, prazo de defesa e como evitar perder seu carro.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "Busca e apreensao e a acao do banco para retomar veiculo financiado com parcelas em atraso. O juiz pode determinar apreensao liminar, e o devedor tem 5 dias para pagar o total ou apresentar defesa.",
+      "bulletPoints": [
+        "Acao propria para alienacao fiduciaria",
+        "Apreensao pode ser liminar (sem audiencia)",
+        "Prazo de 5 dias para purgar a mora",
+        "Pagar integral libera o veiculo",
+        "Defesa pode questionar calculos e juros"
+      ],
+      "relatedSlugs": ["penhora-veiculo-carro", "como-evitar-penhora-bens", "advogado-penhora-defesa"],
+      "faq": [
+        {"question": "Quantas parcelas atrasadas geram busca?", "answer": "Nao ha minimo legal. Teoricamente, uma parcela ja permite a acao, mas bancos costumam esperar 3 ou mais."},
+        {"question": "Posso esconder o carro?", "answer": "Nao. Ocultar veiculo pode configurar crime de fraude e dificulta acordo."},
+        {"question": "Pagando atrasados recupero o carro?", "answer": "Dentro dos 5 dias, pagar integral (com juros e custas) libera o veiculo."}
+      ]
+    },
+    {
+      "slug": "alienacao-fiduciaria-diferenca-penhora",
+      "title": "Alienacao Fiduciaria x Penhora: Qual a Diferenca?",
+      "h1": "Qual a Diferenca Entre Alienacao Fiduciaria e Penhora?",
+      "metaDescription": "Entenda a diferenca entre alienacao fiduciaria e penhora, procedimentos distintos e como se defender em cada caso.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "Alienacao fiduciaria e garantia dada no financiamento onde o bem pertence ao credor ate a quitacao. Penhora e apreensao judicial de bens por divida. Na fiduciaria, o credor ja e dono; na penhora, precisa de processo.",
+      "bulletPoints": [
+        "Fiduciaria: bem e do credor ate quitacao",
+        "Penhora: apreensao judicial de bem proprio",
+        "Fiduciaria: busca e apreensao",
+        "Penhora: execucao judicial",
+        "Fiduciaria e mais rapida para o credor"
+      ],
+      "relatedSlugs": ["busca-e-apreensao-veiculo-financiado", "o-que-e-penhora", "penhora-veiculo-carro"],
+      "faq": [
+        {"question": "Carro financiado pode ter penhora?", "answer": "Sim, por outro credor. Mas o banco tem preferencia por ser proprietario fiduciario."},
+        {"question": "Qual processo e mais rapido?", "answer": "Busca e apreensao na fiduciaria e mais rapida que execucao com penhora."},
+        {"question": "Posso contestar alienacao fiduciaria?", "answer": "Sim. Pode questionar juros abusivos e calculos errados na contestacao."}
+      ]
+    },
+    {
+      "slug": "juros-abusivos-financiamento",
+      "title": "Juros Abusivos em Financiamento: Como Identificar?",
+      "h1": "Como Identificar Juros Abusivos no Financiamento?",
+      "metaDescription": "Aprenda a identificar juros abusivos em financiamento de veiculos e imoveis. Saiba quando e possivel revisar o contrato.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "Juros sao considerados abusivos quando excedem significativamente a taxa media de mercado divulgada pelo Banco Central. E possivel pedir revisao judicial do contrato para reducao dos juros a patamares legais.",
+      "bulletPoints": [
+        "Compare com taxa media do Banco Central",
+        "Juros acima do dobro podem ser abusivos",
+        "Revisao contratual e possivel",
+        "Reducao pode diminuir parcelas",
+        "Acao revisional nao suspende cobranca"
+      ],
+      "relatedSlugs": ["busca-e-apreensao-veiculo-financiado", "acordo-divida-judicial", "advogado-penhora-defesa"],
+      "faq": [
+        {"question": "Qual a taxa de juros permitida?", "answer": "Nao ha limite fixo. A referencia e a taxa media de mercado do Banco Central para o tipo de operacao."},
+        {"question": "Posso parar de pagar enquanto reviso?", "answer": "Nao e recomendado. Continue pagando ou deposite em juizo para evitar busca e apreensao."},
+        {"question": "Revisao pode anular o contrato?", "answer": "Nao. A revisao ajusta clausulas abusivas, mas mantem o contrato."}
+      ]
+    },
+    {
+      "slug": "divida-prescrita-pode-cobrar",
+      "title": "Divida Prescrita: Pode Ser Cobrada?",
+      "h1": "Divida Prescrita Ainda Pode Ser Cobrada?",
+      "metaDescription": "Descubra se divida prescrita pode ser cobrada, diferenca entre prescricao e caducidade, e seus direitos.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "Divida prescrita nao pode ser cobrada judicialmente, mas a divida continua existindo. Credores podem cobrar extrajudicialmente e manter negativacao ate 5 anos da inscricao. Pagamento voluntario e valido.",
+      "bulletPoints": [
+        "Prescricao impede cobranca judicial",
+        "Divida continua existindo",
+        "Cobranca extrajudicial e permitida",
+        "Negativacao: ate 5 anos da inscricao",
+        "Pagamento voluntario e valido"
+      ],
+      "relatedSlugs": ["prescricao-divida-quando-caduca", "nome-sujo-limpo-quando", "execucao-fiscal-como-funciona"],
+      "faq": [
+        {"question": "Devo pagar divida prescrita?", "answer": "Nao e obrigatorio. Mas se quiser limpar o nome mais rapido, pode negociar com desconto."},
+        {"question": "Prescricao limpa o nome?", "answer": "Nao automaticamente. A negativacao tem prazo proprio de 5 anos."},
+        {"question": "Podem me processar por divida prescrita?", "answer": "Podem, mas voce pode alegar prescricao e o processo sera extinto."}
+      ]
+    },
+    {
+      "slug": "como-limpar-nome-sujo",
+      "title": "Como Limpar Nome Sujo? Guia Passo a Passo",
+      "h1": "Como Limpar o Nome Sujo no SPC e Serasa?",
+      "metaDescription": "Aprenda como limpar seu nome sujo no SPC e Serasa. Passo a passo, negociacao de dividas e seus direitos.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "Para limpar o nome, voce pode: pagar a divida (exclusao em 5 dias), negociar acordo com desconto, aguardar 5 anos para exclusao automatica, ou questionar judicialmente se a inscricao for indevida.",
+      "bulletPoints": [
+        "Pagar divida: exclusao em 5 dias uteis",
+        "Negociar acordo com desconto",
+        "Aguardar 5 anos: exclusao automatica",
+        "Questionar inscricao indevida judicialmente",
+        "Feiroes de negociacao oferecem descontos"
+      ],
+      "relatedSlugs": ["nome-sujo-limpo-quando", "acordo-divida-judicial", "prescricao-divida-quando-caduca"],
+      "faq": [
+        {"question": "Quanto tempo para limpar apos pagar?", "answer": "O credor tem 5 dias uteis para solicitar exclusao apos confirmacao do pagamento."},
+  {"question": "Posso negociar desconto?", "answer": "Sim. Descontos de 50% a 90% sao comuns em feiroes e negociacoes diretas."},
+  {"question": "Nome limpo volta o credito?", "answer": "Gradualmente. O score melhora com o tempo e bom historico de pagamentos."}
+  ]
+  },
+  {
+    "slug": "defesa-contra-penhora",
+    "title": "Defesa Contra Penhora: Como Proteger Seus Bens Legalmente",
+    "h1": "Como Se Defender de Uma Penhora Judicial?",
+    "metaDescription": "Descubra como se defender de penhora de bens. Guia completo com estrategias legais, prazos e como proteger seu patrimonio. Consulta gratuita.",
+    "cluster": "defense",
+    "intent": "transactional",
+    "directAnswer": "Para se defender de uma penhora judicial, voce deve agir rapido: identifique o processo, verifique se os bens sao impenhораveis, apresente embargos ou impugnacao no prazo de 15 dias, e comprove a origem dos valores bloqueados.",
+    "bulletPoints": [
+      "1. Identifique o processo e o valor cobrado",
+      "2. Verifique quais bens sao impenhораveis por lei",
+      "3. Apresente defesa em ate 15 dias",
+      "4. Comprove origem de valores bloqueados",
+      "5. Busque acordo ou parcelamento se possivel"
+    ],
+    "relatedSlugs": ["como-desbloquear-conta-penhorada", "bens-impenhораveis-lista-completa", "como-evitar-penhora-judicial"],
+    "secondaryQuestion": {
+      "question": "Quais bens nao podem ser penhorados?",
+      "answer": "A lei protege: salario e aposentadoria, imovel residencial unico (bem de familia), poupanca ate 40 salarios minimos, ferramentas de trabalho, moveis essenciais e seguro de vida.",
+      "highlight": "A lei protege:"
+    },
+    "relatedQuestion": {
+      "question": "Qual o prazo para contestar uma penhora?",
+      "answer": "O prazo geral e de 15 dias apos a intimacao. Para bloqueio bancario, voce tem 5 dias. Nao perca esse prazo ou perdera o direito de defesa.",
+      "highlight": "O prazo geral e de 15 dias"
+    },
+    "legalCitation": {
+      "law": "Codigo de Processo Civil - Lei 13.105/2015",
+      "article": "Art. 917 - Embargos a Execucao",
+      "description": "Nos embargos a execucao, o executado podera alegar: I - inexequibilidade do titulo ou inexigibilidade da obrigacao; II - penhora incorreta ou avaliacao erronea; III - excesso de execucao ou cumulacao indevida de execucoes.",
+      "source": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    "realCase": {
+      "title": "Motorista de app recuperou veiculo penhorado",
+      "situation": "Carlos, motorista de aplicativo, teve seu carro (unico bem e ferramenta de trabalho) penhorado por divida de R$ 18.000 com banco.",
+      "solution": "Entramos com embargos demonstrando que o veiculo era instrumento essencial de trabalho e unica fonte de renda da familia (art. 833, V, CPC).",
+      "result": "Veiculo liberado da penhora - cliente voltou a trabalhar e negociou a divida",
+      "timeline": "23 dias"
+    },
+    "deepContent": {
+      "title": "A Verdade Sobre Penhora que Ninguem Te Conta",
+      "content": "Muita gente acha que perdeu tudo quando recebe uma intimacao de penhora. A verdade e que a maioria dos casos pode ser revertida ou minimizada com a estrategia certa. O problema e que o tempo joga contra voce: cada dia que passa e um dia a menos para reagir.",
+      "example": "Maria pensou que nao tinha o que fazer quando viu R$ 8.500 bloqueados na conta. Era todo seu salario. Em 48 horas, conseguimos a liberacao comprovando a natureza salarial dos valores.",
+      "tip": "Nunca ignore uma intimacao judicial. O silencio e interpretado como concordancia. Mesmo que voce nao tenha dinheiro para advogado, busque a Defensoria Publica ou orientacao gratuita.",
+      "warning": "O prazo de 15 dias e fatal. Depois dele, suas opcoes de defesa caem drasticamente. Aja hoje, nao amanha."
+    },
+    "scenarios": [
+      {"title": "Veiculo de trabalho penhorado", "description": "Seu carro que usa para trabalhar foi apreendido por oficial de justica.", "action": "Embargos urgentes comprovando ser instrumento de trabalho", "urgency": "high"},
+      {"title": "Conta bancaria zerada", "description": "Todo seu dinheiro foi bloqueado pelo SISBAJUD, incluindo salario.", "action": "Peticao de desbloqueio com holerite imediatamente", "urgency": "high"},
+      {"title": "Intimacao de penhora recebida", "description": "Voce foi citado para pagar em 3 dias ou terao bens penhorados.", "action": "Avaliar defesa e possibilidade de acordo", "urgency": "medium"},
+      {"title": "Imovel sob ameaca", "description": "Recebeu aviso de penhora sobre sua casa.", "action": "Verificar se e bem de familia e contestar", "urgency": "medium"}
+    ],
+    "faq": [
+      {"question": "A penhora pode ser anulada?", "answer": "Sim. Se houver erro processual, excesso de penhora ou bens impenhораveis, a penhora pode ser anulada total ou parcialmente."},
+      {"question": "Posso negociar depois da penhora?", "answer": "Sim, e muitas vezes e a melhor opcao. Credores costumam aceitar acordos mesmo apos a penhora para evitar custos do leilao."},
+      {"question": "Quanto custa se defender de penhora?", "answer": "Honorarios variam de R$ 2.000 a R$ 8.000, mas o retorno pode ser muito maior. Oferecemos consulta gratuita para avaliar seu caso."},
+      {"question": "Defensor publico pode me ajudar?", "answer": "Sim. Se voce comprovar que nao tem recursos, a Defensoria Publica pode atuar gratuitamente na sua defesa."},
+      {"question": "O que acontece se eu nao me defender?", "answer": "Seus bens serao avaliados e levados a leilao. O valor arrecadado pagara a divida, custas e honorarios. O saldo, se houver, sera devolvido."}
+    ]
+  },
+  {
+    "slug": "conta-bloqueada-o-que-fazer",
+    "title": "Conta Bloqueada Judicialmente: O Que Fazer Agora?",
+    "h1": "Minha Conta Foi Bloqueada: O Que Fazer?",
+    "metaDescription": "Conta bancaria bloqueada por ordem judicial? Descubra o que fazer imediatamente, como desbloquear valores e proteger seu salario. Atendimento 24h.",
+    "cluster": "defense",
+    "intent": "transactional",
+    "directAnswer": "Se sua conta foi bloqueada, aja imediatamente: identifique o processo que originou o bloqueio, separe comprovantes de salario e valores impenhораveis, e protocole peticao de desbloqueio. Salarios e poupanca ate 40 SM sao protegidos por lei.",
+    "bulletPoints": [
+      "1. Descubra qual processo bloqueou sua conta",
+      "2. Separe holerites e comprovantes de deposito",
+      "3. Identifique valores impenhораveis (salario, poupanca)",
+      "4. Protocole peticao de desbloqueio urgente",
+      "5. Acompanhe o processo ate liberacao"
+    ],
+    "relatedSlugs": ["penhora-conta-bancaria-bloqueio", "penhora-salario-limite-legal", "defesa-contra-penhora"],
+    "secondaryQuestion": {
+      "question": "Quanto tempo demora para desbloquear a conta?",
+      "answer": "Com documentacao correta, o desbloqueio pode ocorrer em 5 a 15 dias uteis. Em casos urgentes com pedido de tutela, pode ser em 24 a 48 horas.",
+      "highlight": "pode ocorrer em 5 a 15 dias uteis"
+    },
+    "relatedQuestion": {
+      "question": "Meu salario inteiro foi bloqueado. E legal?",
+      "answer": "Nao. O salario e 100% impenhoravel por lei (art. 833, IV, CPC). Se seu salario foi bloqueado, voce tem direito ao desbloqueio imediato comprovando a origem salarial.",
+      "highlight": "O salario e 100% impenhoravel"
+    },
+    "legalCitation": {
+      "law": "Codigo de Processo Civil - Lei 13.105/2015",
+      "article": "Art. 833, IV e X - Impenhorabilidade",
+      "description": "Sao absolutamente impenhораveis: IV - os vencimentos, subsidios, soldos, salarios, remuneracoes, proventos de aposentadoria; X - a quantia depositada em caderneta de poupanca, ate o limite de 40 salarios minimos.",
+      "source": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    "realCase": {
+      "title": "R$ 47.000 desbloqueados em 72 horas",
+      "situation": "Empresario teve R$ 47.000 bloqueados em varias contas. O valor incluia capital de giro e salarios de 8 funcionarios que seriam pagos no dia seguinte.",
+      "solution": "Peticao de urgencia demonstrando que o bloqueio inviabilizaria a empresa e prejudicaria 8 familias. Comprovamos origem empresarial dos valores.",
+      "result": "Juiz deferiu tutela de urgencia - R$ 47.000 desbloqueados em 72 horas",
+      "timeline": "3 dias"
+    },
+    "deepContent": {
+      "title": "Por Que Sua Conta Foi Bloqueada e Como Reagir",
+      "content": "O bloqueio acontece atraves do sistema SISBAJUD, que permite ao juiz congelar valores em qualquer banco do Brasil de forma instantanea. O sistema nao diferencia salario de outros valores - ele bloqueia tudo. Por isso, cabe a voce comprovar que os valores sao impenhораveis.",
+      "example": "Joao acordou com R$ 12.000 bloqueados. Entrou em panico. Mas R$ 8.000 eram salario e R$ 4.000 estavam na poupanca. Em 5 dias, conseguimos liberar os R$ 12.000 completos.",
+      "tip": "Mantenha sempre uma organizacao financeira clara. Conta separada para salario facilita muito a comprovacao em caso de bloqueio.",
+      "warning": "Nao espere o dinheiro 'aparecer' novamente. Bloqueios judiciais nao se resolvem sozinhos. Cada dia de inacao e um dia a mais sem seu dinheiro."
+    },
+    "scenarios": [
+      {"title": "Salario inteiro bloqueado", "description": "Seu salario caiu e foi todo bloqueado instantaneamente.", "action": "Peticao urgente com holerite - pode liberar em 48h", "urgency": "high"},
+      {"title": "Conta empresa bloqueada", "description": "Conta PJ com folha de pagamento foi bloqueada.", "action": "Demonstrar que bloqueio afeta terceiros inocentes", "urgency": "high"},
+      {"title": "Poupanca ate 40 SM bloqueada", "description": "Sua reserva de emergencia na poupanca foi bloqueada.", "action": "Comprovar limite legal de impenhorabilidade", "urgency": "medium"},
+      {"title": "Bloqueio parcial da conta", "description": "Parte do saldo foi bloqueado, mas voce precisa do resto.", "action": "Verificar se bloqueio excede o valor da divida", "urgency": "low"}
+    ],
+    "faq": [
+      {"question": "O banco avisa antes de bloquear?", "answer": "Nao. O bloqueio e feito de surpresa pelo sistema SISBAJUD para evitar que voce transfira os valores antes."},
+      {"question": "Posso usar a conta depois do bloqueio?", "answer": "Parcialmente. Voce pode receber depositos, mas os valores bloqueados ficam indisponiveis ate decisao judicial."},
+      {"question": "Bloqueio atinge todas as contas?", "answer": "Sim. O SISBAJUD consulta todos os bancos simultaneamente e bloqueia valores em todas as contas encontradas."},
+      {"question": "Posso abrir outra conta?", "answer": "Sim, mas novos valores depositados tambem podem ser bloqueados se a ordem judicial ainda estiver ativa."},
+      {"question": "E possivel desbloquear parcialmente?", "answer": "Sim. Voce pode pedir liberacao apenas dos valores impenhораveis, mantendo o restante bloqueado ate decisao final."}
+    ]
+  },
+  {
+    "slug": "como-evitar-penhora-judicial",
+    "title": "Como Evitar Penhora Judicial: 7 Estrategias Que Funcionam",
+    "h1": "Como Evitar Que Meus Bens Sejam Penhorados?",
+    "metaDescription": "Aprenda 7 estrategias legais para evitar penhora de bens. Proteja seu patrimonio, negocie dividas e evite perder seu carro ou casa. Consulta gratuita.",
+    "cluster": "defense",
+    "intent": "transactional",
+    "directAnswer": "Para evitar penhora judicial legalmente, voce deve: negociar acordo antes da execucao, oferecer bens de menor valor em garantia, comprovar impenhorabilidade, questionar valores abusivos, parcelar a divida ou buscar revisao do contrato.",
+    "bulletPoints": [
+      "1. Negocie acordo de pagamento com o credor",
+      "2. Questione juros abusivos e encargos ilegais",
+      "3. Comprove que bens sao impenhораveis",
+      "4. Ofereca bem de menor valor como garantia",
+      "5. Parcele a divida em ate 6x no processo",
+      "6. Proponha dao em pagamento",
+      "7. Busque revisao judicial do contrato"
+    ],
+    "relatedSlugs": ["defesa-contra-penhora", "bens-impenhораveis-lista-completa", "conta-bloqueada-o-que-fazer"],
+    "secondaryQuestion": {
+      "question": "Posso evitar penhora negociando a divida?",
+      "answer": "Sim, e a melhor opcao na maioria dos casos. Um acordo homologado judicialmente suspende a execucao imediatamente e libera bens ja penhorados. Credores costumam aceitar descontos de 30% a 60%.",
+      "highlight": "Sim, e a melhor opcao"
+    },
+    "relatedQuestion": {
+      "question": "Transferir bens evita a penhora?",
+      "answer": "Nao. Transferir bens apos a divida configura fraude a execucao, crime punivel com prisao. O juiz pode anular a transferencia e voce ainda responde criminalmente.",
+      "highlight": "Nao. Transferir bens apos a divida configura fraude"
+    },
+    "legalCitation": {
+      "law": "Codigo de Processo Civil - Lei 13.105/2015",
+      "article": "Art. 916 - Parcelamento da Divida",
+      "description": "O executado que atender a intimacao de pagamento, podera requerer o parcelamento da divida em ate 6 parcelas mensais, depositando 30% do valor e o restante em parcelas iguais.",
+      "source": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13105.htm"
+    },
+    "realCase": {
+      "title": "Familia salvou a casa de leilao com acordo",
+      "situation": "Divida de R$ 85.000 com banco levou a penhora do unico imovel da familia. Leilao estava marcado para 45 dias.",
+      "solution": "Negociamos acordo com desconto de 55%. Cliente pagou R$ 38.250 parcelado em 24x, suspendendo o leilao.",
+      "result": "Casa salva do leilao - familia mantem moradia e paga divida com desconto",
+      "timeline": "30 dias ate acordo"
+    },
+    "deepContent": {
+      "title": "A Estrategia Certa Para Cada Situacao",
+      "content": "Evitar penhora nao e sobre esconder bens ou fugir do problema. E sobre conhecer seus direitos e usar as ferramentas legais disponiveis. Muitas vezes, a propria divida pode ser questionada: juros abusivos, encargos ilegais, ou cobrancas indevidas podem reduzir drasticamente o valor cobrado.",
+      "example": "Pedro devia R$ 42.000 segundo o banco. Analisamos o contrato e descobrimos cobranca de juros compostos sobre juros (anatocismo). Conseguimos reduzir a divida para R$ 28.000 - uma economia de R$ 14.000.",
+      "tip": "Antes de aceitar qualquer cobranca, peca a planilha de calculo detalhada. Muitas vezes os bancos erram (ou 'erram') nos calculos. Isso pode ser sua arma de defesa.",
+      "warning": "Nunca transfira bens para familiares ou terceiros apos a divida. Alem de nao funcionar (o juiz anula), ainda configura crime de fraude a execucao."
+    },
+    "scenarios": [
+      {"title": "Cobranca judicial iniciada", "description": "Voce recebeu citacao para pagar divida em 3 dias.", "action": "Avaliar defesa ou propor acordo imediatamente", "urgency": "high"},
+      {"title": "Bens em risco de penhora", "description": "Credor ameaca penhorar seus bens se nao pagar.", "action": "Negociar acordo preventivo antes da execucao", "urgency": "medium"},
+      {"title": "Divida muito alta", "description": "O valor cobrado parece maior do que voce deve.", "action": "Solicitar planilha e revisar calculos", "urgency": "medium"},
+      {"title": "Sem recursos para pagar", "description": "Voce nao tem como pagar a divida integralmente.", "action": "Propor parcelamento ou dao em pagamento", "urgency": "medium"}
+    ],
+    "faq": [
+      {"question": "Esconder bens funciona?", "answer": "Nao. Sistemas como SISBAJUD e RENAJUD encontram bens em qualquer lugar do Brasil. E ainda configura crime de fraude."},
+      {"question": "Acordo suspende a penhora?", "answer": "Sim. Acordo homologado pelo juiz suspende a execucao imediatamente e pode liberar bens ja penhorados."},
+      {"question": "Posso propor pagar menos?", "answer": "Sim. E comum credores aceitarem descontos de 30% a 60% para encerrar o processo e evitar custos de leilao."},
+      {"question": "Parcelamento evita leilao?", "answer": "Sim. O parcelamento legal (art. 916, CPC) suspende a execucao enquanto as parcelas estiverem sendo pagas."},
+      {"question": "Quanto tempo tenho para evitar penhora?", "answer": "O ideal e agir antes da citacao. Apos citacao, voce tem 3 dias para pagar ou 15 dias para apresentar defesa."},
+      {"question": "Posso questionar o valor da divida?", "answer": "Sim. Juros abusivos, encargos ilegais e cobrancas indevidas podem ser contestados e reduzir significativamente o valor."}
+    ]
+  }
+  ],
+  "duvidas": [
+    {
+      "slug": "banco-pode-bloquear-conta-sem-aviso",
+      "title": "Banco Pode Bloquear Conta Sem Aviso?",
+      "h1": "Banco Pode Bloquear Minha Conta Sem Aviso Previo?",
+      "metaDescription": "Descubra se o banco pode bloquear sua conta sem aviso previo, quando isso acontece e quais sao seus direitos.",
+      "cluster": "banking",
+      "intent": "informational",
+      "directAnswer": "Sim, o banco pode bloquear sua conta sem aviso quando ha ordem judicial. O bloqueio pelo SISBAJUD e feito de surpresa para evitar que voce transfira os valores antes da penhora.",
+      "bulletPoints": [
+        "Bloqueio judicial nao tem aviso previo",
+        "SISBAJUD bloqueia instantaneamente",
+        "Banco nao pode avisar por lei",
+        "Voce descobre ao tentar movimentar",
+        "Pode contestar valores impenhоrаveis"
+      ],
+      "relatedSlugs": ["penhora-online-sisbajud", "conta-bloqueada-o-que-fazer", "como-desbloquear-conta-penhorada"],
+      "faq": [
+        {"question": "O banco e culpado pelo bloqueio?", "answer": "Nao. O banco apenas cumpre ordem judicial. A responsabilidade e do processo."},
+        {"question": "Posso processar o banco?", "answer": "Nao por cumprir ordem judicial. Pode questionar no processo que originou o bloqueio."},
+        {"question": "Como saber quem mandou bloquear?", "answer": "O extrato bancario indica o processo. Consulte o numero no site do tribunal."}
+      ]
+    },
+    {
+      "slug": "podem-penhorar-unico-imovel",
+      "title": "Podem Penhorar Meu Unico Imovel?",
+      "h1": "Podem Penhorar Minha Casa Se For o Unico Imovel?",
+      "metaDescription": "Descubra se podem penhorar seu unico imovel, quando a protecao do bem de familia se aplica e quais sao as excecoes.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "Em regra, nao. O imovel residencial unico da familia e protegido como bem de familia e nao pode ser penhorado. Porem, ha excecoes como divida do proprio imovel, condominio, pensao alimenticia e fianca de aluguel.",
+      "bulletPoints": [
+        "Bem de familia e protegido por lei",
+        "Protecao independe de registro",
+        "Excecoes: financiamento, condominio, pensao",
+        "Fianca de aluguel tambem e excecao",
+        "Devedor deve comprovar residencia"
+      ],
+      "relatedSlugs": ["bem-de-familia-protecao", "excecoes-bem-de-familia", "como-provar-bem-de-familia"],
+      "faq": [
+        {"question": "Imovel de alto valor e protegido?", "answer": "Sim. A lei nao estabelece limite de valor para a protecao."},
+        {"question": "Segundo imovel pode ser penhorado?", "answer": "Sim. Apenas o imovel de menor valor onde a familia reside e protegido."},
+        {"question": "Casa em nome do conjuge e protegida?", "answer": "Sim, se for a residencia da familia, mesmo em nome de apenas um dos conjuges."}
+      ]
+    },
+    {
+      "slug": "salario-pode-ser-penhorado",
+      "title": "Salario Pode Ser Penhorado?",
+      "h1": "Meu Salario Pode Ser Penhorado Para Pagar Dividas?",
+      "metaDescription": "Saiba se seu salario pode ser penhorado para pagar dividas, qual o limite legal e em quais situacoes o desconto e permitido.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "Em regra, o salario e impenhoravel. A excecao e a pensao alimenticia, que permite desconto de ate 50%. Para outras dividas, a jurisprudencia aceita penhora de ate 30% do que exceder o minimo para subsistencia.",
+      "bulletPoints": [
+        "Salario e protegido pelo CPC",
+        "Pensao alimenticia: ate 50%",
+        "Outras dividas: ate 30% do excedente",
+        "Salario minimo sempre protegido",
+        "Deposito em conta vira dinheiro comum"
+      ],
+      "relatedSlugs": ["penhora-salario-limite-legal", "como-contestar-penhora-salario", "bens-impenhоrаveis-lista-completa"],
+      "faq": [
+        {"question": "13o salario pode ser penhorado?", "answer": "Segue as mesmas regras do salario mensal quanto a impenhorabilidade."},
+        {"question": "FGTS e salario?", "answer": "Nao, mas tambem e impenhoravel, exceto para pensao alimenticia."},
+        {"question": "Ferias podem ser penhoradas?", "answer": "O terco constitucional de ferias segue regras do salario."}
+      ]
+    },
+    {
+      "slug": "pix-pode-ser-penhorado",
+      "title": "PIX Pode Ser Penhorado?",
+      "h1": "Dinheiro Recebido por PIX Pode Ser Penhorado?",
+      "metaDescription": "Descubra se dinheiro recebido por PIX pode ser penhorado, como funciona o bloqueio e como proteger valores impenhоrаveis.",
+      "cluster": "banking",
+      "intent": "informational",
+      "directAnswer": "Sim, valores recebidos por PIX podem ser penhorados se estiverem na conta no momento do bloqueio judicial. O meio de transferencia (PIX, TED, DOC) nao importa - o que vale e a origem do dinheiro.",
+      "bulletPoints": [
+        "PIX pode ser bloqueado na conta",
+        "Origem do valor determina protecao",
+        "Salario via PIX continua protegido",
+        "Deve comprovar natureza salarial",
+        "SISBAJUD nao diferencia tipo de transferencia"
+      ],
+      "relatedSlugs": ["penhora-online-sisbajud", "penhora-conta-bancaria-bloqueio", "penhora-salario-limite-legal"],
+      "faq": [
+        {"question": "Como provar que PIX e salario?", "answer": "Com holerite e extrato mostrando a transferencia do empregador."},
+        {"question": "PIX de pessoa fisica pode ser penhorado?", "answer": "Sim, se nao for proveniente de fonte impenhoravel como salario."},
+        {"question": "Chave PIX influencia na penhora?", "answer": "Nao. O tipo de chave (CPF, celular, email) nao afeta a penhora."}
+      ]
+    },
+    {
+      "slug": "carro-financiado-pode-ser-penhorado",
+      "title": "Carro Financiado Pode Ser Penhorado?",
+      "h1": "Meu Carro Financiado Pode Ser Penhorado Por Outra Divida?",
+      "metaDescription": "Descubra se carro financiado pode ser penhorado por outra divida, quem tem preferencia e como funciona a penhora.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "Sim, carro financiado pode ser penhorado por outra divida, mas o banco financiador tem preferencia. O credor que penhorar recebe apenas o que sobrar apos quitar o financiamento.",
+      "bulletPoints": [
+        "Carro financiado pode ser penhorado",
+        "Banco tem preferencia como credor",
+        "Valor do financiamento e descontado",
+        "Credor recebe apenas o saldo",
+        "Pode nao valer a pena para o credor"
+      ],
+      "relatedSlugs": ["penhora-veiculo-carro", "alienacao-fiduciaria-diferenca-penhora", "busca-e-apreensao-veiculo-financiado"],
+      "faq": [
+        {"question": "Banco pode impedir penhora por outro credor?", "answer": "Nao impedir, mas tem direito de receber primeiro na venda."},
+        {"question": "E se a divida do carro for maior que o valor?", "answer": "O credor que penhorou nao recebe nada, pois tudo vai para o banco."},
+        {"question": "Penhora afeta o financiamento?", "answer": "Nao diretamente. Voce continua devendo as parcelas normalmente."}
+      ]
+    },
+    {
+      "slug": "divida-trabalhista-penhora-casa",
+      "title": "Divida Trabalhista Pode Penhorar Minha Casa?",
+      "h1": "Divida Trabalhista Pode Penhorar Bem de Familia?",
+      "metaDescription": "Saiba se divida trabalhista pode penhorar sua casa, mesmo sendo bem de familia, e quando isso e permitido.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "Em regra, nao. Divida trabalhista comum nao penhora bem de familia. A excecao e quando a divida e com empregado domestico que trabalhou na propria residencia - neste caso, o imovel pode ser penhorado.",
+      "bulletPoints": [
+        "Divida trabalhista comum nao penhora casa",
+        "Excecao: empregado domestico",
+        "Domestico da casa pode penhorar",
+        "Outros empregados nao podem",
+        "Empresa responde com patrimonio proprio"
+      ],
+      "relatedSlugs": ["bem-de-familia-protecao", "excecoes-bem-de-familia", "bens-impenhоrаveis-lista-completa"],
+      "faq": [
+        {"question": "Ex-funcionario de empresa pode penhorar casa do dono?", "answer": "So com desconsideracao da personalidade juridica, que e excepcional."},
+        {"question": "Babá pode penhorar minha casa?", "answer": "Sim, se trabalhou na sua residencia como domestica e ha divida trabalhista."},
+        {"question": "Diarista pode penhorar casa?", "answer": "Depende. Se configurado vinculo de domestica, pode. Se autonoma, nao."}
+      ]
+    },
+    {
+      "slug": "quanto-tempo-processo-penhora",
+      "title": "Quanto Tempo Demora Um Processo de Penhora?",
+      "h1": "Quanto Tempo Demora Para Ocorrer Uma Penhora?",
+      "metaDescription": "Saiba quanto tempo demora um processo de penhora, prazos de cada fase e fatores que aceleram ou atrasam o procedimento.",
+      "cluster": "educational",
+      "intent": "informational",
+      "directAnswer": "A penhora online pode ocorrer em dias apos a citacao. Penhora de imoveis e veiculos leva de 2 a 6 meses. O processo completo ate leilao pode durar de 1 a 3 anos, dependendo de recursos e complexidade.",
+      "bulletPoints": [
+        "Penhora online: dias apos citacao",
+        "Penhora de veiculos: 2 a 4 meses",
+        "Penhora de imoveis: 3 a 6 meses",
+        "Ate leilao: 1 a 3 anos",
+        "Recursos podem estender prazos"
+      ],
+      "relatedSlugs": ["como-funciona-penhora-judicial", "leilao-judicial-como-funciona", "como-recorrer-penhora"],
+      "faq": [
+        {"question": "Acordo acelera o processo?", "answer": "Sim e nao. Acordo encerra a execucao, mas se descumprido, retoma de onde parou."},
+        {"question": "Recurso atrasa quanto?", "answer": "Cada recurso pode atrasar de 6 meses a 2 anos, dependendo do tribunal."},
+        {"question": "Posso pedir para acelerar?", "answer": "O credor pode pedir urgencia. O devedor geralmente prefere que demore."}
+      ]
+    },
+    {
+      "slug": "posso-vender-bem-antes-penhora",
+      "title": "Posso Vender Meus Bens Antes da Penhora?",
+      "h1": "Posso Vender Meus Bens Para Evitar Penhora?",
+      "metaDescription": "Descubra se pode vender seus bens antes da penhora, quando isso configura fraude e quais os riscos legais.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "Depende. Vender bens antes de existir processo judicial e licito. Porem, se ja existe acao ou se a venda reduz seu patrimonio a ponto de nao poder pagar a divida, pode configurar fraude a execucao.",
+      "bulletPoints": [
+        "Venda antes do processo e licita",
+        "Apos citacao, venda pode ser fraude",
+        "Fraude a execucao anula a venda",
+        "Comprador pode perder o bem",
+        "Crime: 6 meses a 2 anos de detencao"
+      ],
+      "relatedSlugs": ["fraude-execucao-consequencias", "o-que-e-penhora", "como-evitar-penhora-bens"],
+      "faq": [
+        {"question": "Vender para parente e fraude?", "answer": "A venda para parentes e mais facil de ser considerada simulada e anulada."},
+        {"question": "Como provar que venda foi legitima?", "answer": "Com documentos de pagamento, transferencia bancaria e data anterior ao processo."},
+        {"question": "Posso doar bens?", "answer": "Doacao durante processo e quase sempre considerada fraudulenta."}
+      ]
+    },
+    {
+      "slug": "penhora-afeta-score-credito",
+      "title": "Penhora Afeta Score de Credito?",
+      "h1": "Ter Bens Penhorados Afeta Meu Score de Credito?",
+      "metaDescription": "Descubra se penhora afeta seu score de credito, como isso impacta sua vida financeira e quando normaliza.",
+      "cluster": "banking",
+      "intent": "informational",
+      "directAnswer": "Indiretamente sim. A penhora em si nao aparece no score, mas o processo de execucao que a originou geralmente vem acompanhado de negativacao (SPC/Serasa), que reduz drasticamente o score.",
+      "bulletPoints": [
+        "Penhora em si nao aparece no score",
+        "Divida executada gera negativacao",
+        "Negativacao derruba o score",
+        "Processo publico pode ser consultado",
+        "Quitacao melhora score gradualmente"
+      ],
+      "relatedSlugs": ["nome-sujo-limpo-quando", "como-limpar-nome-sujo", "acordo-divida-judicial"],
+      "faq": [
+        {"question": "Penhora aparece em consulta de credito?", "answer": "Nao diretamente, mas a divida que originou a penhora sim."},
+        {"question": "Consigo emprestimo com penhora em andamento?", "answer": "Dificilmente. A negativacao e o processo em andamento prejudicam muito."},
+        {"question": "Quanto tempo para score normalizar?", "answer": "Apos quitacao e exclusao do nome, leva de 6 meses a 2 anos para recuperar."}
+      ]
+    },
+    {
+      "slug": "credor-pode-recusar-pagamento",
+      "title": "Credor Pode Recusar Meu Pagamento?",
+      "h1": "O Credor Pode Recusar Receber Meu Pagamento?",
+      "metaDescription": "Saiba se o credor pode recusar seu pagamento, quando isso acontece e o que fazer se a oferta for negada.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "O credor nao pode recusar pagamento integral da divida. Porem, pode recusar pagamento parcial ou acordo de parcelamento. Se recusar pagamento integral, voce pode fazer deposito judicial.",
+      "bulletPoints": [
+        "Pagamento integral nao pode ser recusado",
+        "Pagamento parcial pode ser recusado",
+        "Acordo depende de aceitacao mutua",
+        "Recusa injusta: deposito judicial",
+        "Consignacao em pagamento extingue divida"
+      ],
+      "relatedSlugs": ["acordo-divida-judicial", "parcelamento-divida-judicial", "como-desbloquear-conta-penhorada"],
+      "faq": [
+        {"question": "Como fazer deposito judicial?", "answer": "Atraves de peticao nos autos, depositando o valor integral em conta judicial."},
+        {"question": "Credor pode exigir pagamento em dinheiro?", "answer": "Nao. Pode pagar por transferencia, deposito ou cheque administrativo."},
+        {"question": "Pagamento parcial suspende execucao?", "answer": "Nao automaticamente. So acordo homologado suspende o processo."}
+      ]
+    },
+    {
+      "slug": "aposentado-pode-ter-bens-penhorados",
+      "title": "Aposentado Pode Ter Bens Penhorados?",
+      "h1": "Aposentado Pode Ter Bens Penhorados Por Dividas?",
+      "metaDescription": "Descubra se aposentado pode ter bens penhorados, quais protecoes existem e como proteger a aposentadoria.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "O aposentado pode ter bens penhorados normalmente, como qualquer pessoa. Porem, a aposentadoria em si (proventos do INSS) e impenhoravel, exceto para pensao alimenticia.",
+      "bulletPoints": [
+        "Bens do aposentado podem ser penhorados",
+        "Aposentadoria (proventos) e protegida",
+        "Excecao: pensao alimenticia",
+        "Bem de familia continua protegido",
+        "Imovel unico nao pode ser penhorado"
+      ],
+      "relatedSlugs": ["penhora-aposentadoria-inss", "bens-impenhоrаveis-lista-completa", "bem-de-familia-protecao"],
+      "faq": [
+        {"question": "Aposentadoria na conta pode ser bloqueada?", "answer": "Pode ser bloqueada inicialmente, mas deve ser liberada ao comprovar a origem."},
+        {"question": "Emprestimo consignado e penhora?", "answer": "Nao. Consignado e desconto autorizado, diferente de penhora judicial."},
+        {"question": "Pensao por morte pode ser penhorada?", "answer": "Segue a mesma regra: impenhoravel, exceto para pensao alimenticia."}
+      ]
+    },
+    {
+      "slug": "empresa-pode-descontar-salario-penhora",
+      "title": "Empresa Pode Descontar Salario Por Penhora?",
+      "h1": "Meu Empregador Pode Descontar Salario Por Penhora?",
+      "metaDescription": "Saiba se a empresa pode descontar seu salario por ordem de penhora, limites legais e como contestar descontos indevidos.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "A empresa so pode descontar salario por penhora se houver ordem judicial expressa determinando o desconto. Ainda assim, o salario e impenhoravel na maioria dos casos, exceto pensao alimenticia.",
+      "bulletPoints": [
+        "Desconto exige ordem judicial",
+        "Empresa deve comunicar ao funcionario",
+        "Salario e impenhoravel em regra",
+        "Pensao: ate 50% pode ser descontado",
+        "Outras dividas: casos excepcionais"
+      ],
+      "relatedSlugs": ["penhora-salario-limite-legal", "como-contestar-penhora-salario", "bens-impenhоrаveis-lista-completa"],
+      "faq": [
+        {"question": "Empresa pode ser punida por descontar sem ordem?", "answer": "Sim. Desconto indevido gera direito a restituicao e possivel dano moral."},
+        {"question": "Recebi ordem de penhora do salario, o que fazer?", "answer": "Conteste nos autos do processo, comprovando que os valores sao impenhоrаveis."},
+        {"question": "Posso pedir demissao para evitar desconto?", "answer": "Nao resolve. As verbas rescisorias tambem podem ser penhoradas."}
+      ]
+    },
+    {
+      "slug": "penhora-pode-ser-revertida",
+      "title": "Penhora Pode Ser Revertida?",
+      "h1": "Uma Penhora Ja Realizada Pode Ser Revertida?",
+      "metaDescription": "Descubra se uma penhora ja realizada pode ser revertida, em quais casos e como fazer para recuperar seus bens.",
+      "cluster": "defense",
+      "intent": "transactional",
+      "directAnswer": "Sim, a penhora pode ser revertida atraves de: pagamento da divida, acordo judicial, comprovacao de impenhorabilidade do bem, ou anulacao por vicio processual. Apos leilao, a reversao e muito dificil.",
+      "bulletPoints": [
+        "Pagamento integral libera o bem",
+        "Acordo homologado reverte penhora",
+        "Prova de impenhorabilidade anula",
+        "Vicio processual pode anular",
+        "Apos leilao, reversao e excepcional"
+      ],
+      "relatedSlugs": ["como-recorrer-penhora", "como-evitar-penhora-bens", "leilao-judicial-como-funciona"],
+      "faq": [
+        {"question": "Posso pedir substituicao do bem?", "answer": "Sim. Pode oferecer outro bem em substituicao, se o credor aceitar."},
+        {"question": "Quanto tempo para reverter?", "answer": "Depende do fundamento. Pagamento e imediato. Recurso pode levar meses."},
+        {"question": "Bem leiloado pode voltar?", "answer": "Apenas se o leilao for anulado por vicio grave, o que e raro."}
+      ]
+    },
+    {
+      "slug": "moro-aluguel-podem-penhorar-moveis",
+      "title": "Moro de Aluguel: Podem Penhorar Meus Moveis?",
+      "h1": "Se Moro de Aluguel, Podem Penhorar Meus Moveis?",
+      "metaDescription": "Descubra se seus moveis podem ser penhorados quando voce mora de aluguel e quais itens sao protegidos por lei.",
+      "cluster": "legal",
+      "intent": "informational",
+      "directAnswer": "Moveis e utensilios domesticos que guarnecem a residencia sao impenhоrаveis, independentemente de ser casa propria ou alugada. A protecao do bem de familia inclui os moveis essenciais.",
+      "bulletPoints": [
+        "Moveis essenciais sao protegidos",
+        "Vale para casa propria ou aluguel",
+        "Eletrodomesticos basicos incluidos",
+        "Itens de luxo podem ser penhorados",
+        "Cama, geladeira, fogao: protegidos"
+      ],
+      "relatedSlugs": ["bem-de-familia-protecao", "bens-impenhоrаveis-lista-completa", "o-que-e-penhora"],
+      "faq": [
+        {"question": "TV pode ser penhorada?", "answer": "Uma TV comum nao. TV de alto valor ou segunda TV pode ser considerada penhoravel."},
+        {"question": "Computador pode ser penhorado?", "answer": "Se for ferramenta de trabalho, nao. Se for apenas para lazer, pode."},
+        {"question": "Ar condicionado pode ser penhorado?", "answer": "Ha controversia. Em regioes muito quentes, tribunais tem protegido como essencial."}
+      ]
+    },
+    {
+      "slug": "posso-abrir-conta-com-penhora",
+      "title": "Posso Abrir Conta Bancaria Com Penhora em Andamento?",
+      "h1": "Posso Abrir Nova Conta Se Tenho Penhora?",
+      "metaDescription": "Saiba se pode abrir conta bancaria tendo penhora em andamento, riscos envolvidos e alternativas disponiveis.",
+      "cluster": "banking",
+      "intent": "informational",
+      "directAnswer": "Sim, voce pode abrir conta bancaria mesmo com penhora em andamento. Porem, o SISBAJUD pode localizar e bloquear valores na nova conta tambem, pois pesquisa em todos os bancos.",
+      "bulletPoints": [
+        "Abrir conta e um direito seu",
+        "SISBAJUD pesquisa todos os bancos",
+        "Nova conta tambem pode ser bloqueada",
+        "Conta salario pode ser opcao",
+        "Valores impenhоrаveis continuam protegidos"
+      ],
+      "relatedSlugs": ["penhora-online-sisbajud", "penhora-conta-bancaria-bloqueio", "penhora-salario-limite-legal"],
+      "faq": [
+        {"question": "Conta digital tambem e bloqueada?", "answer": "Sim. Nubank, Inter e outras fintechs estao no SISBAJUD."},
+        {"question": "Conta em banco diferente esta segura?", "answer": "Nao. O SISBAJUD pesquisa todas as instituicoes financeiras."},
+        {"question": "Conta conjunta pode ser bloqueada?", "answer": "Sim, na proporcao da sua parte. O co-titular pode pedir liberacao da parte dele."}
+      ]
+    }
+  ]
+}

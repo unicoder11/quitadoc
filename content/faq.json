@@ -1,0 +1,139 @@
+{
+  "faqs": [
+    {
+      "slug": "quanto-tempo-para-apreender-carro",
+      "question": "Quanto tempo o banco tem para apreender meu carro?",
+      "answer": "Após o ajuizamento da ação de busca e apreensão, o juiz pode conceder liminar em 24 a 72 horas. A partir daí, o oficial de justiça tem prazo para cumprir o mandado, geralmente 5 a 15 dias. Porém, você pode evitar a apreensão apresentando defesa com pedido de liminar suspendendo a ordem.",
+      "category": "busca-e-apreensao",
+      "relatedServices": ["busca-e-apreensao", "alienacao-fiduciaria"],
+      "keywords": ["prazo apreensão carro", "tempo busca apreensão", "quanto tempo banco apreender"],
+      "intent": "informational"
+    },
+    {
+      "slug": "posso-esconder-carro-busca-apreensao",
+      "question": "Posso esconder meu carro para evitar a busca e apreensão?",
+      "answer": "Não é recomendado. Esconder o veículo pode configurar crime de fraude contra credores ou frustração de execução. A melhor estratégia é contratar um advogado e apresentar defesa técnica, buscando suspender a ordem judicialmente de forma legal.",
+      "category": "busca-e-apreensao",
+      "relatedServices": ["busca-e-apreensao"],
+      "keywords": ["esconder carro busca apreensão", "ocultar veículo", "fugir busca apreensão"],
+      "intent": "informational"
+    },
+    {
+      "slug": "parcelas-atrasadas-busca-apreensao",
+      "question": "Quantas parcelas atrasadas para ter busca e apreensão?",
+      "answer": "Tecnicamente, uma única parcela atrasada já permite ao banco ajuizar busca e apreensão. Na prática, a maioria dos bancos espera 60 a 90 dias de atraso antes de entrar com a ação, após tentativas de cobrança extrajudicial e notificação.",
+      "category": "busca-e-apreensao",
+      "relatedServices": ["busca-e-apreensao", "revisao-contrato"],
+      "keywords": ["parcelas atrasadas busca apreensão", "quantas parcelas atraso", "mora financiamento"],
+      "intent": "informational"
+    },
+    {
+      "slug": "diferenca-busca-apreensao-penhora",
+      "question": "Qual a diferença entre busca e apreensão e penhora?",
+      "answer": "A busca e apreensão é específica para contratos com alienação fiduciária (como financiamentos de veículos), sendo mais rápida. A penhora ocorre em execuções comuns, onde qualquer bem pode ser penhorado para pagar dívida, sendo um processo mais demorado.",
+      "category": "busca-e-apreensao",
+      "relatedServices": ["busca-e-apreensao", "alienacao-fiduciaria"],
+      "keywords": ["diferença busca apreensão penhora", "penhora veículo", "alienação fiduciária penhora"],
+      "intent": "informational"
+    },
+    {
+      "slug": "taxa-juros-media-financiamento",
+      "question": "Qual a taxa de juros média para financiamento de veículos?",
+      "answer": "A taxa média varia conforme o período, mas em 2024 gira entre 1,5% a 2,5% ao mês para veículos novos e 2% a 3,5% ao mês para usados. Taxas muito acima desses valores podem ser consideradas abusivas pelo Código de Defesa do Consumidor.",
+      "category": "juros-abusivos",
+      "relatedServices": ["juros-abusivos", "revisao-contrato"],
+      "keywords": ["taxa juros média financiamento", "juros financiamento carro", "taxa média banco central"],
+      "intent": "informational"
+    },
+    {
+      "slug": "como-saber-juros-abusivos",
+      "question": "Como saber se estou pagando juros abusivos?",
+      "answer": "Compare sua taxa com a média do Banco Central para o mesmo período e modalidade (crédito para veículos). Se sua taxa for significativamente superior à média de mercado (geralmente acima de 30% da média), pode ser considerada abusiva conforme jurisprudência do STJ.",
+      "category": "juros-abusivos",
+      "relatedServices": ["juros-abusivos", "revisao-contrato"],
+      "keywords": ["identificar juros abusivos", "como saber juros altos", "calcular juros abusivos"],
+      "intent": "informational"
+    },
+    {
+      "slug": "tabela-price-juros-abusivos",
+      "question": "A Tabela Price tem juros abusivos?",
+      "answer": "A Tabela Price em si é um método de amortização legal. Porém, ela pode esconder anatocismo (juros sobre juros) ilegal. O importante é analisar se a taxa efetiva aplicada está dentro da média de mercado e se há capitalização mensal de juros não autorizada.",
+      "category": "juros-abusivos",
+      "relatedServices": ["juros-abusivos", "revisao-contrato"],
+      "keywords": ["tabela price abusiva", "anatocismo tabela price", "juros compostos financiamento"],
+      "intent": "informational"
+    },
+    {
+      "slug": "restituicao-juros-pagos",
+      "question": "Posso ter restituição dos juros já pagos?",
+      "answer": "Sim. Se comprovado que os juros cobrados foram abusivos, você tem direito à restituição em dobro dos valores pagos a mais, conforme o Código de Defesa do Consumidor. O recálculo considera a taxa média de mercado desde o início do contrato.",
+      "category": "juros-abusivos",
+      "relatedServices": ["juros-abusivos", "revisao-contrato"],
+      "keywords": ["restituição juros", "devolução juros pagos", "receber juros de volta"],
+      "intent": "transactional"
+    },
+    {
+      "slug": "tarifas-ilegais-financiamento",
+      "question": "Quais tarifas são ilegais em financiamento de veículos?",
+      "answer": "As principais tarifas consideradas ilegais ou abusivas são: TAC (Tarifa de Abertura de Crédito) após 2008, TEC, tarifa de emissão de boleto, seguro prestamista não contratado expressamente, e registro de contrato sem comprovação do serviço.",
+      "category": "revisao-contrato",
+      "relatedServices": ["revisao-contrato", "juros-abusivos"],
+      "keywords": ["tarifas ilegais financiamento", "TAC ilegal", "tarifas abusivas banco"],
+      "intent": "informational"
+    },
+    {
+      "slug": "revisar-contrato-quitado",
+      "question": "Posso revisar um contrato já quitado?",
+      "answer": "Sim, desde que não tenha prescrito. O prazo para ação revisional é de 10 anos a partir da assinatura do contrato. Mesmo quitado, você pode buscar restituição de valores pagos indevidamente por juros abusivos ou tarifas ilegais.",
+      "category": "revisao-contrato",
+      "relatedServices": ["revisao-contrato", "juros-abusivos"],
+      "keywords": ["revisar contrato quitado", "prazo revisão contrato", "prescrição revisão contratual"],
+      "intent": "informational"
+    },
+    {
+      "slug": "venda-carro-financiado",
+      "question": "Posso vender um carro que ainda está financiado?",
+      "answer": "Sim, mas é necessário quitar o financiamento ou transferir a dívida para o comprador com autorização do banco. A venda particular com repasse de parcelas, sem transferência formal, é arriscada e pode gerar problemas para ambas as partes.",
+      "category": "revisao-contrato",
+      "relatedServices": ["alienacao-fiduciaria", "revisao-contrato"],
+      "keywords": ["vender carro financiado", "transferir financiamento", "repasse carro financiado"],
+      "intent": "informational"
+    },
+    {
+      "slug": "negativacao-sem-aviso",
+      "question": "Podem negativar meu nome sem me avisar?",
+      "answer": "Não. A Lei 12.414/2011 exige notificação prévia antes da inclusão do nome em cadastros restritivos como SPC e Serasa. A ausência de notificação torna a negativação irregular, gerando direito a indenização por danos morais.",
+      "category": "negativacao-indevida",
+      "relatedServices": ["negativacao-indevida"],
+      "keywords": ["negativação sem aviso", "SPC sem notificar", "Serasa sem comunicar"],
+      "intent": "informational"
+    },
+    {
+      "slug": "tempo-nome-sujo",
+      "question": "Quanto tempo meu nome pode ficar sujo?",
+      "answer": "No máximo 5 anos, conforme o Código de Defesa do Consumidor. Após esse prazo, a negativação deve ser removida automaticamente, mesmo que a dívida não tenha sido paga. Porém, a dívida em si não prescreve necessariamente.",
+      "category": "negativacao-indevida",
+      "relatedServices": ["negativacao-indevida"],
+      "keywords": ["tempo nome sujo", "prazo negativação", "quanto tempo SPC Serasa"],
+      "intent": "informational"
+    },
+    {
+      "slug": "indenizacao-negativacao-indevida-valor",
+      "question": "Qual o valor de indenização por negativação indevida?",
+      "answer": "Os valores variam conforme o caso, mas a jurisprudência brasileira costuma fixar entre R$ 5.000 e R$ 20.000 para danos morais por negativação indevida. Casos com danos materiais comprovados podem ter valores maiores.",
+      "category": "negativacao-indevida",
+      "relatedServices": ["negativacao-indevida"],
+      "keywords": ["indenização negativação indevida", "valor danos morais SPC", "quanto recebo negativação"],
+      "intent": "transactional"
+    },
+    {
+      "slug": "defesa-leilao-extrajudicial",
+      "question": "Como me defender de um leilão extrajudicial?",
+      "answer": "Você pode solicitar medida cautelar para suspender o leilão, demonstrando irregularidades como falta de notificação, avaliação incorreta do bem, ou vícios no procedimento. É essencial agir rapidamente, preferencialmente antes da data marcada.",
+      "category": "leilao-veiculo",
+      "relatedServices": ["leilao-veiculo", "busca-e-apreensao"],
+      "keywords": ["defesa leilão extrajudicial", "suspender leilão carro", "impedir leilão veículo"],
+      "intent": "transactional"
+    }
+  ]
+}

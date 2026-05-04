@@ -1,0 +1,72 @@
+{
+  "name": "Quitadoc",
+  "legal_name": "Quitadoc Servicos Juridicos",
+  "tagline": "Especialistas em Cancelamento de Busca e Apreensao de Veiculos",
+  "description": "A Quitadoc e uma empresa brasileira especializada em defesa veicular. Atuamos em todo o Brasil protegendo os direitos de proprietarios de veiculos financiados que enfrentam apreensao, juros abusivos e clausulas contratuais abusivas. Com mais de 5 anos de experiencia e 87% de taxa de sucesso, oferecemos consultoria juridica especializada com modelo de success fee (voce so paga se ganhar).",
+  "url": "https://www.quitadoc.com.br",
+  "language": "pt-BR",
+  "country": "BR",
+  "industry": "Legal Services",
+  "category": "Vehicle Defense Law",
+  "founded": "2020",
+  "contact": {
+    "phone": "+5511925332215",
+    "phone_display": "(11) 92533-2215",
+    "whatsapp": "https://wa.me/5511925332215",
+    "email": "contato@quitadoc.com.br"
+  },
+  "social_profiles": {
+    "facebook": "https://www.facebook.com/quitadoc",
+    "instagram": "https://www.instagram.com/quitadoc",
+    "linkedin": "https://www.linkedin.com/company/quitadoc"
+  },
+  "key_metrics": {
+    "success_rate": "87%",
+    "clients_served": "1200+",
+    "response_time": "2 hours",
+    "pricing_model": "Success fee 10%"
+  },
+  "services": [
+    {
+      "name": "Cancelamento de Busca e Apreensao",
+      "slug": "cancelar-busca-apreensao",
+      "description": "Defesa especializada para impedir ou reverter a apreensao do seu veiculo financiado"
+    },
+    {
+      "name": "Defesa em Alienacao Fiduciaria",
+      "slug": "defesa-alienacao-fiduciaria",
+      "description": "Protecao juridica em contratos de alienacao fiduciaria com clausulas abusivas"
+    },
+    {
+      "name": "Revisao de Contrato de Financiamento",
+      "slug": "revisao-contrato-financiamento",
+      "description": "Analise e revisao de contratos de financiamento para identificar abusos"
+    },
+    {
+      "name": "Reducao de Juros Abusivos",
+      "slug": "reducao-juros-abusivos",
+      "description": "Acao revisional para reduzir juros abusivos e taxas ilegais"
+    },
+    {
+      "name": "Contestacao de Leilao de Veiculo",
+      "slug": "contestacao-leilao-veiculo",
+      "description": "Defesa para impedir ou anular leilao de veiculo irregular"
+    }
+  ],
+  "coverage": {
+    "type": "National",
+    "countries": ["Brasil"],
+    "states": ["Todos os estados brasileiros"]
+  },
+  "keywords": [
+    "busca e apreensao",
+    "cancelar apreensao veiculo",
+    "alienacao fiduciaria",
+    "revisao contrato financiamento",
+    "juros abusivos",
+    "defesa veicular",
+    "advogado financiamento",
+    "leilao veiculo"
+  ],
+  "last_updated": "2026-04-20"
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Quitadoc - Blog sobre Defesa Veicular</title>
+    <description>Artigos sobre cancelamento de busca e apreensao, alienacao fiduciaria, revisao de contratos, juros abusivos e direitos do consumidor em financiamentos de veiculos.</description>
+    <link>https://www.quitadoc.com.br/blog</link>
+    <atom:link href="https://www.quitadoc.com.br/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>pt-BR</language>
+    <lastBuildDate>Sun, 20 Apr 2026 00:00:00 GMT</lastBuildDate>
+    <managingEditor>contato@quitadoc.com.br (Quitadoc)</managingEditor>
+    <webMaster>contato@quitadoc.com.br (Quitadoc)</webMaster>
+    <copyright>Copyright 2026 Quitadoc. Todos os direitos reservados.</copyright>
+    <category>Direito do Consumidor</category>
+    <category>Defesa Veicular</category>
+    <category>Financiamento de Veiculos</category>
+    <image>
+      <url>https://www.quitadoc.com.br/logo.png</url>
+      <title>Quitadoc</title>
+      <link>https://www.quitadoc.com.br</link>
+    </image>
+    
+    <item>
+      <title>O que e Busca e Apreensao de Veiculo? Guia Completo 2026</title>
+      <link>https://www.quitadoc.com.br/blog/o-que-e-busca-e-apreensao</link>
+      <guid isPermaLink="true">https://www.quitadoc.com.br/blog/o-que-e-busca-e-apreensao</guid>
+      <description>Entenda o que e busca e apreensao, como funciona o processo judicial, quais sao seus direitos e como se defender para nao perder seu veiculo financiado.</description>
+      <pubDate>Mon, 15 Apr 2026 00:00:00 GMT</pubDate>
+      <category>Busca e Apreensao</category>
+    </item>
+    
+    <item>
+      <title>Juros Abusivos no Financiamento: Como Identificar e Combater</title>
+      <link>https://www.quitadoc.com.br/blog/juros-abusivos-cdc</link>
+      <guid isPermaLink="true">https://www.quitadoc.com.br/blog/juros-abusivos-cdc</guid>
+      <description>Aprenda a identificar juros abusivos no seu financiamento de veiculo e saiba como entrar com acao revisional para reduzir sua divida.</description>
+      <pubDate>Sun, 10 Apr 2026 00:00:00 GMT</pubDate>
+      <category>Juros Abusivos</category>
+    </item>
+    
+    <item>
+      <title>Direitos do Devedor em Financiamento de Veiculo</title>
+      <link>https://www.quitadoc.com.br/blog/direitos-devedor-financiamento</link>
+      <guid isPermaLink="true">https://www.quitadoc.com.br/blog/direitos-devedor-financiamento</guid>
+      <description>Conheca todos os direitos que voce tem como devedor de financiamento de veiculo, mesmo em caso de inadimplencia.</description>
+      <pubDate>Fri, 05 Apr 2026 00:00:00 GMT</pubDate>
+      <category>Direitos do Consumidor</category>
+    </item>
+    
+    <item>
+      <title>Como Evitar o Leilao do Seu Veiculo Financiado</title>
+      <link>https://www.quitadoc.com.br/blog/como-evitar-leilao-veiculo</link>
+      <guid isPermaLink="true">https://www.quitadoc.com.br/blog/como-evitar-leilao-veiculo</guid>
+      <description>Estrategias juridicas para impedir o leilao do seu veiculo apos a apreensao. Prazos, requisitos e como agir rapidamente.</description>
+      <pubDate>Mon, 01 Apr 2026 00:00:00 GMT</pubDate>
+      <category>Leilao</category>
+    </item>
+    
+    <item>
+      <title>Prazo de Defesa em Busca e Apreensao: Nao Perca Seu Direito</title>
+      <link>https://www.quitadoc.com.br/blog/prazo-defesa-busca-apreensao</link>
+      <guid isPermaLink="true">https://www.quitadoc.com.br/blog/prazo-defesa-busca-apreensao</guid>
+      <description>Saiba quais sao os prazos para se defender em uma acao de busca e apreensao e como nao perder a oportunidade de proteger seu veiculo.</description>
+      <pubDate>Wed, 27 Mar 2026 00:00:00 GMT</pubDate>
+      <category>Prazos Judiciais</category>
+    </item>
+    
+    <item>
+      <title>Anatocismo e Juros Compostos: O Que Sao e Como Combater</title>
+      <link>https://www.quitadoc.com.br/blog/anatocismo-juros-compostos</link>
+      <guid isPermaLink="true">https://www.quitadoc.com.br/blog/anatocismo-juros-compostos</guid>
+      <description>Entenda o que e anatocismo, como os juros compostos afetam seu financiamento e como questionar essa pratica judicialmente.</description>
+      <pubDate>Sat, 22 Mar 2026 00:00:00 GMT</pubDate>
+      <category>Juros Abusivos</category>
+    </item>
+    
+    <item>
+      <title>Diferenca entre Penhora e Execucao Civil</title>
+      <link>https://www.quitadoc.com.br/blog/diferenca-penhora-execucao-civil</link>
+      <guid isPermaLink="true">https://www.quitadoc.com.br/blog/diferenca-penhora-execucao-civil</guid>
+      <description>Entenda a diferenca entre penhora e busca e apreensao, e saiba como se defender em cada tipo de processo.</description>
+      <pubDate>Mon, 17 Mar 2026 00:00:00 GMT</pubDate>
+      <category>Processo Civil</category>
+    </item>
+    
+    <item>
+      <title>Contestacao de Leilao de Veiculo: Procedimento e Requisitos</title>
+      <link>https://www.quitadoc.com.br/blog/contestacao-leilao-procedimento</link>
+      <guid isPermaLink="true">https://www.quitadoc.com.br/blog/contestacao-leilao-procedimento</guid>
+      <description>Guia completo sobre como contestar um leilao de veiculo, quais irregularidades podem ser alegadas e como anular a venda.</description>
+      <pubDate>Wed, 12 Mar 2026 00:00:00 GMT</pubDate>
+      <category>Leilao</category>
+    </item>
+    
+    <item>
+      <title>Revisao Judicial de Financiamento: O Que Voce Precisa Saber</title>
+      <link>https://www.quitadoc.com.br/blog/revisao-judicial-financiamento-cdc</link>
+      <guid isPermaLink="true">https://www.quitadoc.com.br/blog/revisao-judicial-financiamento-cdc</guid>
+      <description>Saiba como funciona a acao revisional de contrato de financiamento e quando vale a pena entrar na justica.</description>
+      <pubDate>Fri, 07 Mar 2026 00:00:00 GMT</pubDate>
+      <category>Revisao Contratual</category>
+    </item>
+  </channel>
+</rss>

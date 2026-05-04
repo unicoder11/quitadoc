@@ -1,0 +1,124 @@
+{
+  "posts": [
+    {
+      "slug": "o-que-e-busca-e-apreensao",
+      "title": "O que é Busca e Apreensão de Veículos: Guia Completo 2026",
+      "excerpt": "Entenda o que é busca e apreensão, como funciona o processo judicial e quais são seus direitos como devedor de financiamento de veículos.",
+      "category": "busca-e-apreensao",
+      "author": "Equipe Quitadoc",
+      "publishedAt": "2026-01-15",
+      "updatedAt": "2026-04-10",
+      "readTime": 12,
+      "featured": true,
+      "keywords": ["busca e apreensão", "o que é busca e apreensão", "processo busca apreensão"]
+    },
+    {
+      "slug": "direitos-devedor-financiamento",
+      "title": "Direitos do Devedor em Financiamento de Veículos",
+      "excerpt": "Conheça todos os direitos garantidos por lei ao devedor de financiamento de veículos, mesmo em casos de inadimplência.",
+      "category": "revisao-contrato",
+      "author": "Equipe Quitadoc",
+      "publishedAt": "2026-01-20",
+      "updatedAt": "2026-04-05",
+      "readTime": 10,
+      "featured": true,
+      "keywords": ["direitos devedor", "financiamento veículos", "CDC financiamento"]
+    },
+    {
+      "slug": "como-evitar-leilao-veiculo",
+      "title": "Como Evitar o Leilão do Seu Veículo Financiado",
+      "excerpt": "Estratégias jurídicas e práticas para impedir que seu veículo seja leiloado após busca e apreensão.",
+      "category": "busca-e-apreensao",
+      "author": "Equipe Quitadoc",
+      "publishedAt": "2026-02-05",
+      "updatedAt": "2026-04-01",
+      "readTime": 8,
+      "featured": false,
+      "keywords": ["evitar leilão veículo", "impedir leilão carro", "leilão financiamento"]
+    },
+    {
+      "slug": "juros-abusivos-cdc",
+      "title": "Juros Abusivos e o Código de Defesa do Consumidor",
+      "excerpt": "Como o CDC protege o consumidor contra juros abusivos em financiamentos e como exercer seus direitos.",
+      "category": "juros-abusivos",
+      "author": "Equipe Quitadoc",
+      "publishedAt": "2026-02-15",
+      "updatedAt": "2026-03-28",
+      "readTime": 11,
+      "featured": true,
+      "keywords": ["juros abusivos CDC", "código defesa consumidor", "juros financiamento"]
+    },
+    {
+      "slug": "prazo-defesa-busca-apreensao",
+      "title": "Prazos para Defesa em Busca e Apreensão: O Que Você Precisa Saber",
+      "excerpt": "Entenda os prazos processuais em ações de busca e apreensão e como agir rapidamente para proteger seu veículo.",
+      "category": "busca-e-apreensao",
+      "author": "Equipe Quitadoc",
+      "publishedAt": "2026-02-28",
+      "updatedAt": "2026-03-25",
+      "readTime": 7,
+      "featured": false,
+      "keywords": ["prazo defesa busca apreensão", "prazos processuais", "contestação busca apreensão"]
+    },
+    {
+      "slug": "como-calcular-juros-abusivos",
+      "title": "Como Calcular se Seus Juros São Abusivos",
+      "excerpt": "Passo a passo para identificar e calcular se você está pagando juros acima da média de mercado.",
+      "category": "juros-abusivos",
+      "author": "Equipe Quitadoc",
+      "publishedAt": "2026-03-05",
+      "updatedAt": "2026-04-08",
+      "readTime": 9,
+      "featured": false,
+      "keywords": ["calcular juros abusivos", "taxa média mercado", "juros financiamento carro"]
+    },
+    {
+      "slug": "negativacao-indevida-o-que-fazer",
+      "title": "Negativação Indevida: O Que Fazer e Como Ser Indenizado",
+      "excerpt": "Guia completo sobre negativação indevida: como identificar, o que fazer e como buscar indenização.",
+      "category": "negativacao-indevida",
+      "author": "Equipe Quitadoc",
+      "publishedAt": "2026-03-12",
+      "updatedAt": "2026-04-10",
+      "readTime": 10,
+      "featured": true,
+      "keywords": ["negativação indevida", "nome sujo indevido", "indenização SPC Serasa"]
+    },
+    {
+      "slug": "tarifas-bancarias-ilegais",
+      "title": "Tarifas Bancárias Ilegais em Financiamentos",
+      "excerpt": "Conheça as tarifas que os bancos cobram ilegalmente e como solicitar a devolução dos valores.",
+      "category": "revisao-contrato",
+      "author": "Equipe Quitadoc",
+      "publishedAt": "2026-03-20",
+      "updatedAt": "2026-04-05",
+      "readTime": 8,
+      "featured": false,
+      "keywords": ["tarifas bancárias ilegais", "TAC ilegal", "TEC financiamento"]
+    },
+    {
+      "slug": "alienacao-fiduciaria-entenda",
+      "title": "Alienação Fiduciária: Entenda o Que é e Seus Direitos",
+      "excerpt": "Tudo sobre alienação fiduciária em financiamentos de veículos e como ela afeta seus direitos.",
+      "category": "busca-e-apreensao",
+      "author": "Equipe Quitadoc",
+      "publishedAt": "2026-03-28",
+      "updatedAt": "2026-04-12",
+      "readTime": 9,
+      "featured": false,
+      "keywords": ["alienação fiduciária", "garantia veículo", "financiamento alienação"]
+    },
+    {
+      "slug": "renegociacao-divida-financiamento",
+      "title": "Como Renegociar Dívida de Financiamento de Veículo",
+      "excerpt": "Estratégias eficazes para renegociar sua dívida de financiamento e evitar a busca e apreensão.",
+      "category": "revisao-contrato",
+      "author": "Equipe Quitadoc",
+      "publishedAt": "2026-04-02",
+      "updatedAt": "2026-04-14",
+      "readTime": 7,
+      "featured": false,
+      "keywords": ["renegociar dívida financiamento", "acordo financiamento", "negociar parcelas"]
+    }
+  ]
+}

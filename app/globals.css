@@ -1,0 +1,182 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+/* Critical CSS - Inline para FCP otimizado */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Lazy Loading & Performance */
+@layer utilities {
+  .lazy-load {
+    animation: fadeIn 0.3s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  /* Placeholder blur effect */
+  .blur-placeholder {
+    background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+  
+  @keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+  
+  /* Image optimization */
+  img {
+    decoding: async;
+  }
+  
+  /* Reduce motion for performance */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Quitadoc Brand Colors */
+  --background: #F9FAFB;
+  --foreground: #111827;
+  
+  /* Primary - Azul RGB(0,87,231) */
+  --primary: #0057E7;
+  --primary-light: #3B7EE6;
+  --primary-dark: #003BA8;
+  --primary-foreground: #FFFFFF;
+  
+  /* Accent - Amarelo RGB(255,167,0) */
+  --accent: #FFA700;
+  --accent-light: #FFB833;
+  --accent-foreground: #0F1D2F;
+  
+  /* Success - Verde RGB(0,135,68) */
+  --success: #008744;
+  --success-foreground: #FFFFFF;
+  
+  /* Warning/Destructive - Vermelho */
+  --destructive: #DC2626;
+  --destructive-foreground: #FFFFFF;
+  
+  /* Neutrals */
+  --card: #FFFFFF;
+  --card-foreground: #111827;
+  --popover: #FFFFFF;
+  --popover-foreground: #111827;
+  --secondary: #F3F4F6;
+  --secondary-foreground: #374151;
+  --muted: #E5E7EB;
+  --muted-foreground: #6B7280;
+  --border: #E5E7EB;
+  --input: #E5E7EB;
+  --ring: #0057E7;
+  
+  /* Chart Colors */
+  --chart-1: #0057E7;
+  --chart-2: #FFA700;
+  --chart-3: #008744;
+  --chart-4: #3B7EE6;
+  --chart-5: #FFB833;
+  
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --font-sans: 'Inter', 'Inter Fallback', system-ui, sans-serif;
+  --font-mono: 'Space Mono', 'Space Mono Fallback', monospace;
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  /* Typography Scale */
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-[3.5rem] font-extrabold leading-tight tracking-tight;
+  }
+  h2 {
+    @apply text-3xl md:text-4xl font-bold leading-tight tracking-tight;
+  }
+  h3 {
+    @apply text-xl md:text-2xl font-semibold leading-snug;
+  }
+  p {
+    @apply text-base md:text-lg leading-relaxed;
+  }
+}
+
+/* Custom Utilities */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: var(--accent);
+  color: var(--accent-foreground);
+}

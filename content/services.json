@@ -1,0 +1,262 @@
+{
+  "services": [
+    {
+      "slug": "busca-e-apreensao",
+      "name": "Busca e Apreensão",
+      "shortName": "Busca e Apreensão",
+      "description": "Defesa especializada contra ações de busca e apreensão de veículos financiados",
+      "intent": "transactional",
+      "cluster": "busca-apreensao",
+      "pillar": true,
+      "heroTitle": "Cancelar Busca e Apreensão",
+      "heroSubtitle": "Proteja seu veículo com nossa defesa jurídica especializada",
+      "benefits": [
+        "Liminar em até 24 horas",
+        "Suspensão imediata da apreensão",
+        "Revisão de juros abusivos",
+        "Negociação direta com o banco"
+      ],
+      "keywords": [
+        "busca e apreensão",
+        "cancelar busca e apreensão",
+        "defesa busca e apreensão",
+        "advogado busca e apreensão",
+        "liminar busca e apreensão"
+      ],
+      "relatedServices": ["juros-abusivos", "revisao-contrato", "alienacao-fiduciaria"],
+      "faqs": [
+        {
+          "question": "O que é busca e apreensão de veículo?",
+          "answer": "Busca e apreensão é uma ação judicial que permite ao banco retomar o veículo financiado quando há inadimplência. É regulada pelo Decreto-Lei 911/69 e exige que o devedor seja notificado antes da apreensão."
+        },
+        {
+          "question": "Posso cancelar uma busca e apreensão?",
+          "answer": "Sim. É possível cancelar através de defesa técnica, apresentando contestação com pedido de liminar. Os principais argumentos incluem juros abusivos, falta de notificação e irregularidades no contrato."
+        },
+        {
+          "question": "Quanto tempo tenho para me defender?",
+          "answer": "Após a citação, você tem 15 dias para apresentar defesa. Porém, é essencial agir rapidamente para solicitar liminar suspendendo a ordem de apreensão antes que seja cumprida."
+        },
+        {
+          "question": "O que acontece se meu carro for apreendido?",
+          "answer": "Mesmo após a apreensão, é possível recuperar o veículo através de ação judicial. Você pode pagar a dívida integral ou contestar valores abusivos e solicitar devolução."
+        }
+      ]
+    },
+    {
+      "slug": "juros-abusivos",
+      "name": "Juros Abusivos",
+      "shortName": "Juros Abusivos",
+      "description": "Revisão e redução de juros abusivos em contratos de financiamento",
+      "intent": "transactional",
+      "cluster": "juros-abusivos",
+      "pillar": true,
+      "heroTitle": "Redução de Juros Abusivos",
+      "heroSubtitle": "Revise seu contrato e reduza parcelas em até 50%",
+      "benefits": [
+        "Redução de até 50% nas parcelas",
+        "Restituição de valores pagos",
+        "Revisão completa do contrato",
+        "Análise gratuita do financiamento"
+      ],
+      "keywords": [
+        "juros abusivos",
+        "redução juros financiamento",
+        "revisar juros banco",
+        "juros acima da média",
+        "taxa abusiva financiamento"
+      ],
+      "relatedServices": ["busca-e-apreensao", "revisao-contrato", "negativacao-indevida"],
+      "faqs": [
+        {
+          "question": "Como saber se meus juros são abusivos?",
+          "answer": "Compare sua taxa com a média do Banco Central. Se sua taxa for muito superior à média de mercado para o mesmo período e modalidade, pode ser considerada abusiva pelo CDC."
+        },
+        {
+          "question": "Posso reduzir os juros do meu financiamento?",
+          "answer": "Sim. Através de ação revisional, é possível solicitar a adequação dos juros à média de mercado, com restituição dos valores pagos a mais."
+        },
+        {
+          "question": "Preciso parar de pagar as parcelas?",
+          "answer": "Não necessariamente. A ação revisional pode ser proposta mesmo em dia com as parcelas. O juiz pode autorizar depósito judicial do valor que você entende correto."
+        },
+        {
+          "question": "Quanto tempo demora uma ação de juros abusivos?",
+          "answer": "O processo pode durar de 6 meses a 2 anos, mas liminares podem ser obtidas em semanas, suspendendo cobranças abusivas imediatamente."
+        }
+      ]
+    },
+    {
+      "slug": "revisao-contrato",
+      "name": "Revisão de Contrato",
+      "shortName": "Revisão Contratual",
+      "description": "Análise e revisão completa de contratos de financiamento de veículos",
+      "intent": "transactional",
+      "cluster": "revisao-contrato",
+      "pillar": true,
+      "heroTitle": "Revisão de Contrato de Financiamento",
+      "heroSubtitle": "Identifique cobranças indevidas e reduza sua dívida",
+      "benefits": [
+        "Identificação de cláusulas abusivas",
+        "Eliminação de tarifas ilegais",
+        "Recálculo da dívida",
+        "Redução do valor total"
+      ],
+      "keywords": [
+        "revisão contrato financiamento",
+        "revisar contrato banco",
+        "cláusula abusiva contrato",
+        "anular contrato financiamento",
+        "advogado revisão contratual"
+      ],
+      "relatedServices": ["busca-e-apreensao", "juros-abusivos", "alienacao-fiduciaria"],
+      "faqs": [
+        {
+          "question": "O que pode ser revisado em um contrato?",
+          "answer": "Juros, tarifas de cadastro, TAC, seguros embutidos, IOF, capitalização de juros e outras cobranças que podem ser consideradas abusivas ou ilegais."
+        },
+        {
+          "question": "Vale a pena revisar meu contrato?",
+          "answer": "Se você paga juros acima da média ou identificou cobranças desconhecidas, a revisão pode resultar em economia significativa ou até restituição de valores."
+        },
+        {
+          "question": "Como funciona a revisão contratual?",
+          "answer": "Analisamos seu contrato, identificamos irregularidades e entramos com ação judicial para recalcular a dívida de forma justa, eliminando cobranças abusivas."
+        },
+        {
+          "question": "Preciso do contrato original?",
+          "answer": "Não necessariamente. Podemos solicitar ao banco a via original. Carnês, boletos e extratos também ajudam na análise inicial."
+        }
+      ]
+    },
+    {
+      "slug": "negativacao-indevida",
+      "name": "Negativação Indevida",
+      "shortName": "Negativação Indevida",
+      "description": "Remoção de nome do SPC/Serasa por negativação irregular ou indevida",
+      "intent": "transactional",
+      "cluster": "negativacao",
+      "pillar": true,
+      "heroTitle": "Limpar Nome do SPC e Serasa",
+      "heroSubtitle": "Remova negativações indevidas e recupere seu crédito",
+      "benefits": [
+        "Remoção em até 5 dias",
+        "Indenização por danos morais",
+        "Liminar de urgência",
+        "Análise gratuita do caso"
+      ],
+      "keywords": [
+        "negativação indevida",
+        "limpar nome SPC",
+        "tirar nome Serasa",
+        "indenização nome sujo",
+        "danos morais negativação"
+      ],
+      "relatedServices": ["juros-abusivos", "revisao-contrato", "busca-e-apreensao"],
+      "faqs": [
+        {
+          "question": "Quando a negativação é considerada indevida?",
+          "answer": "Quando a dívida não existe, já foi paga, está em discussão judicial, ou quando não houve notificação prévia antes da inclusão nos órgãos de proteção ao crédito."
+        },
+        {
+          "question": "Tenho direito a indenização?",
+          "answer": "Sim. A negativação indevida gera dano moral presumido, com indenizações que variam de R$ 5.000 a R$ 20.000 dependendo do caso."
+        },
+        {
+          "question": "Quanto tempo demora para limpar o nome?",
+          "answer": "Com liminar, a exclusão pode ocorrer em 24 a 72 horas. O processo completo para indenização pode levar de 6 meses a 1 ano."
+        },
+        {
+          "question": "Preciso de comprovante de pagamento?",
+          "answer": "Depende do caso. Se a dívida foi paga, o comprovante ajuda. Se a dívida não existe, outros documentos comprovam a irregularidade."
+        }
+      ]
+    },
+    {
+      "slug": "alienacao-fiduciaria",
+      "name": "Alienação Fiduciária",
+      "shortName": "Alienação Fiduciária",
+      "description": "Defesa em casos de alienação fiduciária e recuperação de veículos",
+      "intent": "informational",
+      "cluster": "busca-apreensao",
+      "pillar": false,
+      "heroTitle": "Defesa em Alienação Fiduciária",
+      "heroSubtitle": "Proteja seus direitos em financiamentos com garantia",
+      "benefits": [
+        "Defesa técnica especializada",
+        "Revisão do contrato de alienação",
+        "Negociação com credores",
+        "Recuperação do bem"
+      ],
+      "keywords": [
+        "alienação fiduciária",
+        "defesa alienação fiduciária",
+        "advogado alienação fiduciária",
+        "contrato alienação fiduciária",
+        "garantia veículo financiado"
+      ],
+      "relatedServices": ["busca-e-apreensao", "revisao-contrato", "juros-abusivos"],
+      "faqs": [
+        {
+          "question": "O que é alienação fiduciária?",
+          "answer": "É a garantia onde o bem financiado fica em nome do credor até a quitação. O devedor tem a posse, mas a propriedade é do banco até pagar tudo."
+        },
+        {
+          "question": "Qual a diferença para busca e apreensão?",
+          "answer": "A alienação fiduciária é o tipo de garantia. A busca e apreensão é a ação judicial que o banco usa para retomar o bem quando há inadimplência."
+        },
+        {
+          "question": "Posso vender um veículo alienado?",
+          "answer": "Não sem quitar o financiamento ou transferir a dívida com autorização do banco. A venda sem baixa da alienação é crime."
+        },
+        {
+          "question": "Como funciona a defesa em alienação fiduciária?",
+          "answer": "Contestamos a ação de busca e apreensão, verificamos irregularidades no contrato e buscamos suspender a ordem ou negociar condições melhores."
+        }
+      ]
+    },
+    {
+      "slug": "leilao-veiculo",
+      "name": "Contestação de Leilão",
+      "shortName": "Leilão de Veículo",
+      "description": "Contestação e anulação de leilões de veículos financiados",
+      "intent": "transactional",
+      "cluster": "busca-apreensao",
+      "pillar": false,
+      "heroTitle": "Contestar Leilão de Veículo",
+      "heroSubtitle": "Anule leilões irregulares e recupere seu veículo",
+      "benefits": [
+        "Anulação de leilão irregular",
+        "Recuperação do veículo",
+        "Indenização por perdas",
+        "Suspensão de leilão marcado"
+      ],
+      "keywords": [
+        "contestar leilão veículo",
+        "anular leilão carro",
+        "leilão irregular",
+        "suspender leilão",
+        "recuperar carro leiloado"
+      ],
+      "relatedServices": ["busca-e-apreensao", "alienacao-fiduciaria", "revisao-contrato"],
+      "faqs": [
+        {
+          "question": "Posso contestar um leilão de veículo?",
+          "answer": "Sim, se houve irregularidades como falta de notificação, avaliação abaixo do mercado, ou vícios no procedimento."
+        },
+        {
+          "question": "Quanto tempo tenho para contestar?",
+          "answer": "O ideal é agir antes do leilão. Após a arrematação, ainda é possível anular, mas fica mais complexo."
+        },
+        {
+          "question": "O que acontece se o leilão for anulado?",
+          "answer": "O veículo deve ser devolvido e você pode negociar a dívida ou continuar contestando valores abusivos."
+        },
+        {
+          "question": "Meu carro foi leiloado por valor muito baixo. E agora?",
+          "answer": "Se o valor foi inferior ao de mercado, você pode contestar e buscar compensação pela diferença ou anulação do leilão."
+        }
+      ]
+    }
+  ]
+}

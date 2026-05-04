@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Blocar robots malintencionados
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+# Admin e API
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://www.quitadoc.com.br/sitemap.xml
+
+# Crawl-delay para não sobrecarregar
+Crawl-delay: 1
+
+# Permitir indexação das rotas dinâmicas
+Allow: /negociar-divida/*
+Allow: /guias/*
+Allow: /blog/*

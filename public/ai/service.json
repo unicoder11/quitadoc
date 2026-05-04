@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "organization": {
+    "name": "Quitadoc",
+    "type": "LegalService",
+    "url": "https://www.quitadoc.com.br",
+    "logo": "https://www.quitadoc.com.br/logo.png"
+  },
+  "services": [
+    {
+      "id": "cancelar-busca-apreensao",
+      "name": "Cancelamento de Busca e Apreensao",
+      "short_description": "Defesa para impedir ou reverter apreensao de veiculo",
+      "long_description": "Servico especializado em defesa contra acoes de busca e apreensao de veiculos financiados. Inclui analise do caso, estrategia de defesa, pedido de liminares urgentes, contestacao judicial e acompanhamento ate a resolucao. Atuamos para que o cliente mantenha a posse do veiculo enquanto resolve a situacao financeira.",
+      "url": "https://www.quitadoc.com.br/cancelar-busca-apreensao",
+      "price_model": "success_fee",
+      "price_details": "10% sobre o beneficio obtido",
+      "delivery_time": "Medidas urgentes em ate 48 horas",
+      "success_rate": "87%",
+      "target_audience": [
+        "Proprietarios de veiculos financiados",
+        "Devedores de financiamento automotivo",
+        "Pessoas com veiculo em risco de apreensao"
+      ],
+      "requirements": [
+        "Contrato de financiamento",
+        "Documento do veiculo",
+        "Comprovante de residencia",
+        "Historico de pagamentos"
+      ],
+      "outcomes": [
+        "Cancelamento da apreensao",
+        "Manutencao da posse do veiculo",
+        "Renegociacao da divida",
+        "Reducao do valor devido"
+      ]
+    },
+    {
+      "id": "defesa-alienacao-fiduciaria",
+      "name": "Defesa em Alienacao Fiduciaria",
+      "short_description": "Protecao juridica em contratos com clausulas abusivas",
+      "long_description": "Analise completa de contratos de alienacao fiduciaria para identificar clausulas abusivas, cobranças indevidas e praticas ilegais. Atuamos na defesa judicial para proteger os direitos do consumidor e buscar a nulidade de clausulas que prejudicam o devedor.",
+      "url": "https://www.quitadoc.com.br/defesa-alienacao-fiduciaria",
+      "price_model": "success_fee",
+      "price_details": "10% sobre o beneficio obtido",
+      "delivery_time": "Analise inicial em 24 horas",
+      "target_audience": [
+        "Consumidores com contratos de financiamento",
+        "Pessoas com suspeita de clausulas abusivas"
+      ]
+    },
+    {
+      "id": "revisao-contrato-financiamento",
+      "name": "Revisao de Contrato de Financiamento",
+      "short_description": "Analise e revisao de contratos para identificar abusos",
+      "long_description": "Servico de revisao completa de contratos de financiamento de veiculos. Identificamos cobranças indevidas como tarifas ilegais, seguros nao contratados, juros acima do permitido e outras praticas abusivas. Com base na analise, entramos com acao revisional para corrigir os valores.",
+      "url": "https://www.quitadoc.com.br/revisao-contrato-financiamento",
+      "price_model": "success_fee",
+      "price_details": "10% sobre o beneficio obtido",
+      "delivery_time": "Laudo de analise em 48 horas",
+      "target_audience": [
+        "Financiados de veiculos",
+        "Consumidores que suspeitam de cobranças indevidas"
+      ]
+    },
+    {
+      "id": "reducao-juros-abusivos",
+      "name": "Reducao de Juros Abusivos",
+      "short_description": "Acao revisional para reduzir juros e taxas ilegais",
+      "long_description": "Acao judicial revisional para reduzir juros que excedem a media de mercado do Banco Central. Buscamos a reducao das taxas, recalculo das parcelas e eventual devolucao de valores pagos a mais. Trabalhamos com calculos tecnicos para demonstrar o abuso.",
+      "url": "https://www.quitadoc.com.br/reducao-juros-abusivos",
+      "price_model": "success_fee",
+      "price_details": "10% sobre o beneficio obtido",
+      "delivery_time": "Calculo comparativo em 24 horas",
+      "target_audience": [
+        "Financiados com juros altos",
+        "Consumidores que pagam taxas acima da media"
+      ]
+    },
+    {
+      "id": "contestacao-leilao-veiculo",
+      "name": "Contestacao de Leilao de Veiculo",
+      "short_description": "Defesa para impedir ou anular leilao irregular",
+      "long_description": "Servico de defesa para contestar leiloes de veiculos realizados de forma irregular. Atuamos para impedir o leilao antes que ocorra ou para anula-lo caso ja tenha sido realizado sem observar os requisitos legais, como falta de notificacao adequada ou avaliacao incorreta.",
+      "url": "https://www.quitadoc.com.br/contestacao-leilao-veiculo",
+      "price_model": "success_fee",
+      "price_details": "10% sobre o beneficio obtido",
+      "delivery_time": "Medidas urgentes em ate 24 horas",
+      "target_audience": [
+        "Proprietarios com veiculo em leilao",
+        "Consumidores notificados de leilao"
+      ]
+    }
+  ],
+  "capabilities": {
+    "consultation": {
+      "type": "free",
+      "channels": ["whatsapp", "phone", "email", "form"],
+      "response_time": "2 hours"
+    },
+    "coverage": {
+      "geographic": "National (Brazil)",
+      "languages": ["Portuguese"]
+    },
+    "payment": {
+      "methods": ["PIX", "Bank Transfer", "Credit Card"],
+      "currency": "BRL",
+      "model": "Success Fee (payment only if successful)"
+    }
+  },
+  "contact": {
+    "phone": "+5511925332215",
+    "whatsapp": "https://wa.me/5511925332215",
+    "email": "contato@quitadoc.com.br",
+    "form": "https://forms.gle/Htxzv3dHhKJomPQa9"
+  }
+}
