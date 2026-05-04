@@ -164,7 +164,20 @@ export default async function NegociarPage({ params }: PageProps) {
   const cidadeNome = cidade?.nome || null
 
   const dadosTipo = DADOS_MERCADO.descontoMedio[tipoSlug as keyof typeof DADOS_MERCADO.descontoMedio] || DADOS_MERCADO.descontoMedio["cartao-credito"]
-  const dadosEmpresa = empresaSlug ? DADOS_EMPRESA[empresaSlug] : null
+  // Prefer enriched fields from empresas.json (populated by RankPilot refresh),
+  // falling back to the hardcoded DADOS_EMPRESA constant.
+  type EmpresaEnriched = { slug: string; nome: string; tipo?: string; desconto?: number; tempo?: string; dicas?: string[]; content?: string }
+  const empresaEnriched = empresa as EmpresaEnriched | null
+  const dadosEmpresaBase = empresaSlug ? DADOS_EMPRESA[empresaSlug] : null
+  const dadosEmpresa = dadosEmpresaBase
+    ? {
+        desconto: empresaEnriched?.desconto ?? dadosEmpresaBase.desconto,
+        tempo:    empresaEnriched?.tempo    ?? dadosEmpresaBase.tempo,
+        dicas:    empresaEnriched?.dicas    ?? dadosEmpresaBase.dicas,
+      }
+    : empresaEnriched?.desconto
+      ? { desconto: empresaEnriched.desconto, tempo: empresaEnriched.tempo ?? "15 dias", dicas: empresaEnriched.dicas ?? [] }
+      : null
   const localTexto = cidadeNome ? `${cidadeNome} - ${estadoNome}` : estadoNome || "todo o Brasil"
   const descontoFinal = dadosEmpresa?.desconto || dadosTipo.media
   const tempoFinal = dadosEmpresa?.tempo || "15 dias"
