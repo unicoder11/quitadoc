@@ -372,6 +372,17 @@ export default async function NegociarPage({ params }: PageProps) {
         </section>
       )}
 
+      {/* AI-generated content section */}
+      {empresaEnriched?.content && (
+        <section className="py-12 bg-background">
+          <div className="mx-auto max-w-3xl px-4 lg:px-8 space-y-4">
+            {empresaEnriched.content.split('\n').filter(Boolean).map((p, i) => (
+              <p key={i} className="text-muted-foreground leading-relaxed">{p}</p>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Beneficios */}
       <section className="py-16 lg:py-24 bg-secondary/30">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
