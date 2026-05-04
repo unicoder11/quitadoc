@@ -53,6 +53,7 @@ export interface BlogPost {
   readTime: number
   featured: boolean
   keywords: string[]
+  content?: string
 }
 
 // Data accessors

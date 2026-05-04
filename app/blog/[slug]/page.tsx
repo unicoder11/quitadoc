@@ -91,8 +91,20 @@ export default async function BlogPostPage({ params }: Props) {
     },
   }
 
-  // Generate placeholder content based on post
-  const contentSections = [
+  // Use real AI-generated content if available, otherwise fall back to placeholder
+  const contentSections: { title: string; content: string }[] = post.content
+    ? post.content
+        .split(/\n\n+/)
+        .filter((p) => p.trim())
+        .map((para) => {
+          const lines = para.trim().split('\n')
+          const isHeading = lines[0].match(/^[A-ZÁÉÍÓÚÀÂÊÔÃÕÇ][^a-z]{8,}$/) || lines[0].endsWith(':')
+          if (isHeading && lines.length > 1) {
+            return { title: lines[0].replace(/:$/, ''), content: lines.slice(1).join(' ') }
+          }
+          return { title: '', content: para.trim() }
+        })
+    : [
     {
       title: "Introdução",
       content: `${post.excerpt} Neste artigo, vamos explorar todos os aspectos importantes deste tema para que você possa entender seus direitos e tomar as melhores decisões.`,
@@ -178,7 +190,7 @@ export default async function BlogPostPage({ params }: Props) {
             <div className="prose prose-lg max-w-none">
               {contentSections.map((section, index) => (
                 <section key={index} className="mb-8">
-                  <h2 className="text-2xl font-bold">{section.title}</h2>
+                  {section.title && <h2 className="text-2xl font-bold">{section.title}</h2>}
                   <p className="text-muted-foreground leading-relaxed">{section.content}</p>
                 </section>
               ))}
