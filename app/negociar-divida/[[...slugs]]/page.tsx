@@ -175,8 +175,8 @@ export default async function NegociarPage({ params }: PageProps) {
         tempo:    empresaEnriched?.tempo    ?? dadosEmpresaBase.tempo,
         dicas:    empresaEnriched?.dicas    ?? dadosEmpresaBase.dicas,
       }
-    : empresaEnriched?.desconto
-      ? { desconto: empresaEnriched.desconto, tempo: empresaEnriched.tempo ?? "15 dias", dicas: empresaEnriched.dicas ?? [] }
+    : (empresaEnriched?.desconto != null || empresaEnriched?.dicas?.length)
+      ? { desconto: empresaEnriched!.desconto ?? dadosTipo.media, tempo: empresaEnriched!.tempo ?? "15 dias", dicas: empresaEnriched!.dicas ?? [] }
       : null
   const localTexto = cidadeNome ? `${cidadeNome} - ${estadoNome}` : estadoNome || "todo o Brasil"
   const descontoFinal = dadosEmpresa?.desconto || dadosTipo.media
