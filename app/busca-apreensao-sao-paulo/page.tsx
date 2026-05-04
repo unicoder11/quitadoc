@@ -82,7 +82,7 @@ export default function BuscaApreensaoSaoPauloPage() {
             "name": "Quitadoc Sao Paulo",
             "description": "Servico juridico especializado em cancelamento de busca e apreensao veicular em Sao Paulo e Grande SP",
             "url": "https://www.quitadoc.com.br/busca-apreensao-sao-paulo",
-            "telephone": "+55-11-92533-2215",
+            "telephone": "+55-11-99999-9999",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Sao Paulo",

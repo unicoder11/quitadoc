@@ -4,8 +4,8 @@ import { useState } from "react"
 import Link from "next/link"
 import { MessageCircle, Phone, Shield, Clock, TrendingDown, Users } from "lucide-react"
 
-const WHATSAPP = "5511925332215"
-const PHONE_DISPLAY = "(11) 92533-2215"
+const WHATSAPP = "5521996076746"
+const PHONE_DISPLAY = "(21) 99607-6746"
 
 const STATS = [
   { icon: Users, value: "12.847+", label: "clientes" },

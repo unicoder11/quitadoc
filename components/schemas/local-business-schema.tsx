@@ -8,7 +8,7 @@ export function LocalBusinessSchema() {
     "url": "https://www.quitadoc.com.br",
     "logo": "https://www.quitadoc.com.br/logo.png",
     "image": "https://www.quitadoc.com.br/logo.png",
-    "telephone": "+5511925332215",
+    "telephone": "+5521996076746",
     "email": "contato@quitadoc.com.br",
     "priceRange": "Success fee 10%",
     "paymentAccepted": "Pix, Transferência Bancária, Cartão de Crédito",
@@ -144,7 +144,7 @@ export function OrganizationSchema() {
     "foundingDate": "2020",
     "slogan": "Proteja seu patrimônio com quem entende do assunto",
     "email": "contato@quitadoc.com.br",
-    "telephone": "+5511925332215",
+    "telephone": "+5521996076746",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Rio de Janeiro",

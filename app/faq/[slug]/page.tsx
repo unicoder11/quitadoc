@@ -153,7 +153,7 @@ export default async function FAQPage({ params }: Props) {
                     </Link>
                   </Button>
                   <Button asChild variant="outline" className="flex-1">
-                    <Link href="https://wa.me/5511925332215" target="_blank">
+                    <Link href="https://wa.me/11925332215" target="_blank">
                       <Phone className="mr-2 h-5 w-5" />
                       WhatsApp
                     </Link>

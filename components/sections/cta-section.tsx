@@ -32,7 +32,7 @@ export function CTASection({
     setSubmitted(true)
   }
 
-  const whatsappUrl = "https://wa.me/5511925332215?text=" + encodeURIComponent("Ola! Preciso de ajuda com meu veiculo financiado.")
+  const whatsappUrl = "https://wa.me/11925332215?text=" + encodeURIComponent("Ola! Preciso de ajuda com meu veiculo financiado.")
 
   return (
     <section className="bg-gradient-to-r from-accent to-accent-light py-16 lg:py-20">

@@ -272,7 +272,7 @@ export function FeaturedSnippetTemplate({
                 </Link>
               </Button>
               <Button asChild variant="outline">
-                <a href="https://wa.me/5511925332215" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/11925332215" target="_blank" rel="noopener noreferrer">
                   <Phone className="mr-2 h-4 w-4" />
                   Falar no WhatsApp
                 </a>
@@ -370,7 +370,7 @@ export function FeaturedSnippetTemplate({
               <Link href="/consulta-gratuita">Solicitar Analise Gratuita</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10">
-              <a href="tel:+5511925332215">
+              <a href="tel:+5511999999999">
                 <Phone className="mr-2 h-4 w-4" />
                 (11) 99999-9999
               </a>

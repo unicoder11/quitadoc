@@ -89,7 +89,7 @@ export function AggressiveCTA({
             asChild
           >
             <a 
-              href="https://wa.me/5511925332215?text=Preciso%20de%20ajuda%20urgente"
+              href="https://wa.me/11925332215?text=Preciso%20de%20ajuda%20urgente"
               target="_blank"
               rel="noopener noreferrer"
             >
