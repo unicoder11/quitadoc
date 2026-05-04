@@ -1,61 +1,2805 @@
 [
-  { "slug": "itau", "nome": "Itau", "tipo": "banco" },
-  { "slug": "bradesco", "nome": "Bradesco", "tipo": "banco" },
-  { "slug": "santander", "nome": "Santander", "tipo": "banco" },
-  { "slug": "banco-do-brasil", "nome": "Banco do Brasil", "tipo": "banco" },
-  { "slug": "caixa", "nome": "Caixa Economica", "tipo": "banco" },
-  { "slug": "nubank", "nome": "Nubank", "tipo": "fintech" },
-  { "slug": "inter", "nome": "Banco Inter", "tipo": "fintech" },
-  { "slug": "c6", "nome": "C6 Bank", "tipo": "fintech" },
-  { "slug": "pan", "nome": "Banco Pan", "tipo": "banco" },
-  { "slug": "bmg", "nome": "Banco BMG", "tipo": "banco" },
-  { "slug": "safra", "nome": "Banco Safra", "tipo": "banco" },
-  { "slug": "banrisul", "nome": "Banrisul", "tipo": "banco" },
-  { "slug": "sicoob", "nome": "Sicoob", "tipo": "cooperativa" },
-  { "slug": "sicredi", "nome": "Sicredi", "tipo": "cooperativa" },
-  { "slug": "original", "nome": "Banco Original", "tipo": "fintech" },
-  { "slug": "neon", "nome": "Neon", "tipo": "fintech" },
-  { "slug": "next", "nome": "Next", "tipo": "fintech" },
-  { "slug": "picpay", "nome": "PicPay", "tipo": "fintech" },
-  { "slug": "mercado-pago", "nome": "Mercado Pago", "tipo": "fintech" },
-  { "slug": "pagseguro", "nome": "PagSeguro", "tipo": "fintech" },
-  { "slug": "will-bank", "nome": "Will Bank", "tipo": "fintech" },
-  { "slug": "digio", "nome": "Digio", "tipo": "fintech" },
-  { "slug": "agibank", "nome": "Agibank", "tipo": "fintech" },
-  { "slug": "bv", "nome": "BV Financeira", "tipo": "financeira" },
-  { "slug": "losango", "nome": "Losango", "tipo": "financeira" },
-  { "slug": "omni", "nome": "Omni", "tipo": "financeira" },
-  { "slug": "daycoval", "nome": "Banco Daycoval", "tipo": "banco" },
-  { "slug": "fibra", "nome": "Banco Fibra", "tipo": "banco" },
-  { "slug": "abc", "nome": "Banco ABC Brasil", "tipo": "banco" },
-  { "slug": "votorantim", "nome": "Banco Votorantim", "tipo": "banco" },
-  { "slug": "ole", "nome": "Ole Consignado", "tipo": "financeira" },
-  { "slug": "facta", "nome": "Facta Financeira", "tipo": "financeira" },
-  { "slug": "cetelem", "nome": "Cetelem", "tipo": "financeira" },
-  { "slug": "creditas", "nome": "Creditas", "tipo": "fintech" },
-  { "slug": "geru", "nome": "Geru", "tipo": "fintech" },
-  { "slug": "bompratodos", "nome": "Bom Pra Todos", "tipo": "financeira" },
-  { "slug": "casas-bahia", "nome": "Casas Bahia", "tipo": "varejo" },
-  { "slug": "magazine-luiza", "nome": "Magazine Luiza", "tipo": "varejo" },
-  { "slug": "americanas", "nome": "Americanas", "tipo": "varejo" },
-  { "slug": "renner", "nome": "Renner", "tipo": "varejo" },
-  { "slug": "riachuelo", "nome": "Riachuelo", "tipo": "varejo" },
-  { "slug": "marisa", "nome": "Marisa", "tipo": "varejo" },
-  { "slug": "pernambucanas", "nome": "Pernambucanas", "tipo": "varejo" },
-  { "slug": "centauro", "nome": "Centauro", "tipo": "varejo" },
-  { "slug": "netshoes", "nome": "Netshoes", "tipo": "varejo" },
-  { "slug": "claro", "nome": "Claro", "tipo": "telecom" },
-  { "slug": "vivo", "nome": "Vivo", "tipo": "telecom" },
-  { "slug": "tim", "nome": "TIM", "tipo": "telecom" },
-  { "slug": "oi", "nome": "Oi", "tipo": "telecom" },
-  { "slug": "sky", "nome": "SKY", "tipo": "telecom" },
-  { "slug": "net", "nome": "NET", "tipo": "telecom" },
-  { "slug": "serasa", "nome": "Serasa", "tipo": "cobranca" },
-  { "slug": "spc", "nome": "SPC Brasil", "tipo": "cobranca" },
-  { "slug": "boa-vista", "nome": "Boa Vista", "tipo": "cobranca" },
-  { "slug": "recovery", "nome": "Recovery", "tipo": "cobranca" },
-  { "slug": "flex", "nome": "Flex Cobranca", "tipo": "cobranca" },
-  { "slug": "hoepers", "nome": "Hoepers", "tipo": "cobranca" },
-  { "slug": "ativos", "nome": "Ativos SA", "tipo": "cobranca" },
-  { "slug": "meireles", "nome": "Meireles e Freitas", "tipo": "cobranca" }
+  {
+    "slug": "itau",
+    "nome": "Itau",
+    "tipo": "banco"
+  },
+  {
+    "slug": "bradesco",
+    "nome": "Bradesco",
+    "tipo": "banco",
+    "relatedLinks": [
+      {
+        "text": "negociando dívida com outras empresas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negociar dívidas bradesco em Campinas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "negociar dívidas em qualquer banco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "Outras opções para negociar dívidas SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "outras empresas como Magazine Luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "renegociar dívida em qualquer banco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/crediario/pan"
+      },
+      {
+        "text": "consulte opções no Santander",
+        "href": "https://www.quitadoc.com.br/negociar-divida/leasing/santander"
+      },
+      {
+        "text": "negociação em outros bancos como Pan",
+        "href": "https://www.quitadoc.com.br/negociar-divida/crediario/pan/pa"
+      },
+      {
+        "text": "negociar dívidas com Marisa Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/saque-cartao/marisa/sp"
+      },
+      {
+        "text": "renegociar dívidas em outras financeiras",
+        "href": "https://www.quitadoc.com.br/negociar-divida/saque-cartao/marisa/sp"
+      },
+      {
+        "text": "negociar dívida como bradesco ou oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "Outras opções para renegociar dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "Juros abusivos em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "juros abusivos em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "consultar opções de dívidas em df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "serviços financeiros em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "negociar dívidas em outros bancos",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "consultar juros em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "outras negociações de dívidas em df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "verificar taxas em São Bernardo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "renegociação de dívidas no df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "serviços financeiros em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "renegociação de dívidas em outros bancos",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "Se precisar negociar dívidas também",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociações em bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "negociação de dívidas no Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      }
+    ]
+  },
+  {
+    "slug": "santander",
+    "nome": "Santander",
+    "tipo": "banco",
+    "relatedLinks": [
+      {
+        "text": "comparar com o Pan banco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/crediario/pan"
+      },
+      {
+        "text": "verificar pagamento Safra Financeira",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/safra/ce"
+      },
+      {
+        "text": "se precisar de ajuda para a PA",
+        "href": "https://www.quitadoc.com.br/negociar-divida/crediario/pan/pa"
+      },
+      {
+        "text": "renegociação de dívidas em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/saque-cartao/marisa/sp"
+      }
+    ]
+  },
+  {
+    "slug": "banco-do-brasil",
+    "nome": "Banco do Brasil",
+    "tipo": "banco"
+  },
+  {
+    "slug": "caixa",
+    "nome": "Caixa Economica",
+    "tipo": "banco"
+  },
+  {
+    "slug": "nubank",
+    "nome": "Nubank",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "inter",
+    "nome": "Banco Inter",
+    "tipo": "fintech",
+    "relatedLinks": [
+      {
+        "text": "parcelar contas atrasadas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociação imposto predial",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "negociar uma fatura financeira em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "parcelar minha conta em mg",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociação iptu em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "melhores opções de crédito e negociação",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "parcelar contas de operadora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociação de imposto predial em df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "facta negociar ou facta financeira",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "pagar conta tim mg",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociação iptu em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "facta negociar e empréstimo pessoal",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "parcelar contas de telefone",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociar iptu em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "faça o seu próprio negócio financeiro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "pagar dívida de qualquer operadora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociação de imposto em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "facta negociar em SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "outras opções de parcelamento",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociação imoveis em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "facta negociar e fato financeiro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      }
+    ]
+  },
+  {
+    "slug": "c6",
+    "nome": "C6 Bank",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "pan",
+    "nome": "Banco Pan",
+    "tipo": "banco",
+    "relatedLinks": [
+      {
+        "text": "outras dívidas negociando com a TIM",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "Outras opções de negociação Santander",
+        "href": "https://www.quitadoc.com.br/negociar-divida/leasing/santander"
+      },
+      {
+        "text": "compare with Santander options",
+        "href": "https://www.quitadoc.com.br/negociar-divida/leasing/santander"
+      },
+      {
+        "text": "Check other bank options",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/safra/ce"
+      },
+      {
+        "text": "outras formas de pagar boleto",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "juros abusivos em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "outras opções de negociação de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "outras opções de negociar dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "como resolver atrasos bancários",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "juros em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "negociar dívidas no Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "Outras opções para negociar dívida Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "Outros bancos para verificar boleto",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "juros em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "Outras opções de negociação de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "negociar dívidas no Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "outras opções de pagamento bancário",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "outras negociações em bancos",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "negociar dívida em outros bancos",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "Outras dívidas bancárias pendentes",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "Negociar dívidas no Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "ver negociação em Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "Outras opções de pagamento MG",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "negociação em outro banco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "Outras opções de negociação Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "verificar pagamento boleto mg",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "negociar dívidas em outro banco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "outras opções para negociar dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "renegotiate Banco Pan debt",
+        "href": "https://www.quitadoc.com.br/negociar-divida/crediario/pan"
+      },
+      {
+        "text": "renegociação banco pan",
+        "href": "https://www.quitadoc.com.br/negociar-divida/crediario/pan/pa"
+      }
+    ]
+  },
+  {
+    "slug": "bmg",
+    "nome": "Banco BMG",
+    "tipo": "banco",
+    "relatedLinks": [
+      {
+        "text": "parcelar sua conta TIM atrasada",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "boleto atrasado do Banco Daycoval",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "parcelar minha conta tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "pagamento de boleto em mg",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "parcelar conta tim atrasada",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "boleto atrasado Daycoval BMG",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "parcelar minha conta TIM agora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "banco Daycoval boleto atrasado",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "parcelar minha conta tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "banco mg boletos atrasados",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "parcelar contas Tim em MG",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "boleto atrasado em banco Daycoval",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "boleto atrasado no daycoval mg",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      }
+    ]
+  },
+  {
+    "slug": "safra",
+    "nome": "Banco Safra",
+    "tipo": "banco",
+    "relatedLinks": [
+      {
+        "text": "boleto atrasado Safra financeiro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/safra/ce"
+      },
+      {
+        "text": "parcelar cuenta tim atrasada",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "Boleto de outro banco atrasado",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "entender juros em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "negociação financeira para o produtor",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "parcelar qualquer conta atrasada",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "If you have overdue bank payments",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "Juros em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "facta negociar em São Paulo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "negociar conta ou boleto atrasado",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "banco boletos atrasados",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "juros em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "negociar safra e crédito financeiro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "parcelar contas vencidas em parcelas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "banco día y coval boletos vencidos",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "financiamento em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "negociar safra em sp financeiramente",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "parcelar outras contas atrasadas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "banco boleto atrasado opciones",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "facta negociar em nossa unidade",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "outras opções para contas atrasadas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "Problemas com boletos bancários",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "Garantir financiamento após colheita",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "saber como parcelar contas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "banco boletos atrasados consulta",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "facta negociar em nossa unidade sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      }
+    ]
+  },
+  {
+    "slug": "banrisul",
+    "nome": "Banrisul",
+    "tipo": "banco"
+  },
+  {
+    "slug": "sicoob",
+    "nome": "Sicoob",
+    "tipo": "cooperativa"
+  },
+  {
+    "slug": "sicredi",
+    "nome": "Sicredi",
+    "tipo": "cooperativa",
+    "relatedLinks": [
+      {
+        "text": "simular um empréstimo na Facta Financeira",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      }
+    ]
+  },
+  {
+    "slug": "original",
+    "nome": "Banco Original",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "neon",
+    "nome": "Neon",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "next",
+    "nome": "Next",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "picpay",
+    "nome": "PicPay",
+    "tipo": "fintech",
+    "relatedLinks": [
+      {
+        "text": "cheque especial picpay informações",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "verificar cheque especial picpay",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "cheque especial PicPay ahora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay"
+      },
+      {
+        "text": "cheque especial PicPay ES",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "cheque especial picpay saldo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay"
+      },
+      {
+        "text": "cheque especial picpay es",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "cheque especial picpay ahora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay"
+      },
+      {
+        "text": "cheque especial picpay es",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "cheque especial PicPay cuenta",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay"
+      },
+      {
+        "text": "cheque especial picpay es",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "cheque especial con picpay",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay"
+      },
+      {
+        "text": "cheque especial PicPay em ES",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "cheque especial picpay cuenta",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay"
+      },
+      {
+        "text": "cheque especial em picpay",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "cheque especial en PicPay",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay"
+      }
+    ]
+  },
+  {
+    "slug": "mercado-pago",
+    "nome": "Mercado Pago",
+    "tipo": "fintech",
+    "relatedLinks": [
+      {
+        "text": "negociar dívidas de iput",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "negociar dívida iptu df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "negociando imposto propriedade df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "negociar tu deuda iptu",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "negociar su deuda iptu",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "negotiating property taxes in df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "negotiating your local taxes",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      }
+    ]
+  },
+  {
+    "slug": "pagseguro",
+    "nome": "PagSeguro",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "will-bank",
+    "nome": "Will Bank",
+    "tipo": "fintech",
+    "relatedLinks": [
+      {
+        "text": "negociar dívidas na Claro SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "outras dívidas de telefone",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida em São Paulo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "negociar dívida na sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "Negociar dívidas em SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "negociar dívida Oi em São Paulo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "negociar dívidas na sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida em SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "pagar dívidas em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida na clara sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "dívida Oi em São Paulo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívidas com operadoras",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "como negociar dívidas em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      }
+    ]
+  },
+  {
+    "slug": "digio",
+    "nome": "Digio",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "agibank",
+    "nome": "Agibank",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "bv",
+    "nome": "BV Financeira",
+    "tipo": "financeira",
+    "relatedLinks": [
+      {
+        "text": "consider financial options with us",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "ver juros em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "Negociar outras dívidas financeiras",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "financiamento em são bernardo do campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "quitar o financiamento na facta",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "são bernardo do campo é ótimo lugar",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "explore opções de financiamento",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "Financiamento em São Bernardo do Campo SP",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "facta financiera o negociação",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "São Bernardo do Campo financiamiento ayuda legal",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "negociar dívidas financeiras",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "explore financial options in sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "Financiamento em São Bernardo do Campo",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/sao-bernardo-do-campo"
+      },
+      {
+        "text": "quitar financiamiento en sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      }
+    ]
+  },
+  {
+    "slug": "losango",
+    "nome": "Losango",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "omni",
+    "nome": "Omni",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "daycoval",
+    "nome": "Banco Daycoval",
+    "tipo": "banco",
+    "relatedLinks": [
+      {
+        "text": "Como pagar contas vencidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/safra/ce"
+      },
+      {
+        "text": "parcelar cuenta tim atrasada ahora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "parcelar mi cuenta atrasada",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "parcelar cuenta tim atrasada ahora mismo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "parcelar cuenta tim atrasada hoy mismo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "parcelar cuenta tim atrasada mg",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "parcelar cuenta Tim atrasada en mg",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "Pagamento de contas atrasadas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      }
+    ]
+  },
+  {
+    "slug": "fibra",
+    "nome": "Banco Fibra",
+    "tipo": "banco"
+  },
+  {
+    "slug": "abc",
+    "nome": "Banco ABC Brasil",
+    "tipo": "banco"
+  },
+  {
+    "slug": "votorantim",
+    "nome": "Banco Votorantim",
+    "tipo": "banco"
+  },
+  {
+    "slug": "ole",
+    "nome": "Ole Consignado",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "facta",
+    "nome": "Facta Financeira",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "cetelem",
+    "nome": "Cetelem",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "creditas",
+    "nome": "Creditas",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "geru",
+    "nome": "Geru",
+    "tipo": "fintech"
+  },
+  {
+    "slug": "bompratodos",
+    "nome": "Bom Pra Todos",
+    "tipo": "financeira"
+  },
+  {
+    "slug": "casas-bahia",
+    "nome": "Casas Bahia",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "magazine-luiza",
+    "nome": "Magazine Luiza",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "americanas",
+    "nome": "Americanas",
+    "tipo": "varejo",
+    "relatedLinks": [
+      {
+        "text": "negociar dívida em qualquer lugar",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida da oi americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negociar deuda americanas ahora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negotiar dívidas online y en línea",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "Ver outras opções de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "ver acordos de dívidas rn",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "pagar qualquer dívida SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar con time de df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar deudas con marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negociar deudas con Marisa Americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negociar dívidas em df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "outras empresas para negociar dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "negociar dívida tim agora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida da Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negociar dívida em outra operadora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negiociar outras dívidas como a oi mg",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "Confira como negociar outra dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "acordo dívidas americanas magazine luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "outras dívidas que devo pagar",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "how to negotiate with tima",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "other store debt negotiation options",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "Marisa para negociar deudas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negociar dívidas imobiliárias",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "outras dívidas no Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "negociação de dívidas TIM Americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida da Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negociar outras dívidas como Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negar cualquier deuda en mg",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "Negociar outras dívidas em geral",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "acordo de dívidas americana luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar dívida de alguma operadora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar deuda con Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar deudas con Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negotiate with Marisa Americanas debts",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negociar imposto predial df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "outras dívidas do Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "renegociação de dívidas tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar outras dívidas como Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "manage other types of debt",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "Other options for managing debt",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "acordo de dívidas magazine Luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar dívidas americanas ou oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negotiate a debt with Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "Outras opções de negociação de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negotiar deudas con Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negociar dívidas de iptu",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "Outras opções de negociar dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "renegociação de dívidas TIM",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida em diversas empresas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "other utility bill negotiations",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "Outras opções de negociar dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "acordo de dívidas Luiza Magazine",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "outras dívidas de empresas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negotiate debt with time",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "como hablar con marisa negociar deudas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negotiating with Marisa Americanas debts",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negociar dívida imobiliária df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "outras dívidas como o Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "renegociação de dívidas TIM",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "ver opções de negociação dívida Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "oi ou outra dívida de consumo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "dicas para renegociar dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "conheça o acordo Luiza Magazine",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar dívidas de outras empresas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negotiate your debt with tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negotiate debts with Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "Marisa puede ayudarte a negociar deudas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negociar dívida imposto imobiliário",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "negociar dívidas em outro banco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "renegotiar dívida Tim Americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida em outras empresas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "oi negociação de dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "negotiate debt with any company",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "conhecer o acordo da Luiza Renner",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "outras dívidas para negociar agora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negotiate American debt with Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "contacting Marisa about my debt",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negotiate debts with Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negociar dívidas imobiliárias em df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "outras opções de negociação de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "renegociação de dívida da TIM",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar deuda con americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda de americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda de Americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda con Americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda con Americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda Americanas fácilmente",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda americanas fácil",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda con americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda en Americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda de americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda americanas ahora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda americanas ahora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda en americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda americanas fácil y seguro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar deuda americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      }
+    ]
+  },
+  {
+    "slug": "renner",
+    "nome": "Renner",
+    "tipo": "varejo",
+    "relatedLinks": [
+      {
+        "text": "negociar dívida renner ou oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida em outras empresas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "negociar dívida com Magazine Luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "acordo com Magazine Luiza renner",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "Busque orientação jurídica em Porto Alegre",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/porto-alegre"
+      },
+      {
+        "text": "negociar dívida tim negativo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/tim/df"
+      },
+      {
+        "text": "confira o contato da Hoepers no Rio de Janeiro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "hoepers telefone em rj",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "Negociar dívidas no Santander",
+        "href": "https://www.quitadoc.com.br/negociar-divida/leasing/santander"
+      },
+      {
+        "text": "conhecer opções de crédito Santander",
+        "href": "https://www.quitadoc.com.br/negociar-divida/leasing/santander"
+      },
+      {
+        "text": "negociar dívida em qualquer lugar",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/claro/mg"
+      },
+      {
+        "text": "negociar dívida com o Pan",
+        "href": "https://www.quitadoc.com.br/negociar-divida/crediario/pan/pa"
+      },
+      {
+        "text": "renegotiando dívida em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/saque-cartao/marisa/sp"
+      },
+      {
+        "text": "hoopers phone number in rj",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "call the phone number",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "hoepers telefone rj contato",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "hoepers telefone rj",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "find the phone number",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "hoepers telefone rj",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "hoepers telefone rj",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      }
+    ]
+  },
+  {
+    "slug": "riachuelo",
+    "nome": "Riachuelo",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "marisa",
+    "nome": "Marisa",
+    "tipo": "varejo",
+    "relatedLinks": [
+      {
+        "text": "negociar deuda con americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar dívidas da Claro SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "acordo de dívidas Luiza RN",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "renegociar dívida com cartão Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "Marisa para negociar dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "Marisa negociar suas dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "claro negociacao de dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "acordo de dívidas Luiza RN",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "Negociar dívidas da Cartão Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "Negociar dívidas com a Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "marisa para negociar dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "como negociar dívida clara sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "acordo de dívidas magazine luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "Marisa negociar dívidas mais fácil",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "ver como a Marisa negocia dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "Negociar dívidas com Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "claro negocia dívida marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "luiza acordos de dívidas rn",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "Negociando dívidas da Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "Negociar dívidas com Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "Negociar dívidas com Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negociar dívidas na clara sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "acordo de dívidas da Magazine Luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "Negociar dívidas no Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negociar dívidas com Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negociar dívidas com a Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "claro negociacao de dívidas SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "magazine Luiza acordo dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "marisa negociar dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "conhecer a negociação com Marisa",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "marisa negociar dívidas em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "negociar dívida da Claro SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "acordo de dívidas Luiza Magazine RN",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "Marisa negociar dívidas agora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "como Marisa negociar dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "Marisa negociar suas dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/marisa"
+      },
+      {
+        "text": "renegociación tarjeta Marisa SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/saque-cartao/marisa/sp"
+      }
+    ]
+  },
+  {
+    "slug": "pernambucanas",
+    "nome": "Pernambucanas",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "centauro",
+    "nome": "Centauro",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "netshoes",
+    "nome": "Netshoes",
+    "tipo": "varejo"
+  },
+  {
+    "slug": "claro",
+    "nome": "Claro",
+    "tipo": "telecom",
+    "relatedLinks": [
+      {
+        "text": "negociar dívida com operadora de telefonia",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negotiar deuda de telefonía móvil",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "negociar dívidas com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "negociar dívida da Claro em São Paulo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "negociar acordos com empresas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "advogados em Porto Alegre para dívidas",
+        "href": "https://www.quitadoc.com.br/juros-abusivos/porto-alegre"
+      },
+      {
+        "text": "Negociar com outras operadoras",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/tim/df"
+      },
+      {
+        "text": "For service in Rio de Janeiro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "negociar dívidas da Claro facilmente",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/claro/mg"
+      },
+      {
+        "text": "acordo de dívidas Magazine Luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar dívida com operadora celular",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida com a Claro SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "Pago de servicios en MG",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "explore phone deals in RJ",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "negociar dívida na Magazine Luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "conhecer o acerto de dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "boleto atrasado no Daycoval",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "hoopers telefones en Río de Janeiro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "acordo de dívida Magazine Luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida com a Claro SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "Daycoval boleto atrasado pagos aquí",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "explore rj phone numbers",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "Magazine Luiza acordo de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar dívida Oi Claro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "Negociar dívida Claro São Paulo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "banco daycoval pagamento boleto",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "Planos e telefonia no Rio",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "Negociar dívidas Magazine Luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "Negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "Negociando dívida da Claro SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "Daycoval boleto atrasado pago aquí",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "Find a hoepers phone in rj",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "acordo de dívidas magazine luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "Negociar dívidas de telefonia móvel",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida da Claro SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "manage bank accounts easily",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "find a phone number in rj",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "acordo de dívidas Magazine Luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "Negociar dívida Claro ou Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      }
+    ]
+  },
+  {
+    "slug": "vivo",
+    "nome": "Vivo",
+    "tipo": "telecom"
+  },
+  {
+    "slug": "tim",
+    "nome": "TIM",
+    "tipo": "telecom",
+    "relatedLinks": [
+      {
+        "text": "facta para negociar dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "facta para negociar deudas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "negotiate your debt with oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "oi negociar minhas dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "negociar dívidas no Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "negociar deuda americana",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "renegotiate your loan with Pan",
+        "href": "https://www.quitadoc.com.br/negociar-divida/crediario/pan"
+      },
+      {
+        "text": "renegociar dívidas em bancos como pan",
+        "href": "https://www.quitadoc.com.br/negociar-divida/crediario/pan"
+      },
+      {
+        "text": "learn about tim negocia today",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/tim/df"
+      },
+      {
+        "text": "tim negocia site oficial",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/tim/df"
+      },
+      {
+        "text": "Find Hoepers contact details",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "Gerenciar outros boletos atrasados",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/safra/ce"
+      },
+      {
+        "text": "negociar outros serviços telefonia",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/claro/mg"
+      },
+      {
+        "text": "negociar claras devedoras fácil",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/claro/mg"
+      },
+      {
+        "text": "Negociar dívidas do Banco Pan",
+        "href": "https://www.quitadoc.com.br/negociar-divida/crediario/pan/pa"
+      },
+      {
+        "text": "negotiate your service bill with Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "acordo dívidas e Magazine Luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negotiate with TIM customer service",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociação iput df agora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "other ways to negotiate debts",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "facta negociar para el df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "renegociar dívidas bradesco como no tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "tim negociação ou renegociação de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "renegociação tim melhor negócio",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "renegotiate phone bill with OI",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "magazine luiza acordo de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negotiate your Tim services",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociação iptu df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "Aprender sobre negociação financeira",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "facta financiera en df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "negociar dívidas em outros bancos",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "tim negócio dívidas renegociação",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "oi renegociação dívidas em mg",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "acordo de dívidas Magazine Luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "learn how to negotiate with Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociação iptu df agora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "Facta Negociar em dívidas TIM",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "facta negociar en la ciudad de df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "negociar dívidas em qualquer banco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "renegociação de dívidas da Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "oi ou oi renegociação de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "magazine Luiza acordos dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negotiate your Tim plan",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociação do iptu df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "renegociar dívida ou empréstimo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "facta negociar en df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "negociar dívida no Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "conheça a renegociação da tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "renegociar dívidas de telefonia em geral",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "magazine Luiza acordo dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "melhores dicas para negociar plano",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociação IPTU em DF",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "Negociar dívidas e empréstimos pessoais",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "explorar opções de empréstimo pessoal",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "negociar dívida no Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "renegociação de dívidas da Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "renegociar dívida Oi después de tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "magazine Luiza acordo dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "explore negotiating a tim plan",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar iput em df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "Como negociar suas dívidas financeiras",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "facta financiera en la capital del df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "negociar dívida em bancos como Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "tim negociar minhas dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "renegociar dívidas oi ou tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "renegociação TIM negociar dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociação do iptu em df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "renegociação dívidas com fato",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "facta negociar o empréstimo em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "Negociar dívida no Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "renegociação de dívidas da Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "learn about tim negocia",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negotiate your credit card debt",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "pagar boleto Tim atrasado",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "tim negocia melhores ofertas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "renegociação dívida Oi Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negotiating store credit card debt",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "pay off your delayed bill",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "renegotiate your tim debt now",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar dívida Oi ou Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negotiate credit card debt Americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "parcelar cuenta tim atrasada con boleto",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "renegotiate your Tim account",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "renegociação dívida Oi ou Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negotiating debts like Americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "pay daycoval boleto atrasado",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "renegotiate your tim debt",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar dívida Oi ou Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negotiate Americanas credit card debt",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "paying overdue utility bills",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "tim negocia suas dívidas agora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "renegociar dívida na Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negotiating credit card debt Americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "manage my overdue payments",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "renegociação dívida tim negócio",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negotiate your Americanas debt",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "pagar boleto tim ou daycoval",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/daycoval/mg"
+      },
+      {
+        "text": "renegociação dívida Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      }
+    ]
+  },
+  {
+    "slug": "oi",
+    "nome": "Oi",
+    "tipo": "telecom",
+    "relatedLinks": [
+      {
+        "text": "negociar dívidas em qualquer banco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "negotiate TIM debts now",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida com empresas telefônicas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "negociar dívida com outras operadoras",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "acordo de dívidas em outras lojas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar deuda Americanas ahora mismo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar dívida tim comigo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/tim/df"
+      },
+      {
+        "text": "negociar deuda de teléfono móvil",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/claro/mg"
+      },
+      {
+        "text": "cheque especial Picpay detalhes",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "negociar dívidas com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negociar dívida da Oi agora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "parcelar sua conta tim atrasada",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociar dívida com a clara",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "Negociar dívida com operadoras telefônicas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "cheque especial no PicPay",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "oi negociaçao de dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "renegociar minha dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "acordo dívida Magazine Luiza",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar dívida da Oi para pagar",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida da Oi em São Paulo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida da tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar seu imposto predial df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "outras negociações como Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "Outras opções de renegociação de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida com a oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "parcelar minha conta Tim atrasada",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociar dívida com a Claro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "negociar dívida com a clara ou oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "cheque especial PicPay é possível?",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "oi renegociar dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "magazine luiza acordos de dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "Negociar dívida da Oi e outras opções",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida Oi em Minas Gerais",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida com a TIM",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar dívida do IPTU",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "negociar dívidas em outros bancos",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "negotiate your telecom bill",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "parcelar minha conta Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociar dívida da claro oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "negociar dívidas com operadoras",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "Outras opções para emergências financeiras",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "negociar dívida oi com juros baixos",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "magazine luiza e outros acordos de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar dívida oi como fazer pagamento",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida com a TIM",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar dívida do IPTU",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "negociar dívida com outros bancos",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "Renegociação de dívidas TIM",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida da Oi online",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "parcelar contas de celular em dia",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociar dívida com a clara",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "negociar dívida com outras operadoras",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "cheque especial PicPay funciona assim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "renegociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "magazine luiza e renegociação de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar dívida com a oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida Oi em Minas Gerais",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida tim oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociando seu imposto imobiliário",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "outras negociações com bancos",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "oi e tim dívidas comparação",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "parcelar sua conta Tim atrasada",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociar dívida com a Claro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "negociar dívida de outra operadora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "cheque especial no PicPay",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "oi renegociação de dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "magazine luiza acordo dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar dívida da Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "como negociar minha dívida Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida da TIM também",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociando IPTU em Brasília DF",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "Negociar dívida com outros bancos",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "negotiate your calling card bills",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "parcelar minha conta tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociar dívida com a clara",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "como negociar dívida similar à clara",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "cheque especial picpay detalhes",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "magazine Luiza acordos de dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "Negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "como pagar dívida Oi SP",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívidas em telefonia móvel",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar dívida iput df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "Outras dívidas negociar no Bradesco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "Como negociar dívida da Tim",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "parcelar sua conta Tim atrasada",
+        "href": "https://www.quitadoc.com.br/negociar-divida/boleto-atrasado/tim/mg"
+      },
+      {
+        "text": "negociar dívida da Claro fácil",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "negociar dívida de telefonia no Brasil",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cartao-credito/claro/sp"
+      },
+      {
+        "text": "cheque especial PicPay para seu PE",
+        "href": "https://www.quitadoc.com.br/negociar-divida/cheque-especial/picpay/es"
+      },
+      {
+        "text": "oi negocia dívidas em mg",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "acordo de dívidas luiza magazine",
+        "href": "https://www.quitadoc.com.br/negociar-divida/rotativo-cartao/magazine-luiza/rn"
+      },
+      {
+        "text": "negociar dívida Oi em Minas Gerais",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida tim agora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociando seu imposto predial",
+        "href": "https://www.quitadoc.com.br/negociar-divida/iptu/net/df"
+      },
+      {
+        "text": "negociar dívida em outros bancos",
+        "href": "https://www.quitadoc.com.br/negociar-divida/credito-pessoal/bradesco"
+      },
+      {
+        "text": "renegociação dívida operadora celular",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "outras dívidas consigo negociar",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "oi negociaçao dividir minhas dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negociar dívida Oi online",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negociar dívida da oi em sp",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/oi/sp"
+      },
+      {
+        "text": "oi negociar dívidas agora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "negociar dívida de outras empresas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociação dívida tim oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negociar dívida americana similar à Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "oi renegociação de dívida",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "ver como negociar dívidas com a TIM",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negociar dívida americana com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "negociar dívida com a Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "Negociar dívida com a TIM",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida da Oi conosco",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negociar dívida Americanas ou Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "oi renegociando dívida com a oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "negociar dívidas com a TIM",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida com Americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "oi renegociando minhas dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "renegociação dívidas TIM e Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida da Oi online",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negociar dívidas Americanas ou Oi",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      },
+      {
+        "text": "oi renegociação e dívidas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/mg"
+      },
+      {
+        "text": "outras dívidas com a operadora",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "negociar dívida com Americanas",
+        "href": "https://www.quitadoc.com.br/negociar-divida/anuidade-cartao/americanas"
+      }
+    ]
+  },
+  {
+    "slug": "sky",
+    "nome": "SKY",
+    "tipo": "telecom"
+  },
+  {
+    "slug": "net",
+    "nome": "NET",
+    "tipo": "telecom",
+    "relatedLinks": [
+      {
+        "text": "conheça opções de crédito em São Paulo",
+        "href": "https://www.quitadoc.com.br/negociar-divida/emprestimo-pessoal/facta/sp"
+      },
+      {
+        "text": "negociando dívidas na Oi DF",
+        "href": "https://www.quitadoc.com.br/negociar-divida/refinanciamento/oi/df"
+      },
+      {
+        "text": "negociar dívidas da TIM",
+        "href": "https://www.quitadoc.com.br/negociar-divida/divida-trabalhista/tim/df"
+      },
+      {
+        "text": "hoepers telefone do rio",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "negociar iput em df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar o imposto do df",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar o imposto no DF",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar IPTU em DF",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar imposto do imóvel DF",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar IPTU em Brasília DF",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      },
+      {
+        "text": "negociar IPTU em DF",
+        "href": "https://www.quitadoc.com.br/negociar-divida/plano-saude/tim/df"
+      }
+    ]
+  },
+  {
+    "slug": "serasa",
+    "nome": "Serasa",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "spc",
+    "nome": "SPC Brasil",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "boa-vista",
+    "nome": "Boa Vista",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "recovery",
+    "nome": "Recovery",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "flex",
+    "nome": "Flex Cobranca",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "hoepers",
+    "nome": "Hoepers",
+    "tipo": "cobranca",
+    "relatedLinks": [
+      {
+        "text": "Hoepers in Rio de Janeiro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "Visit Hoepers in Rio de Janeiro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "Find your hoepers in RJ",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "Find us in Rio de Janeiro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "hoepers rj contato",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "Find us in Rio de Janeiro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      },
+      {
+        "text": "hoepers in Rio de Janeiro",
+        "href": "https://www.quitadoc.com.br/negociar-divida/conta-telefone/hoepers/rj"
+      }
+    ]
+  },
+  {
+    "slug": "ativos",
+    "nome": "Ativos SA",
+    "tipo": "cobranca"
+  },
+  {
+    "slug": "meireles",
+    "nome": "Meireles e Freitas",
+    "tipo": "cobranca"
+  }
 ]
