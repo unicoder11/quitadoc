@@ -193,10 +193,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   let negociarPages: MetadataRoute.Sitemap = []
   try {
     const dinamicasRoutes = require("@/data/cache/dynamic-routes.json")
-    negociarPages = dinamicasRoutes.map((route: any) => ({
+    negociarPages = dinamicasRoutes.map((route: { path: string; changefreq: string; priority: string }) => ({
       url: `${BASE_URL}${route.path}`,
       lastModified: currentDate,
-      changeFrequency: route.changefreq as const,
+      changeFrequency: route.changefreq as "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never",
       priority: parseFloat(route.priority),
     }))
   } catch (error) {
