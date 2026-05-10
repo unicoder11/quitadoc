@@ -5,6 +5,7 @@ import { ProcessTimeline } from "@/components/sections/process-timeline"
 import { FAQAccordion } from "@/components/sections/faq-accordion"
 import { CTASection } from "@/components/sections/cta-section"
 import { FormCTA } from "@/components/sections/form-cta"
+import { FileSearch, FileCheck, Mail, Handshake, Gavel } from "lucide-react"
 
 export const metadata = {
   title: "Redução de Juros Abusivos | Quitadoc",
@@ -95,11 +96,11 @@ export default function ReducaoJurosPage() {
         <ProcessTimeline
           title="Processo de Redução"
           steps={[
-            { title: "Análise do Contrato", description: "Avaliamos o contrato e calculamos se há abusividade" },
-            { title: "Comprovação", description: "Documentamos todos os juros cobrados indevidamente" },
-            { title: "Comunicação", description: "Enviamos carta solicitando redução à instituição" },
-            { title: "Negociação", description: "Tentamos acordo administrativo com a instituição" },
-            { title: "Ação Judicial", description: "Se necessário, entramos com ação para garantir direitos" }
+            { title: "Análise do Contrato", description: "Avaliamos o contrato e calculamos se há abusividade", icon: <FileSearch className="h-6 w-6" /> },
+            { title: "Comprovação", description: "Documentamos todos os juros cobrados indevidamente", icon: <FileCheck className="h-6 w-6" /> },
+            { title: "Comunicação", description: "Enviamos carta solicitando redução à instituição", icon: <Mail className="h-6 w-6" /> },
+            { title: "Negociação", description: "Tentamos acordo administrativo com a instituição", icon: <Handshake className="h-6 w-6" /> },
+            { title: "Ação Judicial", description: "Se necessário, entramos com ação para garantir direitos", icon: <Gavel className="h-6 w-6" /> }
           ]}
         />
 
@@ -150,8 +151,6 @@ export default function ReducaoJurosPage() {
         <CTASection
           title="Descubra quanto você pode economizar"
           subtitle="Análise personalizada e sem compromisso"
-          buttonText="Fazer Avaliação"
-          buttonHref="/consulta-gratuita"
         />
     </>
   )
