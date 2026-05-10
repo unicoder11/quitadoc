@@ -18,10 +18,7 @@ export default function RevisaoContratoPage() {
         
         <HeroSection
           title="Revisão de Contrato de Financiamento"
-          subtitle="Analise detalhada para identificar irregularidades e economizar milhares de reais"
-          description="Muitos contratos de financiamento contêm cláusulas que prejudicam você. Oferecemos revisão completa e orientação especializada."
-          ctaText="Solicitar Consulta"
-          ctaHref="/consulta-gratuita"
+          subtitle="Analise detalhada para identificar irregularidades e economizar milhares de reais. Muitos contratos de financiamento contêm cláusulas que prejudicam você. Oferecemos revisão completa e orientação especializada."
         />
 
         <section className="py-16 px-4">

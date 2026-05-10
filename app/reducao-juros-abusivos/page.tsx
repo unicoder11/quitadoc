@@ -18,10 +18,7 @@ export default function ReducaoJurosPage() {
         
         <HeroSection
           title="Redução de Juros Abusivos"
-          subtitle="Nós ajudamos a reduzir juros ilegais e economizar na sua dívida"
-          description="Saiba como contestar juros abusivos e obter redução através de vias legais. Consultoria especializada para sua situação."
-          ctaText="Solicitar Consulta"
-          ctaHref="/consulta-gratuita"
+          subtitle="Nós ajudamos a reduzir juros ilegais e economizar na sua dívida. Saiba como contestar juros abusivos e obter redução através de vias legais. Consultoria especializada para sua situação."
         />
 
         <section className="py-16 px-4">

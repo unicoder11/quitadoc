@@ -18,10 +18,7 @@ export default function DefesaAlienacaoPage() {
         
         <HeroSection
           title="Defesa em Alienação Fiduciária"
-          subtitle="Proteja seus direitos contra cláusulas abusivas e garantia de segurança do bem"
-          description="A alienação fiduciária é uma modalidade de garantia de empréstimo. Orientamos você sobre os direitos e como se defender de práticas abusivas."
-          ctaText="Solicitar Consulta Gratuita"
-          ctaHref="/consulta-gratuita"
+          subtitle="Proteja seus direitos contra cláusulas abusivas e garantia de segurança do bem. A alienação fiduciária é uma modalidade de garantia de empréstimo. Orientamos você sobre os direitos e como se defender de práticas abusivas."
         />
 
         <section className="py-16 px-4">
