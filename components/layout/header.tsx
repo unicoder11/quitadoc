@@ -20,6 +20,7 @@ const navigation = [
       { name: "Contestação de Leilão", href: "/contestacao-leilao-veiculo" },
     ],
   },
+  { name: "Tabela FIPE", href: "/fipe" },
   { name: "Como Funciona", href: "/como-funciona" },
   { name: "Blog", href: "/blog" },
   { name: "Calculadora", href: "/calculadora-juros" },
