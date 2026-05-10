@@ -1,8 +1,9 @@
 // next.config.js - Performance and SEO optimizations
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Enable React Compiler for better performance
-  reactCompiler: true,
+  // React Compiler disabled - requires explicit babel plugin installation
+  // Enable in production when: npm install babel-plugin-react-compiler
+  // reactCompiler: true,
 
   // Image optimization
   images: {
