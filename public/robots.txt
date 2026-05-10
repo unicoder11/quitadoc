@@ -14,6 +14,7 @@ Disallow: /admin/
 
 # Sitemap
 Sitemap: https://www.quitadoc.com.br/sitemap.xml
+Sitemap: https://www.quitadoc.com.br/fipe/sitemap.xml
 
 # Crawl-delay para não sobrecarregar
 Crawl-delay: 1
@@ -22,3 +23,5 @@ Crawl-delay: 1
 Allow: /negociar-divida/*
 Allow: /guias/*
 Allow: /blog/*
+Allow: /fipe/*
+Allow: /embed/fipe*

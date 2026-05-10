@@ -1,0 +1,60 @@
+{
+  "short_name": "QuitaDoc FIPE",
+  "name": "QuitaDoc - Tabela FIPE Atualizada",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/fipe",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/fipe/",
+  "theme_color": "#0066cc",
+  "orientation": "portrait-primary",
+  "categories": ["automotive", "utilities"],
+  "screenshots": [
+    {
+      "src": "/screenshot-540x720.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-1280x720.png",
+      "type": "image/png",
+      "sizes": "1280x720",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Consultar FIPE",
+      "short_name": "Consultar",
+      "description": "Consultar tabela FIPE",
+      "url": "/fipe?mode=quick",
+      "icons": [
+        {
+          "src": "/shortcut-icon.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
