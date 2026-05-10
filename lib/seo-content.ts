@@ -11,6 +11,12 @@ export interface SEOPage {
   bulletPoints: string[]
   relatedSlugs: string[]
   faq: { question: string; answer: string }[]
+  secondaryQuestion?: { question: string; answer: string; highlight: string }
+  relatedQuestion?: { question: string; answer: string; highlight: string }
+  legalCitation?: { text: string; source: string; link?: string }
+  realCase?: { title: string; description: string; outcome: string }
+  deepContent?: { title: string; content: string }[]
+  scenarios?: { title: string; description: string; recommendation: string }[]
 }
 
 export function getGuia(slug: string): SEOPage | undefined {
