@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { VehicleSelector } from '@/components/fipe/vehicle-selector'
 import { FipeResultCard } from '@/components/fipe/fipe-result-card'
-import { generateFipePrice, getModelsByBrand, FIPE_BRANDS } from '@/lib/fipe/mock-data'
+import { generateFipePrice, getModelsByBrand, FIPE_BRANDS, FipePrice } from '@/lib/fipe/mock-data'
 import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { TrendingUp, Search, DollarSign, Calendar } from 'lucide-react'
@@ -16,7 +16,7 @@ interface SearchResult {
 
 export default function FipePage() {
   const [searchResult, setSearchResult] = useState<SearchResult | null>(null)
-  const [fipePrice, setFipePrice] = useState(null)
+  const [fipePrice, setFipePrice] = useState<FipePrice | null>(null)
 
   const handleSearch = (result: SearchResult) => {
     setSearchResult(result)
