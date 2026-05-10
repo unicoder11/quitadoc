@@ -147,8 +147,6 @@ export default function ContestaLeilaoPage() {
         <CTASection
           title="Precisa bloquear um leilão agora?"
           subtitle="Tempo é crucial. Procure-nos imediatamente"
-          buttonText="Agendar Consulta Urgente"
-          buttonHref="/consulta-gratuita"
         />
     </>
   )
