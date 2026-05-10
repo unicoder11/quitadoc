@@ -11,12 +11,12 @@ export interface SEOPage {
   bulletPoints: string[]
   relatedSlugs: string[]
   faq: { question: string; answer: string }[]
-  secondaryQuestion?: { question: string; answer: string; highlight: string }
-  relatedQuestion?: { question: string; answer: string; highlight: string }
-  legalCitation?: { text: string; source: string; link?: string }
-  realCase?: { title: string; description: string; outcome: string }
-  deepContent?: { title: string; content: string }[]
-  scenarios?: { title: string; description: string; recommendation: string }[]
+  secondaryQuestion?: { question: string; answer: string; highlight?: string }
+  relatedQuestion?: { question: string; answer: string; highlight?: string }
+  legalCitation?: { law: string; article: string; description: string; source?: string }
+  realCase?: { title: string; situation: string; solution: string; result: string; timeline?: string }
+  deepContent?: { title: string; content: string; example?: string; tip?: string; warning?: string }
+  scenarios?: Array<{ title: string; description: string; action: string; urgency: "low" | "medium" | "high" }>
 }
 
 export function getGuia(slug: string): SEOPage | undefined {
