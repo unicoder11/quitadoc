@@ -18,10 +18,7 @@ export default function ContestaLeilaoPage() {
         
         <HeroSection
           title="Contestação de Leilão de Veículo"
-          subtitle="Bloqueie ou reverta um leilão do seu veículo. Proteja seu patrimônio agora"
-          description="Se seu veículo foi levado a leilão, pode haver irregularidades no processo. Orientamos na contestação e recuperação."
-          ctaText="Solicitar Consultoria Urgente"
-          ctaHref="/consulta-gratuita"
+          subtitle="Bloqueie ou reverta um leilão do seu veículo. Proteja seu patrimônio agora. Se seu veículo foi levado a leilão, pode haver irregularidades no processo. Orientamos na contestação e recuperação."
         />
 
         <section className="py-16 px-4">
