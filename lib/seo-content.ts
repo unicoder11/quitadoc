@@ -11,22 +11,28 @@ export interface SEOPage {
   bulletPoints: string[]
   relatedSlugs: string[]
   faq: { question: string; answer: string }[]
+  secondaryQuestion?: { question: string; answer: string; highlight?: string }
+  relatedQuestion?: { question: string; answer: string; highlight?: string }
+  legalCitation?: { law: string; article: string; description: string; source?: string }
+  realCase?: { title: string; situation: string; solution: string; result: string; timeline?: string }
+  deepContent?: { title: string; content: string; example?: string; tip?: string; warning?: string }
+  scenarios?: Array<{ title: string; description: string; action: string; urgency: "low" | "medium" | "high" }>
 }
 
 export function getGuia(slug: string): SEOPage | undefined {
-  return seoKeywords.guias.find((g) => g.slug === slug)
+  return seoKeywords.guias.find((g) => g.slug === slug) as SEOPage | undefined
 }
 
 export function getDuvida(slug: string): SEOPage | undefined {
-  return seoKeywords.duvidas.find((d) => d.slug === slug)
+  return seoKeywords.duvidas.find((d) => d.slug === slug) as SEOPage | undefined
 }
 
 export function getAllGuias(): SEOPage[] {
-  return seoKeywords.guias
+  return seoKeywords.guias as SEOPage[]
 }
 
 export function getAllDuvidas(): SEOPage[] {
-  return seoKeywords.duvidas
+  return seoKeywords.duvidas as SEOPage[]
 }
 
 export function getRelatedPages(slugs: string[], type: "guias" | "duvidas"): { title: string; href: string }[] {

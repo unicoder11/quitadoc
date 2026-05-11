@@ -5,6 +5,7 @@ import { ProcessTimeline } from "@/components/sections/process-timeline"
 import { FAQAccordion } from "@/components/sections/faq-accordion"
 import { CTASection } from "@/components/sections/cta-section"
 import { FormCTA } from "@/components/sections/form-cta"
+import { FileInput, Search, AlertTriangle, FileText, ArrowRight } from "lucide-react"
 
 export const metadata = {
   title: "Revisão de Contrato de Financiamento | Quitadoc",
@@ -18,10 +19,7 @@ export default function RevisaoContratoPage() {
         
         <HeroSection
           title="Revisão de Contrato de Financiamento"
-          subtitle="Analise detalhada para identificar irregularidades e economizar milhares de reais"
-          description="Muitos contratos de financiamento contêm cláusulas que prejudicam você. Oferecemos revisão completa e orientação especializada."
-          ctaText="Solicitar Consulta"
-          ctaHref="/consulta-gratuita"
+          subtitle="Analise detalhada para identificar irregularidades e economizar milhares de reais. Muitos contratos de financiamento contêm cláusulas que prejudicam você. Oferecemos revisão completa e orientação especializada."
         />
 
         <section className="py-16 px-4">
@@ -77,11 +75,11 @@ export default function RevisaoContratoPage() {
         <ProcessTimeline
           title="Processo de Revisão"
           steps={[
-            { title: "Recebimento do Contrato", description: "Você nos envia cópia do contrato de financiamento" },
-            { title: "Análise Jurídica", description: "Nossa equipe faz análise completa e comparação com legislação" },
-            { title: "Identificação de Problemas", description: "Listamos todas as cláusulas irregulares encontradas" },
-            { title: "Relatório e Consultoria", description: "Você recebe relatório detalhado com recomendações" },
-            { title: "Próximos Passos", description: "Discutimos as melhores estratégias para sua situação" }
+            { title: "Recebimento do Contrato", description: "Você nos envia cópia do contrato de financiamento", icon: <FileInput className="h-6 w-6" /> },
+            { title: "Análise Jurídica", description: "Nossa equipe faz análise completa e comparação com legislação", icon: <Search className="h-6 w-6" /> },
+            { title: "Identificação de Problemas", description: "Listamos todas as cláusulas irregulares encontradas", icon: <AlertTriangle className="h-6 w-6" /> },
+            { title: "Relatório e Consultoria", description: "Você recebe relatório detalhado com recomendações", icon: <FileText className="h-6 w-6" /> },
+            { title: "Próximos Passos", description: "Discutimos as melhores estratégias para sua situação", icon: <ArrowRight className="h-6 w-6" /> }
           ]}
         />
 
@@ -132,8 +130,6 @@ export default function RevisaoContratoPage() {
         <CTASection
           title="Revise seu contrato agora"
           subtitle="Pode haver muito dinheiro em jogo"
-          buttonText="Começar Avaliação"
-          buttonHref="/consulta-gratuita"
         />
     </>
   )

@@ -1,4 +1,15 @@
-import { slugify } from './utils/helpers'
+// Slugify helper function
+function slugify(text: string): string {
+  return text
+    .toString()
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^\w\s-]/g, '')
+    .replace(/\s+/g, '-')
+    .replace(/--+/g, '-')
+    .trim()
+}
 
 export interface InterlinkingConfig {
   tipo: string
@@ -67,14 +78,14 @@ export function gerarLinks(config: InterlinkingConfig): InterlinkingLinks {
   const outrasEmpresas = EMPRESAS_PRINCIPAIS.filter(
     (e) => e !== empresa
   ).slice(0, 3)
-  outrasEmpresas.forEach((empresa) => {
-    laterais.push(`${basePath}/${tipo}/${empresa}/${estado}/${city}`)
+  outrasEmpresas.forEach((emp) => {
+    laterais.push(`${basePath}/${tipo}/${emp}/${estado}/${cidade}`)
   })
 
   // Adiciona outras cidades do mesmo estado
   const cidades = CIDADES_POR_ESTADO[estado] || []
   cidades.forEach((c) => {
-    if (c !== city) {
+    if (c !== cidade) {
       laterais.push(`${basePath}/${tipo}/${empresa}/${estado}/${c}`)
     }
   })
@@ -202,7 +213,7 @@ export function rotacaoLinks(
   links: InterlinkingLinks,
   seed: number = 0
 ): InterlinkingLinks {
-  const shuffle = (array: string[], seed: number) => {
+  const shuffle = <T>(array: T[], seed: number): T[] => {
     const shuffled = [...array]
     let random = seed
     for (let i = shuffled.length - 1; i > 0; i--) {

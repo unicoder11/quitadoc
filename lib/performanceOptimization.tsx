@@ -34,9 +34,10 @@ export function OptimizedImage({
       placeholder="blur"
       blurDataURL="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23e5e7eb' width='400' height='300'/%3E%3C/svg%3E"
       className={`h-auto w-full ${className}`}
-      onLoad={(result) => {
+      onLoad={(event) => {
         // Registrar WebCore Vitals
-        if (result.naturalWidth > 0) {
+        const img = event.currentTarget as HTMLImageElement
+        if (img.naturalWidth > 0) {
           console.log(`[v0] Image loaded: ${alt}`)
         }
       }}

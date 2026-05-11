@@ -123,10 +123,10 @@ export class QualityChecker {
    */
   private estimateUniqueness(content: PageContent): number {
     const intro = content.intro.toLowerCase()
-    const benefits = content.benefits.toLowerCase()
+    const benefitsText = content.benefits.map(b => `${b.title} ${b.text}`).join(' ').toLowerCase()
 
     const introWords = new Set(intro.split(/\s+/))
-    const benefitsWords = new Set(benefits.split(/\s+/))
+    const benefitsWords = new Set(benefitsText.split(/\s+/))
 
     const uniqueWords = new Set([...introWords, ...benefitsWords])
     const totalWords = introWords.size + benefitsWords.size

@@ -5,6 +5,7 @@ import { ProcessTimeline } from "@/components/sections/process-timeline"
 import { FAQAccordion } from "@/components/sections/faq-accordion"
 import { CTASection } from "@/components/sections/cta-section"
 import { FormCTA } from "@/components/sections/form-cta"
+import { FileSearch, AlertCircle, Scale, Handshake, CheckCircle } from "lucide-react"
 
 export const metadata = {
   title: "Defesa em Alienação Fiduciária | Quitadoc",
@@ -18,10 +19,7 @@ export default function DefesaAlienacaoPage() {
         
         <HeroSection
           title="Defesa em Alienação Fiduciária"
-          subtitle="Proteja seus direitos contra cláusulas abusivas e garantia de segurança do bem"
-          description="A alienação fiduciária é uma modalidade de garantia de empréstimo. Orientamos você sobre os direitos e como se defender de práticas abusivas."
-          ctaText="Solicitar Consulta Gratuita"
-          ctaHref="/consulta-gratuita"
+          subtitle="Proteja seus direitos contra cláusulas abusivas e garantia de segurança do bem. A alienação fiduciária é uma modalidade de garantia de empréstimo. Orientamos você sobre os direitos e como se defender de práticas abusivas."
         />
 
         <section className="py-16 px-4">
@@ -70,11 +68,11 @@ export default function DefesaAlienacaoPage() {
         <ProcessTimeline
           title="Nosso Processo"
           steps={[
-            { title: "Análise do Contrato", description: "Avaliamos todos os termos do seu contrato de alienação fiduciária" },
-            { title: "Identificação de Problemas", description: "Detectamos cláusulas abusivas e irregularidades" },
-            { title: "Estratégia Jurídica", description: "Desenvolvemos a melhor abordagem para seu caso" },
-            { title: "Negociação", description: "Entramos em contato com a instituição para resolver" },
-            { title: "Resolução", description: "Implementamos a solução e protegemos seus direitos" }
+            { title: "Análise do Contrato", description: "Avaliamos todos os termos do seu contrato de alienação fiduciária", icon: <FileSearch className="h-6 w-6" /> },
+            { title: "Identificação de Problemas", description: "Detectamos cláusulas abusivas e irregularidades", icon: <AlertCircle className="h-6 w-6" /> },
+            { title: "Estratégia Jurídica", description: "Desenvolvemos a melhor abordagem para seu caso", icon: <Scale className="h-6 w-6" /> },
+            { title: "Negociação", description: "Entramos em contato com a instituição para resolver", icon: <Handshake className="h-6 w-6" /> },
+            { title: "Resolução", description: "Implementamos a solução e protegemos seus direitos", icon: <CheckCircle className="h-6 w-6" /> }
           ]}
         />
 
@@ -125,8 +123,6 @@ export default function DefesaAlienacaoPage() {
         <CTASection
           title="Proteja seus direitos em alienação fiduciária"
           subtitle="Nossa equipe está pronta para ajudar"
-          buttonText="Agendar Consulta Gratuita"
-          buttonHref="/consulta-gratuita"
         />
     </>
   )

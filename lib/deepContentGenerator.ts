@@ -31,6 +31,7 @@ export const DADOS_MERCADO = {
     chequeEspecial: { media: 320, limite: 150 },
     consignado: { media: 45, limite: 30 },
     veicular: { media: 96, limite: 60 },
+    imobiliario: { media: 72, limite: 45 },
   },
   estatisticasGerais: {
     clientesAtendidos: 12847,

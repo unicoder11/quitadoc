@@ -5,6 +5,7 @@ import { ProcessTimeline } from "@/components/sections/process-timeline"
 import { FAQAccordion } from "@/components/sections/faq-accordion"
 import { CTASection } from "@/components/sections/cta-section"
 import { FormCTA } from "@/components/sections/form-cta"
+import { AlertTriangle, FileSearch, Gavel, ShieldAlert, RotateCcw } from "lucide-react"
 
 export const metadata = {
   title: "Contestação de Leilão de Veículo | Quitadoc",
@@ -91,11 +92,11 @@ export default function ContestaLeilaoPage() {
         <ProcessTimeline
           title="Processo de Contestação"
           steps={[
-            { title: "Avaliação de Urgência", description: "Análise imediata da situação para decisão de ações urgentes" },
-            { title: "Preparação de Defesa", description: "Levantamento de todos os vícios do processo de leilão" },
-            { title: "Ação Judicial", description: "Apresentação imediata de ação para bloqueio" },
-            { title: "Medida Cautelar", description: "Solicitação de medida para suspender o leilão" },
-            { title: "Recuperação", description: "Atuação para anulação e retorno do veículo" }
+            { title: "Avaliação de Urgência", description: "Análise imediata da situação para decisão de ações urgentes", icon: <AlertTriangle className="h-6 w-6" /> },
+            { title: "Preparação de Defesa", description: "Levantamento de todos os vícios do processo de leilão", icon: <FileSearch className="h-6 w-6" /> },
+            { title: "Ação Judicial", description: "Apresentação imediata de ação para bloqueio", icon: <Gavel className="h-6 w-6" /> },
+            { title: "Medida Cautelar", description: "Solicitação de medida para suspender o leilão", icon: <ShieldAlert className="h-6 w-6" /> },
+            { title: "Recuperação", description: "Atuação para anulação e retorno do veículo", icon: <RotateCcw className="h-6 w-6" /> }
           ]}
         />
 
@@ -146,8 +147,6 @@ export default function ContestaLeilaoPage() {
         <CTASection
           title="Precisa bloquear um leilão agora?"
           subtitle="Tempo é crucial. Procure-nos imediatamente"
-          buttonText="Agendar Consulta Urgente"
-          buttonHref="/consulta-gratuita"
         />
     </>
   )

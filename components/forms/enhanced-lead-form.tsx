@@ -3,7 +3,6 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Select } from "@/components/ui/select"
 import { Check } from "lucide-react"
 
 interface EnhancedLeadFormProps {
@@ -222,7 +221,12 @@ export function EnhancedLeadForm({ onSubmit }: EnhancedLeadFormProps) {
               <label className="block text-sm font-medium text-foreground mb-2">
                 Banco/Financeira
               </label>
-              <Select name="banco" value={formData.banco} onChange={handleChange}>
+              <select 
+                name="banco" 
+                value={formData.banco} 
+                onChange={handleChange}
+                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              >
                 <option value="">Selecione...</option>
                 <option value="Santander">Santander</option>
                 <option value="Bradesco">Bradesco</option>
@@ -234,21 +238,26 @@ export function EnhancedLeadForm({ onSubmit }: EnhancedLeadFormProps) {
                 <option value="Nubank">Nubank</option>
                 <option value="Sicredi">Sicredi</option>
                 <option value="Outro">Outro</option>
-              </Select>
+              </select>
             </div>
 
             <div>
               <label className="block text-sm font-medium text-foreground mb-2">
                 Quantas parcelas estão atrasadas?
               </label>
-              <Select name="parcelas" value={formData.parcelas} onChange={handleChange}>
+              <select 
+                name="parcelas" 
+                value={formData.parcelas} 
+                onChange={handleChange}
+                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              >
                 <option value="">Selecione...</option>
                 <option value="1-2 parcelas">1-2 parcelas</option>
                 <option value="3-5 parcelas">3-5 parcelas</option>
                 <option value="6-10 parcelas">6-10 parcelas</option>
                 <option value="Mais de 10 parcelas">Mais de 10 parcelas</option>
                 <option value="Não sei ao certo">Não sei ao certo</option>
-              </Select>
+              </select>
             </div>
 
             <div className="flex gap-3">
@@ -283,7 +292,12 @@ export function EnhancedLeadForm({ onSubmit }: EnhancedLeadFormProps) {
               <label className="block text-sm font-medium text-foreground mb-2">
                 Situação Atual
               </label>
-              <Select name="situacao" value={formData.situacao} onChange={handleChange}>
+              <select 
+                name="situacao" 
+                value={formData.situacao} 
+                onChange={handleChange}
+                className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              >
                 <option value="">Selecione...</option>
                 <option value="Recebi notificação de busca e apreensão">
                   Recebi notificação de busca e apreensão
@@ -292,7 +306,7 @@ export function EnhancedLeadForm({ onSubmit }: EnhancedLeadFormProps) {
                 <option value="Estou apenas atrasado">Estou apenas atrasado</option>
                 <option value="Quero revisar meu contrato">Quero revisar meu contrato</option>
                 <option value="Preciso negociar a dívida">Preciso negociar a dívida</option>
-              </Select>
+              </select>
             </div>
 
             <div>

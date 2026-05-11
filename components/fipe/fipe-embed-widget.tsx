@@ -2,7 +2,7 @@
 
 import { VehicleSelector } from '@/components/fipe/vehicle-selector'
 import { PriceHistoryChart } from '@/components/fipe/price-history-chart'
-import { generateFipePrice, getModelsByBrand, FIPE_BRANDS } from '@/lib/fipe/mock-data'
+import { generateFipePrice, getModelsByBrand, FIPE_BRANDS, FipePrice } from '@/lib/fipe/mock-data'
 import { Badge } from '@/components/ui/badge'
 import { DollarSign } from 'lucide-react'
 import { useState } from 'react'
@@ -15,7 +15,7 @@ interface SearchResult {
 
 export function FipeEmbedWidget() {
   const [searchResult, setSearchResult] = useState<SearchResult | null>(null)
-  const [fipePrice, setFipePrice] = useState(null)
+  const [fipePrice, setFipePrice] = useState<FipePrice | null>(null)
 
   const handleSearch = (result: SearchResult) => {
     setSearchResult(result)

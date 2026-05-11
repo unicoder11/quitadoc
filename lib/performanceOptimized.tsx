@@ -1,22 +1,6 @@
 'use client'
 
-import { lazy, Suspense } from 'react'
-import dynamic from 'next/dynamic'
 import Image from 'next/image'
-
-// Componentes com lazy loading dinâmico
-const SimuladorDivida = dynamic(() => import('./simulador-divida').then(m => ({ default: m.SimuladorDivida })), {
-  loading: () => <div className="h-96 bg-secondary/50 rounded-xl animate-pulse" />,
-  ssr: false
-})
-
-const InterLinkingSection = dynamic(() => import('./interlinking-section').then(m => ({ default: m.default })), {
-  loading: () => <div className="h-48 bg-secondary/50 rounded-xl animate-pulse" />,
-})
-
-const AutoridadeBuilder = dynamic(() => import('./autoridade-builder').then(m => ({ default: m.AutoridadeBuilder })), {
-  loading: () => <div className="h-96 bg-secondary/50 rounded-xl animate-pulse" />,
-})
 
 export function PerformanceOptimizedPage({ children }: { children: React.ReactNode }) {
   return (
@@ -48,21 +32,6 @@ export function PerformanceOptimizedPage({ children }: { children: React.ReactNo
       `}</style>
       
       {children}
-      
-      {/* Lazy load simulador após hero */}
-      <Suspense fallback={<div className="h-96 bg-secondary/50 rounded-xl animate-pulse" />}>
-        <SimuladorDivida />
-      </Suspense>
-      
-      {/* Lazy load interlinking */}
-      <Suspense fallback={<div className="h-48 bg-secondary/50 rounded-xl animate-pulse" />}>
-        <InterLinkingSection />
-      </Suspense>
-      
-      {/* Lazy load autoridade */}
-      <Suspense fallback={<div className="h-96 bg-secondary/50 rounded-xl animate-pulse" />}>
-        <AutoridadeBuilder />
-      </Suspense>
     </>
   )
 }
