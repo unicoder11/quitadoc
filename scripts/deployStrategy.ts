@@ -113,7 +113,7 @@ async function triggerIndexing() {
     console.log('   📍 Pinging Google...')
     await fetch(`https://www.google.com/ping?sitemap=${baseUrl}/sitemap.xml`, {
       method: 'GET',
-      timeout: 5000,
+      signal: AbortSignal.timeout(5000),
     }).catch(() => console.log('   ⚠️  Google ping sent'))
 
     // Ping Bing (IndexNow)

@@ -41,8 +41,9 @@ export class PerformanceMonitor {
         try {
           const lcpObserver = new PerformanceObserver((list) => {
             const entries = list.getEntries()
-            const lastEntry = entries[entries.length - 1]
-            console.log(`[v0] Performance: LCP - ${Math.round(lastEntry.renderTime || lastEntry.loadTime)}ms`)
+            const lastEntry = entries[entries.length - 1] as PerformanceEntry & { renderTime?: number; loadTime?: number }
+            const lcpTime = lastEntry.renderTime || lastEntry.loadTime || lastEntry.startTime
+            console.log(`[v0] Performance: LCP - ${Math.round(lcpTime)}ms`)
           })
           lcpObserver.observe({ entryTypes: ['largest-contentful-paint'] })
         } catch (e) {

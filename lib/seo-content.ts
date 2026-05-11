@@ -20,19 +20,19 @@ export interface SEOPage {
 }
 
 export function getGuia(slug: string): SEOPage | undefined {
-  return seoKeywords.guias.find((g) => g.slug === slug)
+  return seoKeywords.guias.find((g) => g.slug === slug) as SEOPage | undefined
 }
 
 export function getDuvida(slug: string): SEOPage | undefined {
-  return seoKeywords.duvidas.find((d) => d.slug === slug)
+  return seoKeywords.duvidas.find((d) => d.slug === slug) as SEOPage | undefined
 }
 
 export function getAllGuias(): SEOPage[] {
-  return seoKeywords.guias
+  return seoKeywords.guias as SEOPage[]
 }
 
 export function getAllDuvidas(): SEOPage[] {
-  return seoKeywords.duvidas
+  return seoKeywords.duvidas as SEOPage[]
 }
 
 export function getRelatedPages(slugs: string[], type: "guias" | "duvidas"): { title: string; href: string }[] {
