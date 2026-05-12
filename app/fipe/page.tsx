@@ -1,32 +1,28 @@
 'use client'
 
 import { useState } from 'react'
-import { VehicleSelector } from '@/components/fipe/vehicle-selector'
-import { FipeResultCard } from '@/components/fipe/fipe-result-card'
-import { generateFipePrice, getModelsByBrand, FIPE_BRANDS, FipePrice } from '@/lib/fipe/mock-data'
+import { VehicleSelector, VehicleSearchResult } from '@/components/fipe/vehicle-selector'
+import { getFipePrice, FipeVehiclePrice, parseValorFipe } from '@/lib/fipe/api'
 import { Card } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
-import { TrendingUp, Search, DollarSign, Calendar } from 'lucide-react'
-
-interface SearchResult {
-  brand: string
-  model: string
-  year: number
-}
+import { TrendingUp, Search, DollarSign, Calendar, Loader2, AlertCircle, Car, Tag, Fuel, Hash } from 'lucide-react'
 
 export default function FipePage() {
-  const [searchResult, setSearchResult] = useState<SearchResult | null>(null)
-  const [fipePrice, setFipePrice] = useState<FipePrice | null>(null)
+  const [fipePrice, setFipePrice] = useState<FipeVehiclePrice | null>(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
 
-  const handleSearch = (result: SearchResult) => {
-    setSearchResult(result)
-    // Find the model and generate price
-    const allModels = getModelsByBrand(FIPE_BRANDS.find(b => b.name === result.brand)?.id || '')
-    const model = allModels.find(m => m.name === result.model)
-    if (model) {
-      const brandObj = FIPE_BRANDS.find(b => b.name === result.brand)
-      const price = generateFipePrice(model, result.year, result.brand)
+  const handleSearch = async (result: VehicleSearchResult) => {
+    setLoading(true)
+    setError(null)
+    setFipePrice(null)
+    try {
+      const price = await getFipePrice(result.type, result.brandCode, result.modelCode, result.yearCode)
       setFipePrice(price)
+    } catch {
+      setError('Não foi possível obter o preço. Tente novamente.')
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -52,7 +48,7 @@ export default function FipePage() {
               Tabela FIPE Atualizada Diariamente
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold text-primary-foreground text-balance">
-              Tabela FIPE 2025
+              Tabela FIPE 2026
             </h1>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
               Consulte os preços mais precisos de carros, motos e caminhões com histórico de valores e análise de mercado
@@ -102,20 +98,79 @@ export default function FipePage() {
       </section>
 
       {/* Results Section */}
-      {fipePrice && searchResult && (
+      {(loading || error || fipePrice) && (
         <section className="py-12 md:py-20 bg-background">
           <div className="mx-auto max-w-7xl px-4 lg:px-8">
-            <div className="space-y-6">
-              <div>
-                <h2 className="text-3xl font-bold text-foreground mb-2">
-                  Resultado para {searchResult.brand} {searchResult.model} {searchResult.year}
-                </h2>
-                <p className="text-muted-foreground">
-                  Análise completa de preços e histórico de valores
-                </p>
+            {loading && (
+              <div className="flex items-center justify-center gap-3 py-12 text-muted-foreground">
+                <Loader2 className="h-6 w-6 animate-spin" />
+                <span className="text-lg">Consultando tabela FIPE...</span>
               </div>
-              <FipeResultCard price={fipePrice} showChart={true} />
-            </div>
+            )}
+            {error && (
+              <div className="flex items-center gap-3 p-4 rounded-lg bg-destructive/10 border border-destructive/20 text-destructive">
+                <AlertCircle className="h-5 w-5 shrink-0" />
+                <span>{error}</span>
+              </div>
+            )}
+            {fipePrice && (
+              <Card className="overflow-hidden">
+                <div className="p-6 space-y-6">
+                  {/* Header */}
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
+                    <div>
+                      <h2 className="text-2xl font-bold text-foreground">
+                        {fipePrice.Marca} {fipePrice.Modelo}
+                      </h2>
+                      <p className="text-muted-foreground">{fipePrice.AnoModelo} · {fipePrice.Combustivel}</p>
+                    </div>
+                    <Badge variant="outline" className="self-start">
+                      Cód. FIPE: {fipePrice.CodigoFipe}
+                    </Badge>
+                  </div>
+
+                  {/* Price */}
+                  <div className="p-5 bg-primary/5 rounded-xl border border-primary/10 flex items-baseline gap-3">
+                    <DollarSign className="h-7 w-7 text-primary shrink-0" />
+                    <span className="text-4xl font-bold text-primary">{fipePrice.Valor}</span>
+                  </div>
+
+                  {/* Details Grid */}
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                    <div className="p-3 bg-secondary rounded-lg space-y-1">
+                      <div className="flex items-center gap-1.5 text-xs text-muted-foreground font-medium">
+                        <Car className="h-3.5 w-3.5" /> Tipo
+                      </div>
+                      <p className="font-semibold text-foreground text-sm">
+                        {fipePrice.TipoVeiculo === 1 ? 'Carro' : fipePrice.TipoVeiculo === 2 ? 'Moto' : 'Caminhão'}
+                      </p>
+                    </div>
+                    <div className="p-3 bg-secondary rounded-lg space-y-1">
+                      <div className="flex items-center gap-1.5 text-xs text-muted-foreground font-medium">
+                        <Fuel className="h-3.5 w-3.5" /> Combustível
+                      </div>
+                      <p className="font-semibold text-foreground text-sm">{fipePrice.Combustivel}</p>
+                    </div>
+                    <div className="p-3 bg-secondary rounded-lg space-y-1">
+                      <div className="flex items-center gap-1.5 text-xs text-muted-foreground font-medium">
+                        <Tag className="h-3.5 w-3.5" /> Referência
+                      </div>
+                      <p className="font-semibold text-foreground text-sm capitalize">{fipePrice.MesReferencia}</p>
+                    </div>
+                    <div className="p-3 bg-secondary rounded-lg space-y-1">
+                      <div className="flex items-center gap-1.5 text-xs text-muted-foreground font-medium">
+                        <Hash className="h-3.5 w-3.5" /> Ano Modelo
+                      </div>
+                      <p className="font-semibold text-foreground text-sm">{fipePrice.AnoModelo}</p>
+                    </div>
+                  </div>
+
+                  <p className="text-xs text-muted-foreground">
+                    Fonte: Fundação Instituto de Pesquisas Econômicas — FIPE. Preço médio de mercado, sem garantia de valor de venda.
+                  </p>
+                </div>
+              </Card>
+            )}
           </div>
         </section>
       )}
@@ -152,16 +207,16 @@ export default function FipePage() {
         </div>
       </section>
 
-      {/* Featured Brands */}
+      {/* Popular Brands (static list for SEO) */}
       <section className="py-12 md:py-20 bg-background">
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
             Marcas Populares
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-            {FIPE_BRANDS.slice(0, 10).map((brand) => (
-              <Card key={brand.id} className="p-4 text-center hover:shadow-lg transition-shadow cursor-pointer">
-                <p className="font-semibold text-foreground">{brand.name}</p>
+            {['Fiat', 'Volkswagen', 'Chevrolet', 'Ford', 'Hyundai', 'Renault', 'Honda', 'Toyota', 'Jeep', 'Peugeot'].map((brand) => (
+              <Card key={brand} className="p-4 text-center hover:shadow-lg transition-shadow">
+                <p className="font-semibold text-foreground">{brand}</p>
               </Card>
             ))}
           </div>

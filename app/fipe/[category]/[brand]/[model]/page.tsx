@@ -64,7 +64,7 @@ export default function ModelPage({ params }: Props) {
             {brandData.name} {modelData.name}
           </h1>
           <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-            Preços FIPE 2025 por ano com histórico de 12 meses
+            Preços FIPE 2026 por ano com histórico de 12 meses
           </p>
         </div>
       </section>

@@ -1,137 +1,227 @@
 'use client'
 
-import { useState, useMemo } from 'react'
-import { getCategories, getBrandsByCategory, getModelsByBrand, generateFipePrice } from '@/lib/fipe/mock-data'
+import { useState, useEffect } from 'react'
+import {
+  VehicleType,
+  FipeBrand,
+  FipeModel,
+  FipeYear,
+  getFipeBrands,
+  getFipeModels,
+  getFipeYears,
+} from '@/lib/fipe/api'
 import { Button } from '@/components/ui/button'
-import { ChevronDown } from 'lucide-react'
+import { ChevronDown, Loader2 } from 'lucide-react'
+
+export interface VehicleSearchResult {
+  type: VehicleType
+  brandCode: string
+  brandName: string
+  modelCode: string
+  modelName: string
+  yearCode: string
+  yearName: string
+}
 
 interface VehicleSelectorProps {
-  onSearch?: (result: { brand: string; model: string; year: number }) => void
+  onSearch?: (result: VehicleSearchResult) => void
+}
+
+const VEHICLE_TYPES: { value: VehicleType; label: string }[] = [
+  { value: 'carros', label: 'Carros' },
+  { value: 'motos', label: 'Motos' },
+  { value: 'caminhoes', label: 'Caminhões' },
+]
+
+function SelectField({
+  label,
+  value,
+  onChange,
+  disabled,
+  loading,
+  children,
+}: {
+  label: string
+  value: string
+  onChange: (v: string) => void
+  disabled?: boolean
+  loading?: boolean
+  children: React.ReactNode
+}) {
+  return (
+    <div>
+      <label className="block text-sm font-medium text-foreground mb-2">{label}</label>
+      <div className="relative">
+        <select
+          value={value}
+          onChange={(e) => onChange(e.target.value)}
+          disabled={disabled || loading}
+          className="w-full appearance-none px-4 py-2.5 rounded-lg border border-border bg-background text-foreground font-medium pr-10 focus:border-primary focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed"
+        >
+          {children}
+        </select>
+        {loading ? (
+          <Loader2 className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground animate-spin" />
+        ) : (
+          <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
+        )}
+      </div>
+    </div>
+  )
 }
 
 export function VehicleSelector({ onSearch }: VehicleSelectorProps) {
-  const [selectedCategory, setSelectedCategory] = useState<string>('1')
-  const [selectedBrand, setSelectedBrand] = useState<string>('')
-  const [selectedModel, setSelectedModel] = useState<string>('')
-  const [selectedYear, setSelectedYear] = useState<string>('')
+  const [type, setType] = useState<VehicleType>('carros')
 
-  const categories = getCategories()
-  const brands = useMemo(() => getBrandsByCategory(selectedCategory), [selectedCategory])
-  const models = useMemo(() => (selectedBrand ? getModelsByBrand(selectedBrand) : []), [selectedBrand])
-  const years = useMemo(() => {
-    const model = models.find((m) => m.id === selectedModel)
-    return model ? model.years.sort((a, b) => b - a) : []
-  }, [selectedModel, models])
+  const [brands, setBrands] = useState<FipeBrand[]>([])
+  const [selectedBrand, setSelectedBrand] = useState('')
+  const [loadingBrands, setLoadingBrands] = useState(false)
+
+  const [models, setModels] = useState<FipeModel[]>([])
+  const [selectedModel, setSelectedModel] = useState('')
+  const [loadingModels, setLoadingModels] = useState(false)
+
+  const [years, setYears] = useState<FipeYear[]>([])
+  const [selectedYear, setSelectedYear] = useState('')
+  const [loadingYears, setLoadingYears] = useState(false)
+
+  // Load brands when type changes — reset downstream state immediately
+  function changeType(newType: VehicleType) {
+    setType(newType)
+    setSelectedBrand('')
+    setModels([])
+    setSelectedModel('')
+    setYears([])
+    setSelectedYear('')
+  }
+
+  function changeBrand(brandCode: string) {
+    setSelectedBrand(brandCode)
+    setModels([])
+    setSelectedModel('')
+    setYears([])
+    setSelectedYear('')
+  }
+
+  function changeModel(modelCode: string) {
+    setSelectedModel(modelCode)
+    setYears([])
+    setSelectedYear('')
+  }
+
+  // Load brands when type changes
+  useEffect(() => {
+    setLoadingBrands(true)
+    getFipeBrands(type)
+      .then(setBrands)
+      .catch(() => setBrands([]))
+      .finally(() => setLoadingBrands(false))
+  }, [type])
+
+  // Load models when brand changes
+  useEffect(() => {
+    if (!selectedBrand) {
+      setModels([])
+      return
+    }
+    setLoadingModels(true)
+    getFipeModels(type, selectedBrand)
+      .then((data) => setModels(data.modelos))
+      .catch(() => setModels([]))
+      .finally(() => setLoadingModels(false))
+  }, [type, selectedBrand])
+
+  // Load years when model changes
+  useEffect(() => {
+    if (!selectedModel) {
+      setYears([])
+      return
+    }
+    setLoadingYears(true)
+    getFipeYears(type, selectedBrand, selectedModel)
+      .then(setYears)
+      .catch(() => setYears([]))
+      .finally(() => setLoadingYears(false))
+  }, [type, selectedBrand, selectedModel])
 
   const handleSearch = () => {
-    if (selectedBrand && selectedModel && selectedYear) {
-      const brandName = brands.find((b) => b.id === selectedBrand)?.name || ''
-      const modelName = models.find((m) => m.id === selectedModel)?.name || ''
-      onSearch?.({
-        brand: brandName,
-        model: modelName,
-        year: parseInt(selectedYear),
-      })
-    }
+    if (!selectedBrand || !selectedModel || !selectedYear) return
+    const brandName = brands.find((b) => b.codigo === selectedBrand)?.nome ?? ''
+    const modelName = models.find((m) => m.codigo === selectedModel)?.nome ?? ''
+    const yearName = years.find((y) => y.codigo === selectedYear)?.nome ?? ''
+    onSearch?.({ type, brandCode: selectedBrand, brandName, modelCode: selectedModel, modelName, yearCode: selectedYear, yearName })
   }
 
   const isComplete = selectedBrand && selectedModel && selectedYear
 
   return (
     <div className="w-full space-y-4">
-      {/* Category Selector */}
+      {/* Vehicle Type */}
       <div>
         <label className="block text-sm font-medium text-foreground mb-2">Tipo de Veículo</label>
         <div className="grid grid-cols-3 gap-2">
-          {categories.map((cat) => (
+          {VEHICLE_TYPES.map((vt) => (
             <button
-              key={cat.id}
-              onClick={() => {
-                setSelectedCategory(cat.id)
-                setSelectedBrand('')
-                setSelectedModel('')
-                setSelectedYear('')
-              }}
+              key={vt.value}
+              onClick={() => changeType(vt.value)}
               className={`p-2 rounded-lg border-2 transition-all font-medium text-sm ${
-                selectedCategory === cat.id
+                type === vt.value
                   ? 'border-primary bg-primary/5 text-primary'
                   : 'border-border text-muted-foreground hover:border-primary/50'
               }`}
             >
-              {cat.name}
+              {vt.label}
             </button>
           ))}
         </div>
       </div>
 
-      {/* Brand Selector */}
-      <div>
-        <label className="block text-sm font-medium text-foreground mb-2">Marca</label>
-        <div className="relative">
-          <select
-            value={selectedBrand}
-            onChange={(e) => {
-              setSelectedBrand(e.target.value)
-              setSelectedModel('')
-              setSelectedYear('')
-            }}
-            className="w-full appearance-none px-4 py-2.5 rounded-lg border border-border bg-background text-foreground font-medium pr-10 focus:border-primary focus:outline-none"
-          >
-            <option value="">Selecione uma marca...</option>
-            {brands.map((brand) => (
-              <option key={brand.id} value={brand.id}>
-                {brand.name}
-              </option>
-            ))}
-          </select>
-          <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
-        </div>
-      </div>
+      {/* Brand */}
+      <SelectField
+        label="Marca"
+        value={selectedBrand}
+        onChange={changeBrand}
+        loading={loadingBrands}
+      >
+        <option value="">Selecione uma marca...</option>
+        {brands.map((b) => (
+          <option key={b.codigo} value={b.codigo}>
+            {b.nome}
+          </option>
+        ))}
+      </SelectField>
 
-      {/* Model Selector */}
-      <div>
-        <label className="block text-sm font-medium text-foreground mb-2">Modelo</label>
-        <div className="relative">
-          <select
-            value={selectedModel}
-            onChange={(e) => {
-              setSelectedModel(e.target.value)
-              setSelectedYear('')
-            }}
-            disabled={!selectedBrand}
-            className="w-full appearance-none px-4 py-2.5 rounded-lg border border-border bg-background text-foreground font-medium pr-10 focus:border-primary focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            <option value="">Selecione um modelo...</option>
-            {models.map((model) => (
-              <option key={model.id} value={model.id}>
-                {model.name}
-              </option>
-            ))}
-          </select>
-          <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
-        </div>
-      </div>
+      {/* Model */}
+      <SelectField
+        label="Modelo"
+        value={selectedModel}
+        onChange={changeModel}
+        disabled={!selectedBrand}
+        loading={loadingModels}
+      >
+        <option value="">Selecione um modelo...</option>
+        {models.map((m) => (
+          <option key={m.codigo} value={m.codigo}>
+            {m.nome}
+          </option>
+        ))}
+      </SelectField>
 
-      {/* Year Selector */}
-      <div>
-        <label className="block text-sm font-medium text-foreground mb-2">Ano</label>
-        <div className="relative">
-          <select
-            value={selectedYear}
-            onChange={(e) => setSelectedYear(e.target.value)}
-            disabled={!selectedModel}
-            className="w-full appearance-none px-4 py-2.5 rounded-lg border border-border bg-background text-foreground font-medium pr-10 focus:border-primary focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            <option value="">Selecione um ano...</option>
-            {years.map((year) => (
-              <option key={year} value={year}>
-                {year}
-              </option>
-            ))}
-          </select>
-          <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none" />
-        </div>
-      </div>
+      {/* Year */}
+      <SelectField
+        label="Ano / Combustível"
+        value={selectedYear}
+        onChange={setSelectedYear}
+        disabled={!selectedModel}
+        loading={loadingYears}
+      >
+        <option value="">Selecione um ano...</option>
+        {years.map((y) => (
+          <option key={y.codigo} value={y.codigo}>
+            {y.nome}
+          </option>
+        ))}
+      </SelectField>
 
       {/* Search Button */}
       <Button

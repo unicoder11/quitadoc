@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const title = `FIPE ${brandData.name} 2025 - Tabela de Preços | QuitaDoc`
-  const description = `Consulte a tabela FIPE 2025 para ${brandData.name}. Preços atualizados diariamente com histórico de 12 meses de ${brandData.name.toLowerCase()}.`
+  const description = `Consulte a tabela FIPE 2026 para ${brandData.name}. Preços atualizados diariamente com histórico de 12 meses de ${brandData.name.toLowerCase()}.`
 
   return {
     title,

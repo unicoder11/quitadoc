@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Tabela FIPE 2025 - Preços de Carros, Motos e Caminhões | QuitaDoc',
-  description: 'Consulte a tabela FIPE 2025 com preços atualizados diariamente. Encontre o valor do seu carro, moto ou caminhão com histórico de 12 meses. Análise precisa e atualizada.',
-  keywords: ['FIPE', 'tabela FIPE 2025', 'preço de carros', 'preço de motos', 'preço de caminhões', 'valor FIPE', 'consultoria FIPE', 'histórico de preços'],
+  title: 'Tabela FIPE 2026 - Preços de Carros, Motos e Caminhões | QuitaDoc',
+  description: 'Consulte a tabela FIPE 2026 com preços atualizados diariamente. Encontre o valor do seu carro, moto ou caminhão com histórico de 12 meses. Análise precisa e atualizada.',
+  keywords: ['FIPE', 'tabela FIPE 2026', 'preço de carros', 'preço de motos', 'preço de caminhões', 'valor FIPE', 'consultoria FIPE', 'histórico de preços'],
   openGraph: {
-    title: 'Tabela FIPE 2025 - Preços Atualizados',
+    title: 'Tabela FIPE 2026 - Preços Atualizados',
     description: 'Consulte preços FIPE atualizados diariamente com histórico de 12 meses. Análise completa de mercado automotivo.',
     type: 'website',
     url: 'https://www.quitadoc.com.br/fipe',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Tabela FIPE 2025 - Preços Atualizados',
+    title: 'Tabela FIPE 2026 - Preços Atualizados',
     description: 'Consulte preços FIPE atualizados diariamente com histórico de 12 meses.',
   },
   robots: {
