@@ -74,6 +74,14 @@ export const FIPE_BRANDS: FipeBrand[] = [
   { id: '23', name: 'RAM', slug: 'ram', categoryId: '1' },
   { id: '24', name: 'Porsche', slug: 'porsche', categoryId: '1' },
   { id: '25', name: 'Subaru', slug: 'subaru', categoryId: '1' },
+  { id: '26', name: 'Lexus', slug: 'lexus', categoryId: '1' },
+  { id: '27', name: 'Jaguar', slug: 'jaguar', categoryId: '1' },
+  { id: '28', name: 'Mini', slug: 'mini', categoryId: '1' },
+  { id: '29', name: 'Alfa Romeo', slug: 'alfa-romeo', categoryId: '1' },
+  { id: '30', name: 'Suzuki', slug: 'suzuki-carros', categoryId: '1' },
+  { id: '31', name: 'JAC', slug: 'jac', categoryId: '1' },
+  { id: '32', name: 'Lifan', slug: 'lifan', categoryId: '1' },
+  { id: '33', name: 'Troller', slug: 'troller', categoryId: '1' },
   // Motos (categoryId: 2)
   { id: '101', name: 'Honda Motos', slug: 'honda-motos', categoryId: '2' },
   { id: '102', name: 'Yamaha', slug: 'yamaha', categoryId: '2' },
@@ -87,6 +95,14 @@ export const FIPE_BRANDS: FipeBrand[] = [
   { id: '110', name: 'Shineray', slug: 'shineray', categoryId: '2' },
   { id: '111', name: 'Dafra', slug: 'dafra', categoryId: '2' },
   { id: '112', name: 'Haojue', slug: 'haojue', categoryId: '2' },
+  { id: '113', name: 'KTM', slug: 'ktm', categoryId: '2' },
+  { id: '114', name: 'Husqvarna', slug: 'husqvarna', categoryId: '2' },
+  { id: '115', name: 'MV Agusta', slug: 'mv-agusta', categoryId: '2' },
+  { id: '116', name: 'Aprilia', slug: 'aprilia', categoryId: '2' },
+  { id: '117', name: 'Indian', slug: 'indian', categoryId: '2' },
+  { id: '118', name: 'Kasinski', slug: 'kasinski', categoryId: '2' },
+  { id: '119', name: 'Traxx', slug: 'traxx', categoryId: '2' },
+  { id: '120', name: 'Avelloz', slug: 'avelloz', categoryId: '2' },
   // Caminhoes (categoryId: 3)
   { id: '201', name: 'Mercedes-Benz Caminhoes', slug: 'mercedes-benz-caminhoes', categoryId: '3' },
   { id: '202', name: 'Volvo Caminhoes', slug: 'volvo-caminhoes', categoryId: '3' },
@@ -246,6 +262,44 @@ export const FIPE_MODELS: FipeModel[] = [
   { id: '240', name: 'Forester', slug: 'forester', brandId: '25', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
   { id: '241', name: 'Impreza', slug: 'impreza', brandId: '25', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
   { id: '242', name: 'XV', slug: 'xv', brandId: '25', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '243', name: 'Outback', slug: 'outback', brandId: '25', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '244', name: 'WRX', slug: 'wrx', brandId: '25', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  // Lexus (brandId: 26)
+  { id: '250', name: 'UX 250h', slug: 'ux-250h', brandId: '26', years: [2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '251', name: 'NX 350h', slug: 'nx-350h', brandId: '26', years: [2022, 2023, 2024, 2025] },
+  { id: '252', name: 'RX 350', slug: 'rx-350', brandId: '26', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '253', name: 'ES 300h', slug: 'es-300h', brandId: '26', years: [2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  // Jaguar (brandId: 27)
+  { id: '260', name: 'E-Pace', slug: 'e-pace', brandId: '27', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '261', name: 'F-Pace', slug: 'f-pace', brandId: '27', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '262', name: 'XE', slug: 'xe', brandId: '27', years: [2018, 2019, 2020, 2021, 2022] },
+  { id: '263', name: 'XF', slug: 'xf', brandId: '27', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '264', name: 'F-Type', slug: 'f-type', brandId: '27', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  // Mini (brandId: 28)
+  { id: '270', name: 'Cooper', slug: 'cooper', brandId: '28', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '271', name: 'Cooper S', slug: 'cooper-s', brandId: '28', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '272', name: 'Countryman', slug: 'countryman', brandId: '28', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '273', name: 'Clubman', slug: 'clubman', brandId: '28', years: [2018, 2019, 2020, 2021, 2022] },
+  // Alfa Romeo (brandId: 29)
+  { id: '280', name: 'Giulia', slug: 'giulia', brandId: '29', years: [2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '281', name: 'Stelvio', slug: 'stelvio', brandId: '29', years: [2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '282', name: 'Tonale', slug: 'tonale', brandId: '29', years: [2023, 2024, 2025] },
+  // Suzuki Carros (brandId: 30)
+  { id: '290', name: 'Jimny', slug: 'jimny', brandId: '30', years: [2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '291', name: 'Vitara', slug: 'vitara', brandId: '30', years: [2018, 2019, 2020, 2021, 2022, 2023] },
+  { id: '292', name: 'S-Cross', slug: 's-cross', brandId: '30', years: [2018, 2019, 2020, 2021, 2022, 2023] },
+  { id: '293', name: 'Swift', slug: 'swift', brandId: '30', years: [2018, 2019, 2020, 2021] },
+  // JAC (brandId: 31)
+  { id: '300', name: 'T40', slug: 't40', brandId: '31', years: [2018, 2019, 2020, 2021] },
+  { id: '301', name: 'T50', slug: 't50', brandId: '31', years: [2018, 2019, 2020, 2021] },
+  { id: '302', name: 'T60', slug: 't60', brandId: '31', years: [2018, 2019, 2020, 2021, 2022] },
+  { id: '303', name: 'T80', slug: 't80', brandId: '31', years: [2019, 2020, 2021, 2022, 2023] },
+  { id: '304', name: 'E-JS1', slug: 'e-js1', brandId: '31', years: [2022, 2023, 2024, 2025] },
+  // Lifan (brandId: 32)
+  { id: '310', name: 'X60', slug: 'x60', brandId: '32', years: [2018, 2019, 2020, 2021] },
+  { id: '311', name: 'X80', slug: 'x80', brandId: '32', years: [2018, 2019, 2020, 2021] },
+  // Troller (brandId: 33)
+  { id: '320', name: 'T4', slug: 't4', brandId: '33', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
 
   // === MOTOS ===
   // Honda Motos (brandId: 101) - Mais vendidas do Brasil
@@ -392,6 +446,60 @@ export const FIPE_MODELS: FipeModel[] = [
   { id: '1132', name: 'DK 150', slug: 'dk-150', brandId: '112', years: [2020, 2021, 2022, 2023, 2024, 2025] },
   { id: '1133', name: 'VR 150', slug: 'vr-150', brandId: '112', years: [2022, 2023, 2024, 2025] },
   { id: '1134', name: 'Chopper Road 150', slug: 'chopper-road-150', brandId: '112', years: [2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1135', name: 'Master Ride 150', slug: 'master-ride-150', brandId: '112', years: [2022, 2023, 2024, 2025] },
+  // KTM (brandId: 113)
+  { id: '1140', name: 'Duke 200', slug: 'duke-200', brandId: '113', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1141', name: 'Duke 390', slug: 'duke-390', brandId: '113', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1142', name: 'Duke 690', slug: 'duke-690', brandId: '113', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1143', name: 'Duke 890', slug: 'duke-890', brandId: '113', years: [2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1144', name: 'Duke 1290', slug: 'duke-1290', brandId: '113', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1145', name: 'Adventure 390', slug: 'adventure-390', brandId: '113', years: [2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1146', name: 'Adventure 890', slug: 'adventure-890', brandId: '113', years: [2021, 2022, 2023, 2024, 2025] },
+  { id: '1147', name: 'Adventure 1290', slug: 'adventure-1290', brandId: '113', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1148', name: 'RC 390', slug: 'rc-390', brandId: '113', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1149', name: 'EXC-F 350', slug: 'exc-f-350', brandId: '113', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '11491', name: 'SMC-R 690', slug: 'smc-r-690', brandId: '113', years: [2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  // Husqvarna (brandId: 114)
+  { id: '1150', name: 'Svartpilen 401', slug: 'svartpilen-401', brandId: '114', years: [2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1151', name: 'Vitpilen 401', slug: 'vitpilen-401', brandId: '114', years: [2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1152', name: 'Norden 901', slug: 'norden-901', brandId: '114', years: [2022, 2023, 2024, 2025] },
+  { id: '1153', name: 'FE 350', slug: 'fe-350', brandId: '114', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1154', name: 'TE 300i', slug: 'te-300i', brandId: '114', years: [2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1155', name: 'FC 450', slug: 'fc-450', brandId: '114', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  // MV Agusta (brandId: 115)
+  { id: '1160', name: 'Brutale 800', slug: 'brutale-800', brandId: '115', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1161', name: 'F3 800', slug: 'f3-800', brandId: '115', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1162', name: 'Dragster 800', slug: 'dragster-800', brandId: '115', years: [2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1163', name: 'Turismo Veloce', slug: 'turismo-veloce', brandId: '115', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  // Aprilia (brandId: 116)
+  { id: '1170', name: 'RS 660', slug: 'rs-660', brandId: '116', years: [2021, 2022, 2023, 2024, 2025] },
+  { id: '1171', name: 'Tuono 660', slug: 'tuono-660', brandId: '116', years: [2021, 2022, 2023, 2024, 2025] },
+  { id: '1172', name: 'RSV4', slug: 'rsv4', brandId: '116', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1173', name: 'Tuono V4', slug: 'tuono-v4', brandId: '116', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1174', name: 'SR GT 200', slug: 'sr-gt-200', brandId: '116', years: [2022, 2023, 2024, 2025] },
+  { id: '1175', name: 'Tuareg 660', slug: 'tuareg-660', brandId: '116', years: [2022, 2023, 2024, 2025] },
+  // Indian (brandId: 117)
+  { id: '1180', name: 'Scout', slug: 'scout', brandId: '117', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1181', name: 'Scout Bobber', slug: 'scout-bobber', brandId: '117', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1182', name: 'Chief', slug: 'chief', brandId: '117', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1183', name: 'Chieftain', slug: 'chieftain', brandId: '117', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1184', name: 'Roadmaster', slug: 'roadmaster', brandId: '117', years: [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1185', name: 'Challenger', slug: 'challenger', brandId: '117', years: [2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1186', name: 'FTR 1200', slug: 'ftr-1200', brandId: '117', years: [2019, 2020, 2021, 2022, 2023, 2024, 2025] },
+  // Kasinski (brandId: 118)
+  { id: '1190', name: 'Comet 150', slug: 'comet-150', brandId: '118', years: [2018, 2019, 2020, 2021] },
+  { id: '1191', name: 'Comet 250', slug: 'comet-250', brandId: '118', years: [2018, 2019, 2020, 2021] },
+  { id: '1192', name: 'Mirage 150', slug: 'mirage-150', brandId: '118', years: [2018, 2019, 2020, 2021] },
+  { id: '1193', name: 'Prima 150', slug: 'prima-150', brandId: '118', years: [2018, 2019, 2020, 2021] },
+  // Traxx (brandId: 119)
+  { id: '1200', name: 'JL 110', slug: 'jl-110', brandId: '119', years: [2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1201', name: 'JH 125', slug: 'jh-125', brandId: '119', years: [2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1202', name: 'Star 50', slug: 'star-50', brandId: '119', years: [2020, 2021, 2022, 2023, 2024, 2025] },
+  { id: '1203', name: 'SKY 125', slug: 'sky-125', brandId: '119', years: [2020, 2021, 2022, 2023, 2024, 2025] },
+  // Avelloz (brandId: 120)
+  { id: '1210', name: 'AZ1', slug: 'az1', brandId: '120', years: [2021, 2022, 2023, 2024, 2025] },
+  { id: '1211', name: 'AZ3', slug: 'az3', brandId: '120', years: [2022, 2023, 2024, 2025] },
+  { id: '1212', name: 'AZ4', slug: 'az4', brandId: '120', years: [2022, 2023, 2024, 2025] },
 
   // === CAMINHOES ===
   // Mercedes-Benz Caminhoes (brandId: 201)
